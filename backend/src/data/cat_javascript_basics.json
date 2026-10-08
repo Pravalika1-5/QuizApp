@@ -1,0 +1,337 @@
+{
+  "category_name": "JavaScript Basics",
+  "category_aliases": [
+    "javascript",
+    "js",
+    "es6",
+    "ecmascript",
+    "js basics",
+    "javascript programming",
+    "frontend scripting"
+  ],
+  "topics": {
+    "Core Concepts": {
+      "easy": [
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": ["let", "var", "function", "global"],
+          "correct_answer": 0,
+          "explanation": "let and const are block-scoped; var is function-scoped."
+        },
+        {
+          "question": "What is the result of typeof null in JavaScript?",
+          "options": ["object", "null", "undefined", "number"],
+          "correct_answer": 0,
+          "explanation": "typeof null returns 'object' — a known language bug."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is hoisting in JavaScript?",
+          "options": [
+            "Moving declarations to top",
+            "Lifting DOM elements",
+            "Async execution",
+            "Event bubbling"
+          ],
+          "correct_answer": 0,
+          "explanation": "Hoisting moves variable and function declarations to the top of their scope."
+        },
+        {
+          "question": "What does === operator check?",
+          "options": [
+            "Strict equality",
+            "Abstract equality",
+            "Assignment",
+            "Type coercion"
+          ],
+          "correct_answer": 0,
+          "explanation": "=== checks both value and type without coercion."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is a closure?",
+          "options": [
+            "Function with preserved scope",
+            "Loop construct",
+            "Callback pattern",
+            "Module pattern"
+          ],
+          "correct_answer": 0,
+          "explanation": "A closure is a function that retains access to its lexical scope."
+        },
+        {
+          "question": "What is event delegation?",
+          "options": [
+            "Single listener on parent",
+            "Multiple listeners",
+            "Event simulation",
+            "Bubbling prevention"
+          ],
+          "correct_answer": 0,
+          "explanation": "Event delegation attaches one listener to a parent for child events."
+        }
+      ],
+      "interview": [
+        {
+          "question": "Explain the event loop in JavaScript",
+          "options": [
+            "Manages async callbacks",
+            "Handles DOM updates",
+            "Runs timers",
+            "All of the above"
+          ],
+          "correct_answer": 3,
+          "explanation": "The event loop coordinates call stack, web APIs, and callback queue."
+        }
+      ]
+    },
+    "Arrays and Objects": {
+      "easy": [
+        {
+          "question": "Which method adds an element to end of array?",
+          "options": ["push", "pop", "shift", "unshift"],
+          "correct_answer": 0,
+          "explanation": "push() adds to the end; pop() removes from end."
+        },
+        {
+          "question": "How do you access object property obj.name dynamically?",
+          "options": ["obj['name']", "obj.name", "Both", "None"],
+          "correct_answer": 2,
+          "explanation": "Both dot and bracket notation work; bracket allows dynamic keys."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What does Array.map() return?",
+          "options": ["New array", "Undefined", "Same array", "Boolean"],
+          "correct_answer": 0,
+          "explanation": "map() returns a new array with transformed elements."
+        },
+        {
+          "question": "What is the difference between slice and splice?",
+          "options": [
+            "slice is non-mutating",
+            "splice is read-only",
+            "Both mutate",
+            "No difference"
+          ],
+          "correct_answer": 0,
+          "explanation": "slice() returns a copy; splice() mutates the original array."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What does Object.create() do?",
+          "options": [
+            "Creates object with prototype",
+            "Clones object",
+            "Freezes object",
+            "Merges objects"
+          ],
+          "correct_answer": 0,
+          "explanation": "Object.create(proto) creates an object with specified prototype."
+        },
+        {
+          "question": "What is destructuring assignment?",
+          "options": [
+            "Unpacking values from arrays/objects",
+            "Deleting properties",
+            "Copying objects",
+            "Looping pattern"
+          ],
+          "correct_answer": 0,
+          "explanation": "Destructuring extracts values into variables from arrays/objects."
+        }
+      ],
+      "interview": [
+        {
+          "question": "How do you deep clone an object in JS?",
+          "options": [
+            "structuredClone",
+            "JSON.parse(JSON.stringify)",
+            "Lodash cloneDeep",
+            "All valid approaches"
+          ],
+          "correct_answer": 3,
+          "explanation": "All are valid; structuredClone is native and handles more types."
+        }
+      ]
+    },
+    "Async Programming": {
+      "easy": [
+        {
+          "question": "What does setTimeout do?",
+          "options": [
+            "Delays execution",
+            "Repeats execution",
+            "Stops script",
+            "Clears cache"
+          ],
+          "correct_answer": 0,
+          "explanation": "setTimeout executes a function after a specified delay."
+        },
+        {
+          "question": "What is a Promise?",
+          "options": [
+            "Object representing future value",
+            "Callback function",
+            "Event listener",
+            "Global variable"
+          ],
+          "correct_answer": 0,
+          "explanation": "A Promise represents a value that may be available now or later."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What does async/await simplify?",
+          "options": [
+            "Promise handling",
+            "Event loops",
+            "DOM queries",
+            "Type checking"
+          ],
+          "correct_answer": 0,
+          "explanation": "async/await provides synchronous-looking syntax for Promises."
+        },
+        {
+          "question": "What is Promise.all() used for?",
+          "options": [
+            "Wait for all promises",
+            "Race promises",
+            "Chain promises",
+            "Reject promises"
+          ],
+          "correct_answer": 0,
+          "explanation": "Promise.all() resolves when all input promises resolve."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is the difference between microtasks and macrotasks?",
+          "options": [
+            "Microtasks have higher priority",
+            "Macrotasks are faster",
+            "No difference",
+            "Microtasks are sync"
+          ],
+          "correct_answer": 0,
+          "explanation": "Microtasks (Promises) run before the next macrotask (setTimeout)."
+        },
+        {
+          "question": "Can await be used without async?",
+          "options": [
+            "No at top-level",
+            "Yes always",
+            "Only in browsers",
+            "Only in Node"
+          ],
+          "correct_answer": 0,
+          "explanation": "await requires async function (or top-level in ES modules)."
+        }
+      ],
+      "interview": [
+        {
+          "question": "What happens if an awaited Promise rejects?",
+          "options": [
+            "Throws catchable error",
+            "Returns undefined",
+            "Silently fails",
+            "Blocks thread"
+          ],
+          "correct_answer": 0,
+          "explanation": "Unhandled rejection throws; use try/catch to handle."
+        }
+      ]
+    },
+    "DOM and Browser": {
+      "easy": [
+        {
+          "question": "Which method selects an element by ID?",
+          "options": [
+            "getElementById",
+            "querySelectorAll",
+            "getElementsByClass",
+            "findElement"
+          ],
+          "correct_answer": 0,
+          "explanation": "document.getElementById('id') selects a single element."
+        },
+        {
+          "question": "What does event.preventDefault() do?",
+          "options": [
+            "Stops default browser action",
+            "Stops propagation",
+            "Removes listener",
+            "Disables element"
+          ],
+          "correct_answer": 0,
+          "explanation": "preventDefault() prevents the browser's default behavior."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between localStorage and sessionStorage?",
+          "options": [
+            "Persistence scope",
+            "Storage limit",
+            "Data type",
+            "Encryption"
+          ],
+          "correct_answer": 0,
+          "explanation": "localStorage persists; sessionStorage clears when tab closes."
+        },
+        {
+          "question": "What does addEventListener's third parameter control?",
+          "options": [
+            "Capture vs bubble",
+            "Async execution",
+            "Priority",
+            "Once vs multiple"
+          ],
+          "correct_answer": 0,
+          "explanation": "The third parameter sets useCapture (true = capture phase)."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is event bubbling?",
+          "options": [
+            "Event propagates upward",
+            "Event triggers multiple times",
+            "Event cancels itself",
+            "Event queues"
+          ],
+          "correct_answer": 0,
+          "explanation": "Bubbling: event starts at target and propagates up to ancestors."
+        },
+        {
+          "question": "What is a Shadow DOM?",
+          "options": [
+            "Encapsulated DOM subtree",
+            "Virtual DOM",
+            "Hidden iframe",
+            "DOM parser"
+          ],
+          "correct_answer": 0,
+          "explanation": "Shadow DOM encapsulates component internals from main document."
+        }
+      ],
+      "interview": [
+        {
+          "question": "How do you optimize DOM manipulation performance?",
+          "options": [
+            "Minimize reflows/repaints",
+            "Use inline styles",
+            "Add many listeners",
+            "Frequent queries"
+          ],
+          "correct_answer": 0,
+          "explanation": "Batch updates, use DocumentFragment, and minimize layout thrashing."
+        }
+      ]
+    }
+  }
+}

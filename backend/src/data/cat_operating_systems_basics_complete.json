@@ -1,0 +1,507 @@
+{
+  "category": "Operating Systems Basics",
+  "aliases": [
+    "OS Fundamentals",
+    "System Management",
+    "OS Concepts",
+    "Operating System Intro",
+    "OS Basics"
+  ],
+  "topics": {
+    "Operating System Introduction": {
+      "aliases": [
+        "OS Overview",
+        "OS Purpose",
+        "OS Functions",
+        "System Software",
+        "OS Definition"
+      ],
+      "easy": [
+        {
+          "question": "What is operating system?",
+          "options": [
+            "Software managing hardware and providing interface",
+            "Application software",
+            "Hardware component",
+            "Programming language"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are functions of OS?",
+          "options": [
+            "Resource management, process control, file management",
+            "Just file storage",
+            "Just display",
+            "Just calculations"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are examples of OS?",
+          "options": [
+            "Windows, Linux, macOS, Android",
+            "Just Windows",
+            "Just Linux",
+            "Programming languages"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is kernel?",
+          "options": [
+            "Core of OS managing resources",
+            "Operating system",
+            "Application",
+            "Hardware"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is shell?",
+          "options": [
+            "Interface between user and kernel",
+            "Kernel itself",
+            "Application software",
+            "Hardware layer"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What are types of OS?",
+          "options": [
+            "Batch, Interactive, Real-time, Distributed",
+            "Just batch",
+            "Just interactive",
+            "Just real-time"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is multitasking?",
+          "options": [
+            "Multiple tasks running simultaneously",
+            "Tasks running sequentially",
+            "Single task only",
+            "No tasks"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is multiprogramming?",
+          "options": [
+            "Multiple programs in memory, CPU switches between them",
+            "One program only",
+            "Programs run separately",
+            "No programs"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is difference between process and program?",
+          "options": [
+            "Process is running instance of program",
+            "Both same",
+            "Program is instance",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are OS responsibilities?",
+          "options": [
+            "Resource allocation, file management, security",
+            "Just calculations",
+            "Just storage",
+            "Just display"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain abstraction in OS",
+          "options": [
+            "OS hides hardware complexity from applications",
+            "Exposes all details",
+            "Simplifies code only",
+            "For optimization"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is privilege level?",
+          "options": [
+            "User mode and kernel mode",
+            "Just one mode",
+            "Multiple separate modes",
+            "No modes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is system call?",
+          "options": [
+            "Interface for programs to request kernel services",
+            "Function call",
+            "User function",
+            "Application call"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is bootloader?",
+          "options": [
+            "Program loading OS into memory",
+            "OS itself",
+            "Application",
+            "Hardware"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain interrupt handling in OS",
+          "options": [
+            "OS responds to interrupt signals",
+            "Ignores signals",
+            "Delays response",
+            "No response"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Processes vs Threads": {
+      "aliases": [
+        "Process Management",
+        "Thread Basics",
+        "Process vs Thread",
+        "Execution Units",
+        "Concurrency Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is process?",
+          "options": [
+            "Program in execution with own memory space",
+            "Just program",
+            "Function execution",
+            "Method call"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is thread?",
+          "options": [
+            "Lightweight unit of execution within process",
+            "Process itself",
+            "Single execution",
+            "Memory space"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is main difference?",
+          "options": [
+            "Process isolated, threads share memory in process",
+            "Both isolated",
+            "Both share",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can multiple threads exist in one process?",
+          "options": [
+            "Yes",
+            "No",
+            "Only in some OS",
+            "Only in specific languages"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is context switching?",
+          "options": [
+            "OS switches between processes/threads",
+            "Memory switching",
+            "Hardware switch",
+            "No switching"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What are process states?",
+          "options": [
+            "New, Ready, Running, Waiting, Terminated",
+            "Just running",
+            "Just waiting",
+            "Just new"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is process table?",
+          "options": [
+            "Data structure storing process information",
+            "Table of data",
+            "List of tables",
+            "Database table"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is thread synchronization?",
+          "options": [
+            "Coordinating thread access to shared resources",
+            "Running threads",
+            "Creating threads",
+            "Ending threads"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is race condition?",
+          "options": [
+            "Multiple threads accessing shared data simultaneously",
+            "Single thread access",
+            "Organized access",
+            "No access"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is mutex (mutual exclusion)?",
+          "options": [
+            "Mechanism ensuring only one thread accesses resource",
+            "All threads access",
+            "Random access",
+            "No access"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain process creation and forking",
+          "options": [
+            "Fork creates child process copy of parent",
+            "Just one process",
+            "Separate creation",
+            "No forking"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is thread pool?",
+          "options": [
+            "Collection of threads reused for tasks",
+            "Single thread",
+            "No threads",
+            "Thread creation on demand"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is deadlock?",
+          "options": [
+            "Threads waiting for each other indefinitely",
+            "Normal execution",
+            "Fast execution",
+            "No waiting"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is semaphore?",
+          "options": [
+            "Signaling mechanism for thread synchronization",
+            "Thread itself",
+            "Process control",
+            "Memory management"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain monitor in thread synchronization",
+          "options": [
+            "High-level synchronization construct",
+            "Low-level construct",
+            "Hardware synchronization",
+            "No synchronization"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "CPU Scheduling Basics": {
+      "aliases": [
+        "Scheduling Algorithms",
+        "Process Scheduling",
+        "Scheduling Policies",
+        "CPU Allocation",
+        "Scheduling Intro"
+      ],
+      "easy": [
+        {
+          "question": "What is CPU scheduling?",
+          "options": [
+            "Selecting process to run on CPU",
+            "Running all processes",
+            "No selection",
+            "Random process"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is scheduling algorithm?",
+          "options": [
+            "Rule for selecting next process",
+            "Running processes",
+            "Creating processes",
+            "Ending processes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is preemptive scheduling?",
+          "options": [
+            "OS can interrupt running process",
+            "OS cannot interrupt",
+            "Processes interrupt each other",
+            "No interruption"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is non-preemptive scheduling?",
+          "options": [
+            "Process runs until completion or blocking",
+            "Can be interrupted",
+            "Always interrupted",
+            "No processes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is time quantum?",
+          "options": [
+            "Time slice allocated to process",
+            "Total time",
+            "Maximum time",
+            "Minimum time"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is FCFS (First Come First Serve)?",
+          "options": [
+            "Processes run in order of arrival",
+            "Last arrive first",
+            "Random order",
+            "Priority order"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is round robin scheduling?",
+          "options": [
+            "Each process gets time slice, then goes to back",
+            "One process always",
+            "Random allocation",
+            "No allocation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is priority scheduling?",
+          "options": [
+            "Higher priority process runs first",
+            "Equal priority",
+            "No priority",
+            "Random priority"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is starvation?",
+          "options": [
+            "Process never getting CPU time",
+            "Process running always",
+            "Normal execution",
+            "Process ending"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Gantt chart?",
+          "options": [
+            "Visual representation of process execution",
+            "Schedule table",
+            "Process list",
+            "Time list"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain SJF (Shortest Job First) scheduling",
+          "options": [
+            "Process with least CPU burst time runs first",
+            "Longest job first",
+            "Random job",
+            "First job"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is waiting time?",
+          "options": [
+            "Time process waits in queue",
+            "Execution time",
+            "Total time",
+            "Response time"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is turnaround time?",
+          "options": [
+            "Total time from submission to completion",
+            "Execution time",
+            "Waiting time",
+            "Arrival time"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is response time?",
+          "options": [
+            "Time from submission to first execution",
+            "Execution time",
+            "Total time",
+            "Waiting time"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain SRTF (Shortest Remaining Time First)",
+          "options": [
+            "Process with least remaining time runs",
+            "First process",
+            "Last process",
+            "Random process"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

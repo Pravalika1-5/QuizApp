@@ -1,0 +1,667 @@
+{
+  "category": "LLM Interview Topics",
+  "aliases": [
+    "LLM Fundamentals",
+    "Language Model Concepts",
+    "LLM Deep Dive",
+    "Interview Preparation",
+    "LLM Knowledge"
+  ],
+  "topics": {
+    "Tokens in LLMs": {
+      "aliases": [
+        "Tokenization",
+        "Token Types",
+        "Token Concepts",
+        "Tokenizer",
+        "Token Encoding"
+      ],
+      "easy": [
+        {
+          "question": "What is tokenization?",
+          "options": [
+            "Breaking text into tokens",
+            "Just text",
+            "Just numbers",
+            "No break"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is token in LLM?",
+          "options": [
+            "Basic unit of text/information",
+            "Word",
+            "Character",
+            "Sentence"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why tokenization matters?",
+          "options": [
+            "Models work with tokens not words",
+            "No importance",
+            "Just formatting",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is byte pair encoding (BPE)?",
+          "options": [
+            "Tokenization merging frequent byte pairs",
+            "Just encoding",
+            "Just bytes",
+            "No encoding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is vocabulary size?",
+          "options": [
+            "Total unique tokens model knows",
+            "Word count",
+            "No limit",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is special token?",
+          "options": [
+            "Tokens like [CLS], [SEP], [PAD]",
+            "Regular tokens",
+            "No special",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is token embedding?",
+          "options": [
+            "Converting token to vector",
+            "Just token",
+            "Just vector",
+            "No conversion"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is positional encoding?",
+          "options": [
+            "Adding position information to tokens",
+            "Just tokens",
+            "No position",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why positional encoding?",
+          "options": [
+            "Models know token order",
+            "No order needed",
+            "Waste",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is subword tokenization?",
+          "options": [
+            "Breaking words into subword units",
+            "Just words",
+            "Just characters",
+            "No breaking"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is WordPiece tokenizer?",
+          "options": [
+            "Tokenizer using word pieces like BERT",
+            "Just words",
+            "Just bytes",
+            "No tokenizer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is SentencePiece?",
+          "options": [
+            "Language-independent tokenizer",
+            "Just English",
+            "Just sentences",
+            "No tokenizer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is unknown token?",
+          "options": [
+            "Token for words outside vocabulary",
+            "Known token",
+            "Random",
+            "No token"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is token efficiency?",
+          "options": [
+            "Minimizing tokens for content",
+            "Maximum tokens",
+            "No optimization",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is multilingual tokenization?",
+          "options": [
+            "Supporting multiple languages with one tokenizer",
+            "Single language",
+            "No support",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Embeddings vs Vectors": {
+      "aliases": [
+        "Embedding Space",
+        "Vector Representation",
+        "Embedding Basics",
+        "Vectorization",
+        "Representation Learning"
+      ],
+      "easy": [
+        {
+          "question": "What is embedding?",
+          "options": [
+            "Dense vector representation of data",
+            "Just vector",
+            "Just data",
+            "Just number"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is word embedding?",
+          "options": [
+            "Vector representing word meaning",
+            "Just word",
+            "Just number",
+            "No representation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is vector?",
+          "options": [
+            "Array of numbers",
+            "Just number",
+            "Just text",
+            "Just data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is embedding dimension?",
+          "options": ["Vector length/size", "Just length", "No size", "Random"],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why use embeddings?",
+          "options": [
+            "Capture semantic meaning",
+            "Just storage",
+            "Just transfer",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is word2vec?",
+          "options": [
+            "Embedding model learning word relationships",
+            "Just words",
+            "Just vectors",
+            "No model"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is GloVe embedding?",
+          "options": [
+            "Global vectors from co-occurrence",
+            "Just vectors",
+            "Just words",
+            "No embedding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is cosine similarity?",
+          "options": [
+            "Measuring similarity between vectors",
+            "Just vectors",
+            "Just distance",
+            "No similarity"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is semantic similarity?",
+          "options": [
+            "Meaning-based similarity",
+            "Just words",
+            "Just spelling",
+            "No meaning"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is embedding space?",
+          "options": [
+            "Geometric space where embeddings exist",
+            "Just vectors",
+            "Just numbers",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is FastText embedding?",
+          "options": [
+            "Subword-level embeddings by Facebook",
+            "Just words",
+            "Just bytes",
+            "No embedding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ELMo embedding?",
+          "options": [
+            "Deep contextualized word representations",
+            "Just words",
+            "Just static",
+            "No context"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is BERT embedding?",
+          "options": [
+            "Bidirectional transformer embeddings",
+            "Unidirectional",
+            "Just words",
+            "No BERT"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is embedding layer?",
+          "options": [
+            "Neural network layer converting tokens to vectors",
+            "Just layer",
+            "Just vectors",
+            "No layer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is dimensionality in embeddings?",
+          "options": [
+            "Higher dims capture more semantics",
+            "No effect",
+            "Lower better",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Hallucinations in LLMs": {
+      "aliases": [
+        "LLM Errors",
+        "False Information",
+        "Model Hallucination",
+        "Hallucination Types",
+        "Preventing Hallucination"
+      ],
+      "easy": [
+        {
+          "question": "What is hallucination in LLMs?",
+          "options": [
+            "Generating false or made-up information",
+            "Correct info",
+            "Real data",
+            "No errors"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why do LLMs hallucinate?",
+          "options": [
+            "Pattern completion without facts",
+            "Just mistakes",
+            "No reason",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is factual hallucination?",
+          "options": [
+            "False facts presented as true",
+            "Real facts",
+            "No facts",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is self-hallucination?",
+          "options": [
+            "Model contradicting itself",
+            "Consistent",
+            "No contradiction",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Example of hallucination?",
+          "options": [
+            "Making up citations or facts",
+            "Real citations",
+            "No citations",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "How to reduce hallucinations?",
+          "options": [
+            "Use retrieval, lower temperature, clear prompts",
+            "No solution",
+            "Accept hallucinations",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is semantic hallucination?",
+          "options": [
+            "Logically inconsistent but sounds reasonable",
+            "Consistent",
+            "Real meaning",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is entity hallucination?",
+          "options": [
+            "Making up non-existent entities",
+            "Real entities",
+            "No entities",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is relation hallucination?",
+          "options": [
+            "False relationships between entities",
+            "Real relations",
+            "No relations",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is retrieval augmentation for hallucination?",
+          "options": [
+            "Using external sources to ground answers",
+            "No sources",
+            "Just models",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is confidence calibration?",
+          "options": [
+            "Model expressing uncertainty appropriately",
+            "Always confident",
+            "Never confident",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is fact verification?",
+          "options": [
+            "Checking if model outputs are factual",
+            "Just trusting",
+            "No checking",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is grounding LLMs?",
+          "options": [
+            "Tying outputs to verifiable sources",
+            "No grounding",
+            "Just guessing",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is hallucination detection?",
+          "options": [
+            "Identifying when model generates false info",
+            "No detection",
+            "Just trust",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is fine-tuning to reduce hallucination?",
+          "options": [
+            "Training on high-quality factual data",
+            "No training",
+            "Any data",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Fine-tuning Basics": {
+      "aliases": [
+        "Model Fine-tuning",
+        "Transfer Learning",
+        "Adaptation",
+        "Fine-tune Process",
+        "Customization"
+      ],
+      "easy": [
+        {
+          "question": "What is fine-tuning?",
+          "options": [
+            "Retraining model on specific data",
+            "No retraining",
+            "Just training",
+            "No customization"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is transfer learning?",
+          "options": [
+            "Using pre-trained model on new task",
+            "No transfer",
+            "Just training",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why fine-tune?",
+          "options": [
+            "Adapt model to specific domain",
+            "No need",
+            "Wastes time",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is base model?",
+          "options": [
+            "Pre-trained model to fine-tune",
+            "Final model",
+            "Random model",
+            "No model"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is downstream task?",
+          "options": [
+            "Specific task for fine-tuning",
+            "Upstream task",
+            "No task",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is parameter efficiency?",
+          "options": [
+            "Tuning fewer parameters",
+            "All parameters",
+            "No tuning",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is LoRA?",
+          "options": [
+            "Low-rank adaptation",
+            "High-rank",
+            "No adaptation",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is instruction fine-tuning?",
+          "options": [
+            "Training to follow instructions",
+            "Random training",
+            "No instruction",
+            "Just prediction"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is catastrophic forgetting?",
+          "options": [
+            "Losing pre-trained knowledge on new task",
+            "No forgetting",
+            "Just learning",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is validation set in fine-tuning?",
+          "options": [
+            "Data to evaluate during tuning",
+            "Training data",
+            "Test data",
+            "No validation"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is QLoRA?",
+          "options": [
+            "Quantized LoRA for efficiency",
+            "Just LoRA",
+            "No quantization",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is adapter modules?",
+          "options": [
+            "Small trainable modules for efficiency",
+            "Full model",
+            "No training",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is prefix tuning?",
+          "options": [
+            "Tuning prefix tokens before input",
+            "No prefix",
+            "Just input",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is data selection for fine-tuning?",
+          "options": [
+            "Choosing relevant training data",
+            "Any data",
+            "No selection",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is RLHF?",
+          "options": [
+            "Reinforcement Learning from Human Feedback",
+            "No feedback",
+            "Just training",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "category_name": "ENGINEERING MATHEMATICS",
+  "category_aliases": [
+    "math",
+    "maths",
+    "engineering maths",
+    "engineering mathematics",
+    "calculus",
+    "algebra",
+    "matrices",
+    "determinants",
+    "linear algebra",
+    "differential equations",
+    "engg math",
+    "eng math",
+    "engineering math"
+  ],
+  "subcategories": [
+    {
+      "subcategory_name": "Algebra and Matrices",
+      "aliases": ["algebra", "matrices", "determinants", "matrix algebra"],
+      "topics": [
+        {
+          "topic_name": "Algebra",
+          "aliases": ["basic algebra", "equations", "polynomials"],
+          "questions": {
+            "easy": [
+              {
+                "question": "What is x in 2x + 5 = 15?",
+                "options": ["3", "5", "10", "7"],
+                "correct_answer": 1,
+                "explanation": "2x + 5 = 15 → 2x = 10 → x = 5"
+              },
+              {
+                "question": "What is the sum of roots of x² - 5x + 6 = 0?",
+                "options": ["5", "-5", "6", "-6"],
+                "correct_answer": 0,
+                "explanation": "For ax² + bx + c = 0, sum of roots = -b/a = 5."
+              }
+            ],
+            "medium": [
+              {
+                "question": "If α and β are roots of x² + px + q = 0, what is α² + β²?",
+                "options": ["p² - 2q", "p² + 2q", "p - 2q", "p + q"],
+                "correct_answer": 0,
+                "explanation": "α² + β² = (α+β)² - 2αβ = p² - 2q"
+              },
+              {
+                "question": "Simplify: (1 + i)² where i = √-1",
+                "options": ["2i", "1 + 2i", "2", "0"],
+                "correct_answer": 0,
+                "explanation": "(1+i)² = 1 + 2i + i² = 1 + 2i - 1 = 2i"
+              }
+            ],
+            "hard": [
+              {
+                "question": "If x + 1/x = 3, find x³ + 1/x³",
+                "options": ["18", "27", "9", "12"],
+                "correct_answer": 0,
+                "explanation": "x³ + 1/x³ = (x + 1/x)³ - 3(x + 1/x) = 27 - 9 = 18"
+              },
+              {
+                "question": "If |z - 2| = |z + 2i|, the locus of z is",
+                "options": [
+                  "A straight line",
+                  "A circle",
+                  "A parabola",
+                  "An ellipse"
+                ],
+                "correct_answer": 0,
+                "explanation": "Let z = x + iy. Then (x-2)² + y² = x² + (y+2)² → x + y = 0, a straight line."
+              }
+            ],
+            "interview": [
+              {
+                "question": "If p(x) is a polynomial with integer coefficients and p(0), p(1) are both odd, then p(x) has",
+                "options": [
+                  "No integer roots",
+                  "At least one integer root",
+                  "Exactly one integer root",
+                  "Infinitely many integer roots"
+                ],
+                "correct_answer": 0,
+                "explanation": "For any integer n, p(n) is always odd, so p(n) ≠ 0."
+              }
+            ]
+          }
+        },
+        {
+          "topic_name": "Matrices",
+          "aliases": ["matrix", "matrix operations", "inverse matrix"],
+          "questions": {
+            "easy": [
+              {
+                "question": "If A is a 2×3 matrix and B is a 3×2 matrix, order of AB is",
+                "options": ["2×2", "3×3", "2×3", "3×2"],
+                "correct_answer": 0,
+                "explanation": "(m×n)(n×p) = m×p. So AB is 2×2."
+              },
+              {
+                "question": "If A = [[1,2],[3,4]], what is trace(A)?",
+                "options": ["5", "10", "4", "7"],
+                "correct_answer": 0,
+                "explanation": "Trace = sum of diagonal elements = 1 + 4 = 5"
+              }
+            ],
+            "medium": [
+              {
+                "question": "If A is a 3×3 matrix with det(A) = 5, what is det(2A)?",
+                "options": ["40", "10", "32", "16"],
+                "correct_answer": 0,
+                "explanation": "det(kA) = kⁿ det(A). So det(2A) = 2³ × 5 = 40."
+              },
+              {
+                "question": "If A and B are invertible matrices of same order, (AB)⁻¹ =",
+                "options": ["B⁻¹A⁻¹", "A⁻¹B⁻¹", "AB", "BA"],
+                "correct_answer": 0,
+                "explanation": "(AB)⁻¹ = B⁻¹A⁻¹ by the reverse order law."
+              }
+            ],
+            "hard": [
+              {
+                "question": "The eigenvalues of a real symmetric matrix are always",
+                "options": ["Real", "Complex", "Imaginary", "Zero"],
+                "correct_answer": 0,
+                "explanation": "Real symmetric matrices have all real eigenvalues."
+              },
+              {
+                "question": "If A is a skew-symmetric matrix of odd order, then det(A) =",
+                "options": ["0", "1", "-1", "Cannot be determined"],
+                "correct_answer": 0,
+                "explanation": "For skew-symmetric A of odd order, det(A) = -det(A), so det(A) = 0."
+              }
+            ],
+            "interview": [
+              {
+                "question": "Can every matrix be diagonalized?",
+                "options": [
+                  "No, only if geometric multiplicity = algebraic multiplicity for all eigenvalues",
+                  "Yes, all matrices are diagonalizable",
+                  "Only symmetric matrices",
+                  "Only invertible matrices"
+                ],
+                "correct_answer": 0,
+                "explanation": "A matrix is diagonalizable iff for every eigenvalue, geometric multiplicity equals algebraic multiplicity."
+              }
+            ]
+          }
+        },
+        {
+          "topic_name": "Determinants",
+          "aliases": ["determinant", "det", "cofactor", "minor"],
+          "questions": {
+            "easy": [
+              {
+                "question": "If two rows of a matrix are identical, the determinant is",
+                "options": ["0", "1", "-1", "Infinite"],
+                "correct_answer": 0,
+                "explanation": "If two rows are identical, det = 0."
+              },
+              {
+                "question": "If A is a 2×2 matrix with det(A) = 4, what is det(3A)?",
+                "options": ["12", "36", "24", "9"],
+                "correct_answer": 1,
+                "explanation": "det(kA) = kⁿ det(A). For n=2: det(3A) = 9 × 4 = 36."
+              }
+            ],
+            "medium": [
+              {
+                "question": "If A is upper triangular, det(A) equals",
+                "options": [
+                  "Product of diagonal elements",
+                  "Sum of diagonal elements",
+                  "0",
+                  "1"
+                ],
+                "correct_answer": 0,
+                "explanation": "For triangular matrices, det = product of diagonal entries."
+              },
+              {
+                "question": "det(AB) =",
+                "options": [
+                  "det(A) × det(B)",
+                  "det(A) + det(B)",
+                  "det(A) - det(B)",
+                  "det(A) / det(B)"
+                ],
+                "correct_answer": 0,
+                "explanation": "det(AB) = det(A)det(B)."
+              }
+            ],
+            "hard": [
+              {
+                "question": "For a 3×3 matrix A, if det(A) = 5, what is det(adj(A))?",
+                "options": ["25", "125", "5", "15"],
+                "correct_answer": 0,
+                "explanation": "det(adj(A)) = [det(A)]^(n-1) = 25 for n=3."
+              },
+              {
+                "question": "If A is orthogonal, |det(A)| =",
+                "options": ["1", "0", "-1", "Any real number"],
+                "correct_answer": 0,
+                "explanation": "For orthogonal A: AᵀA = I → det(A)² = 1 → |det(A)| = 1."
+              }
+            ],
+            "interview": [
+              {
+                "question": "Can you compute the determinant in O(n³) time?",
+                "options": [
+                  "Yes, using LU decomposition",
+                  "No, it is always O(n!)",
+                  "Only for sparse matrices",
+                  "Only for diagonal matrices"
+                ],
+                "correct_answer": 0,
+                "explanation": "LU decomposition or Gaussian elimination gives O(n³) determinant computation."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "subcategory_name": "Calculus",
+      "aliases": [
+        "calculus",
+        "limits",
+        "derivatives",
+        "integrals",
+        "differentiation",
+        "integration"
+      ],
+      "topics": [
+        {
+          "topic_name": "Limits",
+          "aliases": ["limit", "limits calculus", "continuity"],
+          "questions": {
+            "easy": [
+              {
+                "question": "What is lim(x→2) (x² - 4)/(x - 2)?",
+                "options": ["4", "0", "2", "Undefined"],
+                "correct_answer": 0,
+                "explanation": "Factor: (x-2)(x+2)/(x-2) = x+2 → limit = 4"
+              },
+              {
+                "question": "lim(x→0) sin(x)/x =",
+                "options": ["0", "1", "∞", "Undefined"],
+                "correct_answer": 1,
+                "explanation": "This is a standard limit equal to 1."
+              }
+            ],
+            "medium": [
+              {
+                "question": "Evaluate lim(x→0) (1 - cos(x))/x²",
+                "options": ["1/2", "1", "0", "∞"],
+                "correct_answer": 0,
+                "explanation": "Using 1 - cos(x) ≈ x²/2 for small x."
+              },
+              {
+                "question": "lim(x→∞) (1 + 1/x)ˣ =",
+                "options": ["1", "e", "0", "∞"],
+                "correct_answer": 1,
+                "explanation": "This is the definition of the number e."
+              }
+            ],
+            "hard": [
+              {
+                "question": "Evaluate lim(x→0⁺) xˣ",
+                "options": ["0", "1", "e", "∞"],
+                "correct_answer": 1,
+                "explanation": "ln y = x ln x → 0 as x→0⁺. So y → e⁰ = 1."
+              },
+              {
+                "question": "lim(x→0) (aˣ - 1)/x =",
+                "options": ["ln(a)", "a", "1", "0"],
+                "correct_answer": 0,
+                "explanation": "Standard limit; derivative of aˣ at x=0 is ln(a)."
+              }
+            ],
+            "interview": [
+              {
+                "question": "Can a function have a limit at a point where it is not defined?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Only for removable discontinuities",
+                  "Only for rational functions"
+                ],
+                "correct_answer": 0,
+                "explanation": "Yes, e.g., f(x) = (x²-1)/(x-1) at x=1 limit exists (=2)."
+              }
+            ]
+          }
+        },
+        {
+          "topic_name": "Derivatives",
+          "aliases": [
+            "differentiation",
+            "derivative",
+            "chain rule",
+            "product rule"
+          ],
+          "questions": {
+            "easy": [
+              {
+                "question": "What is d/dx(x²)?",
+                "options": ["2x", "x", "x²", "2"],
+                "correct_answer": 0,
+                "explanation": "d/dx(xⁿ) = nxⁿ⁻¹. So d/dx(x²) = 2x."
+              },
+              {
+                "question": "If y = eˣ, then dy/dx =",
+                "options": ["eˣ", "xeˣ⁻¹", "1", "0"],
+                "correct_answer": 0,
+                "explanation": "The derivative of eˣ is eˣ."
+              }
+            ],
+            "medium": [
+              {
+                "question": "Using product rule, d/dx(x·sin x) =",
+                "options": [
+                  "sin x + x cos x",
+                  "cos x",
+                  "x cos x",
+                  "sin x - x cos x"
+                ],
+                "correct_answer": 0,
+                "explanation": "(uv)' = u'v + uv'. Here: 1·sin x + x·cos x."
+              },
+              {
+                "question": "If y = xˣ, find dy/dx",
+                "options": ["xˣ(1 + ln x)", "x·xˣ⁻¹", "xˣ ln x", "xˣ"],
+                "correct_answer": 0,
+                "explanation": "ln y = x ln x → (1/y)dy/dx = 1 + ln x → dy/dx = xˣ(1 + ln x)."
+              }
+            ],
+            "hard": [
+              {
+                "question": "If y = sin⁻¹x, then dy/dx =",
+                "options": ["1/√(1-x²)", "-1/√(1-x²)", "√(1-x²)", "1/(1+x²)"],
+                "correct_answer": 0,
+                "explanation": "Standard derivative of inverse sine."
+              },
+              {
+                "question": "For parametric equations x = t², y = t³, dy/dx =",
+                "options": ["3t/2", "2t/3", "3t²/2t", "t/2"],
+                "correct_answer": 0,
+                "explanation": "dy/dx = (dy/dt)/(dx/dt) = 3t²/2t = 3t/2."
+              }
+            ],
+            "interview": [
+              {
+                "question": "Is differentiability stronger than continuity?",
+                "options": [
+                  "Yes, differentiable implies continuous",
+                  "No, continuous implies differentiable",
+                  "They are equivalent",
+                  "Neither implies the other"
+                ],
+                "correct_answer": 0,
+                "explanation": "Differentiability implies continuity, but not conversely (e.g., |x| at 0)."
+              }
+            ]
+          }
+        },
+        {
+          "topic_name": "Integrals",
+          "aliases": [
+            "integration",
+            "integral",
+            "definite integral",
+            "indefinite integral"
+          ],
+          "questions": {
+            "easy": [
+              {
+                "question": "∫ x dx =",
+                "options": ["x²/2 + C", "x + C", "x² + C", "1 + C"],
+                "correct_answer": 0,
+                "explanation": "∫xⁿ dx = xⁿ⁺¹/(n+1) + C. For n=1: x²/2 + C."
+              },
+              {
+                "question": "∫ 1/x dx =",
+                "options": ["ln|x| + C", "x + C", "1/x² + C", "0"],
+                "correct_answer": 0,
+                "explanation": "Standard integral: ∫1/x dx = ln|x| + C."
+              }
+            ],
+            "medium": [
+              {
+                "question": "∫ x·eˣ dx =",
+                "options": ["eˣ(x - 1) + C", "xeˣ + C", "eˣ + C", "x²eˣ/2 + C"],
+                "correct_answer": 0,
+                "explanation": "By parts: u=x, dv=eˣdx → du=dx, v=eˣ → ∫xeˣdx = xeˣ - eˣ + C."
+              },
+              {
+                "question": "∫ dx/(1 + x²) =",
+                "options": [
+                  "tan⁻¹x + C",
+                  "ln|1+x²| + C",
+                  "sec⁻¹x + C",
+                  "1/(2x) + C"
+                ],
+                "correct_answer": 0,
+                "explanation": "Standard integral: ∫dx/(1+x²) = tan⁻¹x + C."
+              }
+            ],
+            "hard": [
+              {
+                "question": "∫ dx/√(a² - x²) =",
+                "options": [
+                  "sin⁻¹(x/a) + C",
+                  "cos⁻¹(x/a) + C",
+                  "tan⁻¹(x/a) + C",
+                  "sec⁻¹(x/a) + C"
+                ],
+                "correct_answer": 0,
+                "explanation": "Standard integral form."
+              },
+              {
+                "question": "The Gamma function Γ(n) for positive integer n equals",
+                "options": ["(n-1)!", "n!", "n", "1/n"],
+                "correct_answer": 0,
+                "explanation": "Γ(n) = (n-1)! for positive integers."
+              }
+            ],
+            "interview": [
+              {
+                "question": "What is the geometric interpretation of a definite integral?",
+                "options": [
+                  "Signed area under curve",
+                  "Slope of tangent",
+                  "Length of curve",
+                  "Volume of solid"
+                ],
+                "correct_answer": 0,
+                "explanation": "∫ₐᵇ f(x)dx represents the net signed area between f(x) and the x-axis."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

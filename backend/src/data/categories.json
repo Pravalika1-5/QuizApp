@@ -1,0 +1,220 @@
+[
+  {
+    "category_name": "ENGINEERING MATHEMATICS",
+    "category_aliases": [
+      "math", "maths", "engineering maths", "engineering mathematics",
+      "calculus", "algebra", "statistics", "probability", "linear algebra",
+      "matrices", "determinants", "vectors", "complex numbers",
+      "differential equations", "numerical methods", "optimization",
+      "engg math", "eng math", "engineering math"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "PROGRAMMING FUNDAMENTALS",
+    "category_aliases": [
+      "programming", "coding", "coding basics", "programming basics",
+      "oop", "oops", "c basics", "java basics", "python basics",
+      "variables", "loops", "functions", "recursion", "pointers",
+      "object oriented", "object oriented programming", "prog fundamentals",
+      "intro to programming", "basic programming", "prog basics"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "DATA STRUCTURES AND ALGORITHMS",
+    "category_aliases": [
+      "dsa", "data structures", "algorithms", "ds", "algo",
+      "problem solving", "data structures and algorithms",
+      "linked list", "trees", "graphs", "sorting", "searching",
+      "dynamic programming", "dp", "greedy", "backtracking",
+      "stacks", "queues", "heaps", "hash tables", "tries",
+      "divide and conquer", "recursion algorithms"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "DATABASE MANAGEMENT SYSTEMS",
+    "category_aliases": [
+      "dbms", "database", "sql", "mongodb", "nosql",
+      "database management", "relational database", "rdbms",
+      "normalization", "joins", "transactions", "indexing",
+      "primary key", "foreign key", "queries", "db", "databases",
+      "structured query language", "database systems"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "OPERATING SYSTEMS",
+    "category_aliases": [
+      "os", "operating system", "process scheduling", "memory management",
+      "operating systems", "deadlock", "paging", "virtual memory",
+      "file system", "synchronization", "threads", "processes",
+      "cpu scheduling", "semaphore", "mutex", "kernel", "system calls"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "COMPUTER NETWORKS",
+    "category_aliases": [
+      "cn", "networks", "computer networks", "networking", "tcp ip",
+      "osi", "osi model", "tcp", "udp", "http", "https", "dns",
+      "ip addressing", "routing", "ports", "network security",
+      "computer networking", "network protocols", "subnetting",
+      "bandwidth", "latency", "firewall", "vpn"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "ARTIFICIAL INTELLIGENCE",
+    "category_aliases": [
+      "ai", "artificial intelligence", "intelligent systems",
+      "machine intelligence", "ai fundamentals", "intro to ai",
+      "ai basics", "search algorithms", "intelligent agents",
+      "narrow ai", "general ai", "agi", "ai applications",
+      "knowledge representation", "expert systems", "ai intro"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "MACHINE LEARNING",
+    "category_aliases": [
+      "ml", "machine learning", "supervised learning",
+      "unsupervised learning", "reinforcement learning",
+      "classification", "regression", "clustering",
+      "overfitting", "underfitting", "bias variance",
+      "training data", "testing data", "ml algorithms",
+      "ml basics", "ml fundamentals", "predictive modeling",
+      "feature selection", "model evaluation"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "DEEP LEARNING",
+    "category_aliases": [
+      "dl", "deep learning", "neural networks", "cnn", "rnn",
+      "transformers", "neural net", "perceptron", "backpropagation",
+      "forward propagation", "activation functions", "convolutional",
+      "recurrent", "lstm", "gru", "deep neural network", "dnn",
+      "convolutional neural network", "recurrent neural network",
+      "transformer model", "attention mechanism dl"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "NATURAL LANGUAGE PROCESSING",
+    "category_aliases": [
+      "nlp", "language models", "llm", "text ai", "chatbots",
+      "natural language processing", "text processing",
+      "tokenization", "embeddings", "attention mechanism",
+      "prompt engineering", "large language models",
+      "text preprocessing", "sentiment analysis", "named entity recognition",
+      "ner", "word2vec", "bert", "gpt", "language understanding",
+      "speech processing", "nlp basics"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "MATHEMATICS FOR AI",
+    "category_aliases": [
+      "math for ai", "ml math", "linear algebra ai", "probability ai",
+      "mathematics for machine learning", "math for ml",
+      "gradient descent", "optimization", "bayes theorem",
+      "probability distributions", "statistical foundations",
+      "linear algebra for ml", "calculus for ml", "matrix operations",
+      "eigenvalues", "eigenvectors", "dot product", "cross entropy",
+      "loss functions math", "ai math"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "SOFTWARE ENGINEERING",
+    "category_aliases": [
+      "se", "software engineering", "sdlc", "agile", "design patterns",
+      "software development", "version control", "git", "testing",
+      "debugging", "rest api", "software architecture",
+      "waterfall model", "scrum", "kanban", "unit testing",
+      "integration testing", "software design", "solid principles",
+      "mvc", "microservices", "devops basics", "ci cd"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "WEB DEVELOPMENT",
+    "category_aliases": [
+      "web dev", "frontend", "backend", "javascript", "node", "express",
+      "html", "css", "web development", "fullstack", "full stack",
+      "dom", "dom manipulation", "nodejs", "expressjs", "reactjs",
+      "api development", "authentication", "middleware", "rest",
+      "web basics", "html css js", "js", "ecmascript",
+      "responsive design", "web programming"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "CYBERSECURITY",
+    "category_aliases": [
+      "security", "cyber security", "infosec", "web security",
+      "cybersecurity", "information security", "encryption",
+      "hashing", "sql injection", "xss", "csrf",
+      "authentication", "authorization", "https", "secure coding",
+      "penetration testing", "pen test", "vulnerability",
+      "network security", "data security", "owasp",
+      "cyber threats", "malware", "phishing"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "DATA SCIENCE",
+    "category_aliases": [
+      "ds science", "data science", "data analysis", "eda",
+      "pandas", "numpy", "data cleaning", "data preprocessing",
+      "feature engineering", "data visualization", "exploratory data analysis",
+      "matplotlib", "seaborn", "statistics for data science",
+      "data wrangling", "data mining", "big data basics",
+      "jupyter", "python data science", "ds"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "PLACEMENT APTITUDE",
+    "category_aliases": [
+      "aptitude", "quant", "quantitative aptitude", "placement prep",
+      "placement aptitude", "aptitude test", "quantitative",
+      "percentages", "profit loss", "time work", "time distance",
+      "ratios", "proportions", "permutations", "combinations",
+      "probability aptitude", "number system", "averages",
+      "simple interest", "compound interest", "aptitude questions",
+      "campus placement", "cat prep", "gre quant"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "LOGICAL REASONING",
+    "category_aliases": [
+      "reasoning", "logical reasoning", "lr", "puzzles",
+      "logical thinking", "number series", "coding decoding",
+      "blood relations", "direction sense", "pattern recognition",
+      "verbal reasoning", "non verbal reasoning", "syllogism",
+      "seating arrangement", "analogy", "odd one out",
+      "series completion", "logical puzzles", "reasoning ability",
+      "critical thinking", "abstract reasoning"
+    ],
+    "subcategories": []
+  },
+  {
+    "category_name": "ADVANCED AI INTERVIEW TOPICS",
+    "category_aliases": [
+      "llm interview", "rag", "prompt engineering", "ai interview",
+      "transformer architecture", "hallucinations", "tokens",
+      "advanced ai", "llm tokens", "embeddings vs vectors",
+      "fine tuning", "retrieval augmented generation",
+      "context window", "temperature parameter",
+      "prompt engineering strategies", "llm fundamentals",
+      "foundation models", "generative ai", "gen ai",
+      "ai interview prep", "llm interview questions",
+      "vector databases", "semantic search", "chain of thought"
+    ],
+    "subcategories": []
+  }
+]

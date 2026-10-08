@@ -1,0 +1,647 @@
+{
+  "category": "DSA Basics",
+  "aliases": [
+    "Data Structures and Algorithms",
+    "DSA Fundamentals",
+    "Algorithm Basics",
+    "Data Structures",
+    "DSA Intro"
+  ],
+  "topics": {
+    "Arrays": {
+      "aliases": [
+        "Array Data Structure",
+        "Indexed Collection",
+        "Array Operations",
+        "Static Arrays",
+        "Array Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is an array?",
+          "options": [
+            "Collection of same type elements in contiguous memory",
+            "List of variables",
+            "Collection of methods",
+            "Type of function"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do you access array element?",
+          "options": ["Using index", "Using name", "Using value", "Using key"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is array indexing?",
+          "options": [
+            "Position of element, usually 0-based",
+            "Element value",
+            "Array size",
+            "Array type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is time complexity of array access?",
+          "options": [
+            "O(1) constant time",
+            "O(n) linear",
+            "O(n²) quadratic",
+            "O(log n) logarithmic"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you change array size after creation?",
+          "options": [
+            "No for static arrays",
+            "Yes",
+            "Only for dynamic",
+            "Only in functions"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between array and linked list?",
+          "options": [
+            "Array fixed size contiguous, linked list dynamic",
+            "Both same",
+            "Linked list is faster",
+            "Array is slower"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is insertion in array?",
+          "options": [
+            "Adding element, may require shift",
+            "Removing element",
+            "Searching element",
+            "Sorting array"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is time complexity of array insertion?",
+          "options": ["O(n) worst case", "O(1)", "O(log n)", "O(n²)"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is array deletion?",
+          "options": [
+            "Removing element, may require shift",
+            "Adding element",
+            "Modifying element",
+            "Clearing array"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 2D array?",
+          "options": [
+            "Array of arrays",
+            "Array with 2 elements",
+            "Two different arrays",
+            "Array in 2 variables"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain array memory layout and cache efficiency",
+          "options": [
+            "Contiguous memory improves cache hits",
+            "Random memory access",
+            "Memory scattered",
+            "No cache benefit"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is array rotation?",
+          "options": [
+            "Shifting elements cyclically",
+            "Reversing order",
+            "Sorting array",
+            "Copying array"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do you find duplicate elements efficiently?",
+          "options": [
+            "Using hash set or sorting",
+            "Nested loops O(n²)",
+            "Single loop",
+            "No efficient way"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is space complexity of array?",
+          "options": [
+            "O(n) linear space",
+            "O(1) constant",
+            "O(log n)",
+            "O(n²)"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain array prefix sum technique",
+          "options": [
+            "Precompute sums for range queries",
+            "Sum all elements",
+            "Maximum sum",
+            "Minimum sum"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Strings": {
+      "aliases": [
+        "String Operations",
+        "String Matching",
+        "Text Processing",
+        "Character Arrays",
+        "String Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is string?",
+          "options": [
+            "Sequence of characters",
+            "Single character",
+            "Array of numbers",
+            "Type of variable"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Are strings immutable in Java?",
+          "options": ["Yes", "No", "Sometimes", "Depends on creation"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is string length?",
+          "options": [
+            "Number of characters",
+            "Memory size",
+            "Type size",
+            "Array size"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do you concatenate strings?",
+          "options": [
+            "Using + operator or concat method",
+            "Using - operator",
+            "Using * operator",
+            "Using . operator"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is substring?",
+          "options": [
+            "Part of string",
+            "Whole string",
+            "String type",
+            "String method"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is string comparison?",
+          "options": [
+            "Checking if strings are equal",
+            "Measuring length",
+            "Changing content",
+            "Copying string"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is difference between equals() and ==?",
+          "options": [
+            "equals() compares content, == compares reference",
+            "Same thing",
+            "== is faster",
+            "equals() reference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is string reversal algorithm?",
+          "options": [
+            "Two pointer approach or recursion",
+            "Single loop",
+            "Built-in reverse",
+            "Sorting characters"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is palindrome string?",
+          "options": [
+            "String reads same forwards and backwards",
+            "String with duplicates",
+            "Empty string",
+            "Single character"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is anagram?",
+          "options": [
+            "Words with same characters rearranged",
+            "Same words",
+            "Different lengths",
+            "Reverse string"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is KMP string matching algorithm?",
+          "options": [
+            "Pattern matching in O(n+m) time",
+            "O(n²) algorithm",
+            "Brute force",
+            "Sorting based"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is longest common substring?",
+          "options": [
+            "Longest similar substring in two strings",
+            "Shortest substring",
+            "First substring",
+            "Last substring"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain string tokenization",
+          "options": [
+            "Splitting string by delimiter",
+            "Counting characters",
+            "Finding duplicates",
+            "Sorting characters"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Rabin-Karp algorithm?",
+          "options": [
+            "Pattern matching using rolling hash",
+            "Sorting algorithm",
+            "String reversal",
+            "Character counting"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is edit distance (Levenshtein distance)?",
+          "options": [
+            "Minimum operations to transform one string to another",
+            "String length",
+            "Character difference",
+            "Word count"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Linked Lists": {
+      "aliases": [
+        "Linked List Structure",
+        "Node-based",
+        "Dynamic Collection",
+        "Linear List",
+        "Link Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is linked list?",
+          "options": [
+            "Dynamic collection of nodes with pointers",
+            "Array of elements",
+            "Static collection",
+            "Function pointer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is node in linked list?",
+          "options": [
+            "Data + pointer to next node",
+            "Just data",
+            "Just pointer",
+            "Array element"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is head pointer?",
+          "options": [
+            "Points to first node",
+            "Points to last node",
+            "Points to middle",
+            "Points to nothing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is time complexity of linked list access?",
+          "options": ["O(n) linear", "O(1) constant", "O(log n)", "O(n²)"],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you access random element efficiently?",
+          "options": [
+            "No, must traverse",
+            "Yes",
+            "Only first element",
+            "Only last element"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is difference between singly and doubly linked list?",
+          "options": [
+            "Singly one pointer, doubly two pointers",
+            "Same structure",
+            "Singly faster",
+            "Doubly same speed"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is insertion in linked list?",
+          "options": [
+            "Adding node at position",
+            "Removing node",
+            "Searching node",
+            "Reversing list"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is time complexity of linked list insertion?",
+          "options": [
+            "O(1) if position known",
+            "O(n) always",
+            "O(log n)",
+            "O(n²)"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is circular linked list?",
+          "options": [
+            "Last node points to first node",
+            "All nodes point to first",
+            "First points to all",
+            "No circular reference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is deletion in linked list?",
+          "options": [
+            "Removing node by updating pointers",
+            "Adding node",
+            "Finding node",
+            "Sorting list"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "How to detect cycle in linked list?",
+          "options": [
+            "Tortoise and hare algorithm",
+            "Comparing lengths",
+            "Counting nodes",
+            "No way to detect"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is fast and slow pointer technique?",
+          "options": [
+            "Move at different speeds to detect cycle",
+            "Random movement",
+            "Moving forward only",
+            "Moving backward"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to find middle of linked list?",
+          "options": [
+            "Use slow and fast pointers",
+            "Count and divide",
+            "Traverse twice",
+            "Not possible"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is linked list reversal?",
+          "options": [
+            "Reversing direction of pointers",
+            "Reversing data",
+            "Sorting list",
+            "Copying list"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to merge two sorted linked lists?",
+          "options": [
+            "Compare and create new list",
+            "Append second to first",
+            "Sort combined",
+            "Use array"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Stacks": {
+      "aliases": [
+        "Stack Data Structure",
+        "LIFO",
+        "Last In First Out",
+        "Stack Operations",
+        "Stack Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is stack?",
+          "options": [
+            "LIFO data structure - Last In First Out",
+            "FIFO structure",
+            "Tree structure",
+            "Graph structure"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is push operation?",
+          "options": [
+            "Adding element to top",
+            "Removing element",
+            "Searching element",
+            "Sorting elements"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is pop operation?",
+          "options": [
+            "Removing element from top",
+            "Adding element",
+            "Reading element",
+            "Clearing stack"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is peek operation?",
+          "options": [
+            "Reading top element without removing",
+            "Removing element",
+            "Adding element",
+            "Sorting stack"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What happens when stack is empty?",
+          "options": [
+            "Pop causes underflow error",
+            "Pop succeeds",
+            "No error",
+            "Returns null"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is time complexity of stack operations?",
+          "options": ["O(1) for push, pop, peek", "O(n)", "O(log n)", "O(n²)"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is stack overflow?",
+          "options": [
+            "Pushing to full stack",
+            "Stack has elements",
+            "Empty stack",
+            "No such condition"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is balanced parentheses problem?",
+          "options": [
+            "Check if brackets properly nested using stack",
+            "Count parentheses",
+            "Remove duplicates",
+            "Sort brackets"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is infix to postfix conversion?",
+          "options": [
+            "Convert normal to reverse polish notation",
+            "Convert to prefix",
+            "Converting numbers",
+            "Sorting expression"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to implement stack?",
+          "options": [
+            "Using array or linked list",
+            "Using queue",
+            "Using tree",
+            "Using graph"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "How to evaluate postfix expression?",
+          "options": [
+            "Use stack, push operands, pop for operators",
+            "Left to right evaluation",
+            "Use queue",
+            "No need stack"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is monotonic stack?",
+          "options": [
+            "Stack maintaining monotonic order of elements",
+            "Random order stack",
+            "Sorted stack",
+            "Reverse order"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to implement minimum stack?",
+          "options": [
+            "Use auxiliary stack to track minimum",
+            "One stack only",
+            "Track in array",
+            "Use variable"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is largest rectangle in histogram?",
+          "options": [
+            "Using stack to find maximum rectangle area",
+            "Simple iteration",
+            "Two pointer",
+            "No efficient way"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to find next greater element?",
+          "options": [
+            "Using monotonic stack",
+            "Nested loops",
+            "Hash map",
+            "Linear search"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

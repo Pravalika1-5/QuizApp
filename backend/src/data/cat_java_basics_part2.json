@@ -1,0 +1,723 @@
+{
+  "category_name": "JAVA BASICS",
+  "category_aliases": [
+    "java", "java basics", "core java", "java programming", "java fundamentals"
+  ],
+  "topics": [
+    {
+      "topic_name": "Functions / Methods",
+      "aliases": [
+        "java methods", "functions java", "method declaration", "return type java", "method overloading"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "What keyword is used to define a method that does not return a value in Java?",
+            "options": ["null", "void", "empty", "none"],
+            "correct_answer": "void"
+          },
+          {
+            "question": "Which of the following correctly defines a method in Java?",
+            "options": [
+              "def greet() { }",
+              "void greet() { }",
+              "function greet() { }",
+              "method greet() { }"
+            ],
+            "correct_answer": "void greet() { }"
+          },
+          {
+            "question": "What is a parameter in a Java method?",
+            "options": [
+              "The value returned by the method",
+              "A variable passed into the method when it is called",
+              "The name of the method",
+              "The access modifier of the method"
+            ],
+            "correct_answer": "A variable passed into the method when it is called"
+          },
+          {
+            "question": "Which keyword is used to return a value from a method in Java?",
+            "options": ["send", "output", "return", "yield"],
+            "correct_answer": "return"
+          },
+          {
+            "question": "What is method overloading in Java?",
+            "options": [
+              "Defining a method in a subclass with the same name",
+              "Defining multiple methods with the same name but different parameters",
+              "Calling a method multiple times",
+              "Defining a method with no return type"
+            ],
+            "correct_answer": "Defining multiple methods with the same name but different parameters"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between method overloading and method overriding in Java?",
+            "options": [
+              "Overloading is compile-time polymorphism; overriding is runtime polymorphism",
+              "Overriding is compile-time polymorphism; overloading is runtime polymorphism",
+              "They are the same concept",
+              "Overloading only works with static methods"
+            ],
+            "correct_answer": "Overloading is compile-time polymorphism; overriding is runtime polymorphism"
+          },
+          {
+            "question": "What does the static keyword mean when applied to a method?",
+            "options": [
+              "The method can only be called once",
+              "The method belongs to the class rather than any instance",
+              "The method cannot be overridden",
+              "The method runs at compile time"
+            ],
+            "correct_answer": "The method belongs to the class rather than any instance"
+          },
+          {
+            "question": "What is a recursive method?",
+            "options": [
+              "A method that calls another method",
+              "A method that calls itself",
+              "A method with no parameters",
+              "A method that returns void"
+            ],
+            "correct_answer": "A method that calls itself"
+          },
+          {
+            "question": "What is pass-by-value in Java?",
+            "options": [
+              "The method receives a reference to the original variable",
+              "The method receives a copy of the value; changes do not affect the original",
+              "Primitive and object types are both passed by reference",
+              "Only objects are passed by value"
+            ],
+            "correct_answer": "The method receives a copy of the value; changes do not affect the original"
+          },
+          {
+            "question": "What is a varargs method in Java?",
+            "options": [
+              "A method with no parameters",
+              "A method that accepts a variable number of arguments using ...",
+              "A method that returns multiple values",
+              "A method declared with the var keyword"
+            ],
+            "correct_answer": "A method that accepts a variable number of arguments using ..."
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the output of calling a method that modifies an object passed as a parameter in Java?",
+            "options": [
+              "The original object is never modified",
+              "The original object's fields can be modified because the reference copy points to the same object",
+              "A new object is always created",
+              "The method throws an exception"
+            ],
+            "correct_answer": "The original object's fields can be modified because the reference copy points to the same object"
+          },
+          {
+            "question": "Can a static method be overridden in Java?",
+            "options": [
+              "Yes, like any other method",
+              "No, static methods are hidden not overridden; it is called method hiding",
+              "Yes, but only in abstract classes",
+              "No, static methods cannot be inherited"
+            ],
+            "correct_answer": "No, static methods are hidden not overridden; it is called method hiding"
+          },
+          {
+            "question": "What is a method signature in Java?",
+            "options": [
+              "The method name and return type",
+              "The method name and its parameter types",
+              "The access modifier and method name",
+              "The return type and parameter names"
+            ],
+            "correct_answer": "The method name and its parameter types"
+          },
+          {
+            "question": "What happens if a recursive method has no base case?",
+            "options": [
+              "It returns null",
+              "It causes a StackOverflowError",
+              "It runs exactly once",
+              "It causes a NullPointerException"
+            ],
+            "correct_answer": "It causes a StackOverflowError"
+          },
+          {
+            "question": "Which of the following is true about final methods in Java?",
+            "options": [
+              "They cannot be called",
+              "They cannot be overridden in subclasses",
+              "They must return a constant value",
+              "They can only be declared in abstract classes"
+            ],
+            "correct_answer": "They cannot be overridden in subclasses"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Arrays",
+      "aliases": [
+        "java arrays", "array declaration java", "array indexing", "multidimensional array java", "array methods java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "How do you declare an integer array of size 5 in Java?",
+            "options": [
+              "int arr = new int[5];",
+              "int[] arr = new int[5];",
+              "array int arr[5];",
+              "int arr[5];"
+            ],
+            "correct_answer": "int[] arr = new int[5];"
+          },
+          {
+            "question": "What is the index of the first element in a Java array?",
+            "options": ["1", "-1", "0", "Depends on declaration"],
+            "correct_answer": "0"
+          },
+          {
+            "question": "What is the default value of elements in an int array in Java?",
+            "options": ["null", "1", "undefined", "0"],
+            "correct_answer": "0"
+          },
+          {
+            "question": "How do you find the length of an array in Java?",
+            "options": ["arr.size()", "arr.length()", "arr.length", "length(arr)"],
+            "correct_answer": "arr.length"
+          },
+          {
+            "question": "What exception is thrown when you access an array index out of bounds in Java?",
+            "options": [
+              "NullPointerException",
+              "ArrayIndexOutOfBoundsException",
+              "IndexException",
+              "OutOfMemoryError"
+            ],
+            "correct_answer": "ArrayIndexOutOfBoundsException"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is a 2D array in Java?",
+            "options": [
+              "An array that stores two values",
+              "An array of arrays",
+              "An array with two data types",
+              "An array with negative indices"
+            ],
+            "correct_answer": "An array of arrays"
+          },
+          {
+            "question": "What is the correct way to iterate over all elements of an array using enhanced for loop?",
+            "options": [
+              "for(int i : arr.length) { }",
+              "for(int x = arr) { }",
+              "for(int x : arr) { }",
+              "foreach(int x in arr) { }"
+            ],
+            "correct_answer": "for(int x : arr) { }"
+          },
+          {
+            "question": "Which method is used to sort an array in Java?",
+            "options": [
+              "Array.sort(arr)",
+              "Arrays.sort(arr)",
+              "arr.sort()",
+              "Collections.sort(arr)"
+            ],
+            "correct_answer": "Arrays.sort(arr)"
+          },
+          {
+            "question": "What is the difference between an array and an ArrayList in Java?",
+            "options": [
+              "Arrays are dynamic; ArrayList is fixed size",
+              "Arrays are fixed size; ArrayList is dynamic and resizable",
+              "They are identical",
+              "ArrayList can only store strings"
+            ],
+            "correct_answer": "Arrays are fixed size; ArrayList is dynamic and resizable"
+          },
+          {
+            "question": "What does Arrays.copyOf(arr, 3) do in Java?",
+            "options": [
+              "Copies the entire array",
+              "Creates a new array with the first 3 elements of arr",
+              "Reverses the first 3 elements",
+              "Sorts the first 3 elements"
+            ],
+            "correct_answer": "Creates a new array with the first 3 elements of arr"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is a jagged array in Java?",
+            "options": [
+              "An array with negative indices",
+              "A 2D array where each row can have a different number of columns",
+              "An array that stores mixed data types",
+              "An array with null elements"
+            ],
+            "correct_answer": "A 2D array where each row can have a different number of columns"
+          },
+          {
+            "question": "What is the time complexity of accessing an element in an array by index?",
+            "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+            "correct_answer": "O(1)"
+          },
+          {
+            "question": "What is the output of: int[] a = {1,2,3}; int[] b = a; b[0] = 99; System.out.println(a[0]);",
+            "options": ["1", "99", "0", "Compile error"],
+            "correct_answer": "99"
+          },
+          {
+            "question": "Which of the following correctly performs a deep copy of an array in Java?",
+            "options": [
+              "int[] b = a;",
+              "int[] b = Arrays.copyOf(a, a.length);",
+              "int[] b = a.clone(); for objects this is still shallow",
+              "int[] b = new int[](a);"
+            ],
+            "correct_answer": "int[] b = Arrays.copyOf(a, a.length);"
+          },
+          {
+            "question": "What is the space complexity of storing an n-element array?",
+            "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+            "correct_answer": "O(n)"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Strings",
+      "aliases": [
+        "java strings", "string methods java", "string class java", "string manipulation", "immutable string java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which class is used to represent a sequence of characters in Java?",
+            "options": ["Char", "CharArray", "String", "Text"],
+            "correct_answer": "String"
+          },
+          {
+            "question": "How do you find the length of a String in Java?",
+            "options": ["str.size()", "str.length", "str.length()", "length(str)"],
+            "correct_answer": "str.length()"
+          },
+          {
+            "question": "Which method converts a String to uppercase in Java?",
+            "options": ["str.upper()", "str.toUpper()", "str.toUpperCase()", "str.uppercase()"],
+            "correct_answer": "str.toUpperCase()"
+          },
+          {
+            "question": "What does str.charAt(0) return?",
+            "options": [
+              "The length of the string",
+              "The first character of the string",
+              "The ASCII value of the string",
+              "The last character of the string"
+            ],
+            "correct_answer": "The first character of the string"
+          },
+          {
+            "question": "Are Strings mutable in Java?",
+            "options": [
+              "Yes, they can be changed after creation",
+              "No, Strings are immutable in Java",
+              "Only String literals are mutable",
+              "Only StringBuilder is immutable"
+            ],
+            "correct_answer": "No, Strings are immutable in Java"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between String, StringBuilder, and StringBuffer in Java?",
+            "options": [
+              "String is immutable; StringBuilder is mutable and not thread-safe; StringBuffer is mutable and thread-safe",
+              "All three are immutable",
+              "StringBuilder is immutable; String is mutable",
+              "StringBuffer is faster than StringBuilder"
+            ],
+            "correct_answer": "String is immutable; StringBuilder is mutable and not thread-safe; StringBuffer is mutable and thread-safe"
+          },
+          {
+            "question": "What does str.substring(2, 5) return for str = \"HelloWorld\"?",
+            "options": ["llo", "lloW", "ell", "Hello"],
+            "correct_answer": "lloW"
+          },
+          {
+            "question": "What is the String pool in Java?",
+            "options": [
+              "A collection of all String objects in the heap",
+              "A special memory area in the heap where String literals are stored and reused",
+              "A thread-safe String storage",
+              "An array of characters"
+            ],
+            "correct_answer": "A special memory area in the heap where String literals are stored and reused"
+          },
+          {
+            "question": "What does str.equals() check compared to ==?",
+            "options": [
+              "equals() checks reference; == checks content",
+              "equals() checks content; == checks reference",
+              "Both check content",
+              "Both check reference"
+            ],
+            "correct_answer": "equals() checks content; == checks reference"
+          },
+          {
+            "question": "Which method splits a String by a delimiter in Java?",
+            "options": ["str.divide()", "str.split()", "str.separate()", "str.tokenize()"],
+            "correct_answer": "str.split()"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the output of: String a = \"hello\"; String b = \"hello\"; System.out.println(a == b);",
+            "options": ["false", "true", "Compile error", "null"],
+            "correct_answer": "true"
+          },
+          {
+            "question": "What is the output of: String a = new String(\"hello\"); String b = new String(\"hello\"); System.out.println(a == b);",
+            "options": ["true", "false", "Compile error", "null"],
+            "correct_answer": "false"
+          },
+          {
+            "question": "Why is String immutable in Java?",
+            "options": [
+              "To save memory through String pool reuse, ensure thread safety, and support use as HashMap keys",
+              "Because Java does not support mutable objects",
+              "To prevent garbage collection",
+              "Because char arrays are immutable"
+            ],
+            "correct_answer": "To save memory through String pool reuse, ensure thread safety, and support use as HashMap keys"
+          },
+          {
+            "question": "What is the time complexity of String concatenation using + in a loop of n iterations?",
+            "options": ["O(n)", "O(n log n)", "O(n²)", "O(1)"],
+            "correct_answer": "O(n²)"
+          },
+          {
+            "question": "What does String.intern() do in Java?",
+            "options": [
+              "Converts the string to lowercase",
+              "Returns a canonical representation from the String pool, adding it if not present",
+              "Removes whitespace from the string",
+              "Converts the string to a char array"
+            ],
+            "correct_answer": "Returns a canonical representation from the String pool, adding it if not present"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "OOP Basics in Java",
+      "aliases": [
+        "oop java", "oops java", "object oriented java", "classes objects java", "inheritance polymorphism java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "What are the four pillars of Object-Oriented Programming?",
+            "options": [
+              "Loops, Functions, Arrays, Strings",
+              "Encapsulation, Inheritance, Polymorphism, Abstraction",
+              "Classes, Objects, Methods, Variables",
+              "Compile, Run, Debug, Deploy"
+            ],
+            "correct_answer": "Encapsulation, Inheritance, Polymorphism, Abstraction"
+          },
+          {
+            "question": "What is a class in Java?",
+            "options": [
+              "An instance of an object",
+              "A blueprint or template for creating objects",
+              "A method that creates variables",
+              "A data type"
+            ],
+            "correct_answer": "A blueprint or template for creating objects"
+          },
+          {
+            "question": "What keyword is used to create an object in Java?",
+            "options": ["create", "object", "new", "make"],
+            "correct_answer": "new"
+          },
+          {
+            "question": "What is a constructor in Java?",
+            "options": [
+              "A method that destroys objects",
+              "A special method called when an object is created to initialize it",
+              "A method that returns the class name",
+              "A static method in every class"
+            ],
+            "correct_answer": "A special method called when an object is created to initialize it"
+          },
+          {
+            "question": "What keyword is used for inheritance in Java?",
+            "options": ["implements", "inherits", "extends", "uses"],
+            "correct_answer": "extends"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is encapsulation in Java?",
+            "options": [
+              "Hiding implementation details by making fields private and providing public getters/setters",
+              "Inheriting properties from a parent class",
+              "Defining multiple methods with the same name",
+              "Creating abstract classes"
+            ],
+            "correct_answer": "Hiding implementation details by making fields private and providing public getters/setters"
+          },
+          {
+            "question": "What is the difference between an abstract class and an interface in Java?",
+            "options": [
+              "Abstract classes can have method implementations; interfaces (pre-Java 8) cannot",
+              "Interfaces can have constructors; abstract classes cannot",
+              "Abstract classes support multiple inheritance; interfaces do not",
+              "They are identical"
+            ],
+            "correct_answer": "Abstract classes can have method implementations; interfaces (pre-Java 8) cannot"
+          },
+          {
+            "question": "What is runtime polymorphism in Java?",
+            "options": [
+              "Method overloading resolved at compile time",
+              "Method overriding resolved at runtime based on the actual object type",
+              "Using interfaces to define behavior",
+              "Casting objects between types"
+            ],
+            "correct_answer": "Method overriding resolved at runtime based on the actual object type"
+          },
+          {
+            "question": "What does the super keyword do in Java?",
+            "options": [
+              "Creates a new superclass object",
+              "Refers to the parent class and can call its constructor or methods",
+              "Makes a method static",
+              "Prevents method overriding"
+            ],
+            "correct_answer": "Refers to the parent class and can call its constructor or methods"
+          },
+          {
+            "question": "Can Java support multiple inheritance through classes?",
+            "options": [
+              "Yes, using extends with multiple classes",
+              "No, Java does not support multiple inheritance through classes but supports it through interfaces",
+              "Yes, using the implements keyword",
+              "No, Java does not support any form of multiple inheritance"
+            ],
+            "correct_answer": "No, Java does not support multiple inheritance through classes but supports it through interfaces"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the diamond problem in OOP and how does Java resolve it?",
+            "options": [
+              "A naming conflict in variables; resolved by renaming",
+              "Ambiguity when a class inherits from two classes with the same method; Java avoids it by not allowing multiple class inheritance, using interfaces instead",
+              "A memory leak caused by circular references",
+              "A compile error caused by abstract methods"
+            ],
+            "correct_answer": "Ambiguity when a class inherits from two classes with the same method; Java avoids it by not allowing multiple class inheritance, using interfaces instead"
+          },
+          {
+            "question": "What is the difference between composition and inheritance in OOP?",
+            "options": [
+              "Inheritance models has-a; composition models is-a",
+              "Composition models has-a relationship; inheritance models is-a relationship",
+              "They are identical design patterns",
+              "Composition is only used in abstract classes"
+            ],
+            "correct_answer": "Composition models has-a relationship; inheritance models is-a relationship"
+          },
+          {
+            "question": "What is dynamic dispatch in Java?",
+            "options": [
+              "Calling a static method at runtime",
+              "The mechanism by which a call to an overridden method is resolved at runtime based on the object type",
+              "Dispatching threads dynamically",
+              "Loading classes at runtime"
+            ],
+            "correct_answer": "The mechanism by which a call to an overridden method is resolved at runtime based on the object type"
+          },
+          {
+            "question": "What is the purpose of the @Override annotation in Java?",
+            "options": [
+              "To create a new method",
+              "To tell the compiler that the method is intended to override a superclass method, catching errors if it does not",
+              "To make a method static",
+              "To prevent a method from being called"
+            ],
+            "correct_answer": "To tell the compiler that the method is intended to override a superclass method, catching errors if it does not"
+          },
+          {
+            "question": "What is object slicing and does it occur in Java?",
+            "options": [
+              "Yes, it occurs when casting a subclass to a superclass",
+              "No, Java uses references so the full object is always retained; object slicing is a C++ problem",
+              "Yes, it occurs when using interfaces",
+              "No, because Java does not support inheritance"
+            ],
+            "correct_answer": "No, Java uses references so the full object is always retained; object slicing is a C++ problem"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Exception Handling Basics",
+      "aliases": [
+        "java exceptions", "try catch java", "exception handling java", "throws java", "error handling java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which block is used to handle exceptions in Java?",
+            "options": ["handle", "error", "catch", "rescue"],
+            "correct_answer": "catch"
+          },
+          {
+            "question": "What is the purpose of the finally block in Java?",
+            "options": [
+              "To throw an exception",
+              "To execute code only when no exception occurs",
+              "To execute code always, whether or not an exception occurred",
+              "To catch all exceptions"
+            ],
+            "correct_answer": "To execute code always, whether or not an exception occurred"
+          },
+          {
+            "question": "Which class is the parent of all exceptions in Java?",
+            "options": ["Error", "RuntimeException", "Throwable", "Exception"],
+            "correct_answer": "Throwable"
+          },
+          {
+            "question": "What keyword is used to manually throw an exception in Java?",
+            "options": ["raise", "throw", "throws", "error"],
+            "correct_answer": "throw"
+          },
+          {
+            "question": "What is a checked exception in Java?",
+            "options": [
+              "An exception that occurs at runtime only",
+              "An exception that must be declared or handled at compile time",
+              "An exception caused by programming errors",
+              "An exception that cannot be caught"
+            ],
+            "correct_answer": "An exception that must be declared or handled at compile time"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between throw and throws in Java?",
+            "options": [
+              "throw is used to declare exceptions in method signature; throws is used to actually throw an exception",
+              "throw actually throws an exception; throws declares that a method may throw an exception",
+              "They are identical",
+              "throws is used inside try blocks; throw is used in method signatures"
+            ],
+            "correct_answer": "throw actually throws an exception; throws declares that a method may throw an exception"
+          },
+          {
+            "question": "What is the difference between checked and unchecked exceptions?",
+            "options": [
+              "Checked exceptions are subclasses of RuntimeException; unchecked are not",
+              "Checked exceptions must be handled or declared at compile time; unchecked exceptions are subclasses of RuntimeException and do not require handling",
+              "Unchecked exceptions must be handled; checked do not",
+              "There is no difference"
+            ],
+            "correct_answer": "Checked exceptions must be handled or declared at compile time; unchecked exceptions are subclasses of RuntimeException and do not require handling"
+          },
+          {
+            "question": "Can we have multiple catch blocks for a single try block in Java?",
+            "options": [
+              "No, only one catch block is allowed",
+              "Yes, each catch block handles a different exception type",
+              "Yes, but only for unchecked exceptions",
+              "No, use a single catch with multiple exceptions only"
+            ],
+            "correct_answer": "Yes, each catch block handles a different exception type"
+          },
+          {
+            "question": "What is a custom exception in Java?",
+            "options": [
+              "A built-in Java exception",
+              "A user-defined exception class that extends Exception or RuntimeException",
+              "An exception that cannot be caught",
+              "An exception thrown by the JVM"
+            ],
+            "correct_answer": "A user-defined exception class that extends Exception or RuntimeException"
+          },
+          {
+            "question": "What is the multi-catch feature introduced in Java 7?",
+            "options": [
+              "Catching exceptions in multiple try blocks",
+              "Catching multiple exception types in a single catch block using |",
+              "Throwing multiple exceptions at once",
+              "Using multiple finally blocks"
+            ],
+            "correct_answer": "Catching multiple exception types in a single catch block using |"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is try-with-resources in Java?",
+            "options": [
+              "A try block that catches all exceptions automatically",
+              "A try block that automatically closes resources implementing AutoCloseable when done",
+              "A try block with multiple catch blocks",
+              "A try block that retries on failure"
+            ],
+            "correct_answer": "A try block that automatically closes resources implementing AutoCloseable when done"
+          },
+          {
+            "question": "What happens if an exception is thrown in a finally block?",
+            "options": [
+              "It is ignored",
+              "It replaces any exception thrown in the try block",
+              "The program terminates silently",
+              "It is caught by the catch block"
+            ],
+            "correct_answer": "It replaces any exception thrown in the try block"
+          },
+          {
+            "question": "What is exception chaining in Java?",
+            "options": [
+              "Throwing multiple exceptions simultaneously",
+              "Wrapping one exception inside another to preserve the original cause using initCause() or constructor",
+              "Catching exceptions in a chain of catch blocks",
+              "Rethrowing the same exception multiple times"
+            ],
+            "correct_answer": "Wrapping one exception inside another to preserve the original cause using initCause() or constructor"
+          },
+          {
+            "question": "What is the difference between Error and Exception in Java?",
+            "options": [
+              "Error and Exception are the same",
+              "Errors represent serious JVM-level problems not meant to be caught; Exceptions represent recoverable conditions",
+              "Exceptions are more serious than Errors",
+              "Errors can always be caught and handled"
+            ],
+            "correct_answer": "Errors represent serious JVM-level problems not meant to be caught; Exceptions represent recoverable conditions"
+          },
+          {
+            "question": "What is the output if a return statement exists in both try and finally blocks?",
+            "options": [
+              "The return in try executes",
+              "The return in finally overrides the return in try",
+              "Compile error",
+              "Both return values are combined"
+            ],
+            "correct_answer": "The return in finally overrides the return in try"
+          }
+        ]
+      }
+    }
+  ]
+}

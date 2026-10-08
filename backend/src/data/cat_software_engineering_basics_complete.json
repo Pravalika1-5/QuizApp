@@ -1,0 +1,502 @@
+{
+  "category": "Software Engineering Basics",
+  "aliases": [
+    "Software Development",
+    "Engineering Principles",
+    "Software Design",
+    "Development Process",
+    "Engineering Fundamentals"
+  ],
+  "topics": {
+    "SDLC Models": {
+      "aliases": [
+        "Development Lifecycle",
+        "SDLC Phases",
+        "Software Process",
+        "Lifecycle Models",
+        "Development Phases"
+      ],
+      "easy": [
+        {
+          "question": "What is SDLC?",
+          "options": [
+            "Process for developing software",
+            "Programming language",
+            "Testing tool",
+            "Design document"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are SDLC phases?",
+          "options": [
+            "Planning, Design, Development, Testing, Deployment",
+            "Just coding",
+            "Just testing",
+            "Just design"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is requirement gathering?",
+          "options": [
+            "Collecting what software should do",
+            "Writing code",
+            "Testing",
+            "Deployment"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is design phase?",
+          "options": [
+            "Planning architecture and structure",
+            "Coding implementation",
+            "Testing",
+            "Deployment"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is development phase?",
+          "options": [
+            "Writing actual code",
+            "Designing",
+            "Testing",
+            "Planning"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is testing phase?",
+          "options": [
+            "Verifying software works correctly",
+            "Finding design",
+            "Coding",
+            "Planning"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is deployment phase?",
+          "options": [
+            "Releasing software to production",
+            "Testing only",
+            "Coding",
+            "Design"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is maintenance phase?",
+          "options": [
+            "Fixing bugs and updates after release",
+            "Development only",
+            "Testing",
+            "Planning"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is documentation in SDLC?",
+          "options": [
+            "Recording design, code, test details",
+            "Code only",
+            "Test cases",
+            "Design only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is version control in SDLC?",
+          "options": [
+            "Managing code changes over time",
+            "Testing code",
+            "Coding",
+            "Design"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Why is SDLC important?",
+          "options": [
+            "Organized development, quality, maintainability",
+            "No importance",
+            "Just coding",
+            "Slows development"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is iterative SDLC?",
+          "options": [
+            "Repeating cycles with increments",
+            "Single pass",
+            "No feedback",
+            "Linear process"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is continuous integration in SDLC?",
+          "options": [
+            "Frequently merging code changes",
+            "One merge",
+            "No merging",
+            "Manual only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is continuous deployment?",
+          "options": [
+            "Automatically deploying to production",
+            "Manual deployment",
+            "No deployment",
+            "Testing only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain DevOps in SDLC context",
+          "options": [
+            "Development and Operations collaboration",
+            "Just development",
+            "Just operations",
+            "No collaboration"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Agile Methodology": {
+      "aliases": [
+        "Agile Development",
+        "Agile Process",
+        "Agile Framework",
+        "Iterative Development",
+        "Agile Practices"
+      ],
+      "easy": [
+        {
+          "question": "What is Agile?",
+          "options": [
+            "Iterative development with flexibility",
+            "Waterfall process",
+            "Linear development",
+            "One-phase process"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are Agile values?",
+          "options": [
+            "Individuals, interactions, working software, responding to change",
+            "Documents only",
+            "Plans only",
+            "Tools only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is sprint?",
+          "options": [
+            "Fixed time period for development cycle",
+            "Project duration",
+            "Task duration",
+            "No defined time"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is typical sprint length?",
+          "options": ["1-4 weeks", "1 month minimum", "3 months", "1 year"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is backlog in Agile?",
+          "options": [
+            "List of features to build",
+            "Completed work",
+            "Bug list",
+            "Test cases"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is sprint planning?",
+          "options": [
+            "Team planning sprint tasks",
+            "Project planning",
+            "Testing planning",
+            "Design planning"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is daily standup?",
+          "options": [
+            "Brief daily team synchronization",
+            "Code review",
+            "Testing session",
+            "Weekly meeting"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is sprint review?",
+          "options": [
+            "Demonstrating completed work",
+            "Planning next sprint",
+            "Fixing bugs",
+            "Testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is sprint retrospective?",
+          "options": [
+            "Team reflection on process improvement",
+            "Bug review",
+            "Code review",
+            "Testing review"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is product owner?",
+          "options": [
+            "Defines requirements and priorities",
+            "Develops code",
+            "Tests software",
+            "Manages team"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is scrum master role?",
+          "options": [
+            "Facilitates Agile process and removes obstacles",
+            "Develops code",
+            "Tests",
+            "Writes requirements"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is velocity in Agile?",
+          "options": [
+            "Amount of work completed per sprint",
+            "Development speed",
+            "Testing speed",
+            "Deployment speed"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is burndown chart?",
+          "options": [
+            "Visual of remaining work in sprint",
+            "Completed work",
+            "Team performance",
+            "Quality metrics"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is user story?",
+          "options": [
+            "Feature described from user perspective",
+            "Technical task",
+            "Test case",
+            "Bug report"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain Agile vs Waterfall tradeoff",
+          "options": [
+            "Agile: flexible but less planning, Waterfall: rigid but structured",
+            "Same",
+            "Agile worse",
+            "Waterfall flexible"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Software Testing Types": {
+      "aliases": [
+        "Testing Methods",
+        "Test Categories",
+        "Quality Assurance",
+        "Testing Strategies",
+        "Test Types"
+      ],
+      "easy": [
+        {
+          "question": "What is unit testing?",
+          "options": [
+            "Testing individual code components",
+            "Testing whole system",
+            "User testing",
+            "Integration testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is integration testing?",
+          "options": [
+            "Testing components together",
+            "Single component",
+            "User testing",
+            "Full system"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is system testing?",
+          "options": [
+            "Testing complete system",
+            "Component testing",
+            "Integration testing",
+            "User testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is user acceptance testing?",
+          "options": [
+            "User verifying requirements met",
+            "Developer testing",
+            "QA testing",
+            "Integration testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is functional testing?",
+          "options": [
+            "Testing if features work correctly",
+            "Performance testing",
+            "Security testing",
+            "Usability testing"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is non-functional testing?",
+          "options": [
+            "Testing performance, security, usability",
+            "Feature testing",
+            "Component testing",
+            "Integration testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is regression testing?",
+          "options": [
+            "Re-testing after changes",
+            "First-time testing",
+            "Performance testing",
+            "Security testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is smoke testing?",
+          "options": [
+            "Quick basic functionality test",
+            "Detailed testing",
+            "Performance testing",
+            "Security testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is performance testing?",
+          "options": [
+            "Testing speed and resource usage",
+            "Feature testing",
+            "Usability testing",
+            "Security testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is security testing?",
+          "options": [
+            "Testing for vulnerabilities",
+            "Feature testing",
+            "Performance testing",
+            "Usability testing"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is boundary testing?",
+          "options": [
+            "Testing edge cases and limits",
+            "Normal values",
+            "Random values",
+            "Fixed values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is equivalence partitioning?",
+          "options": [
+            "Dividing inputs into equivalent groups",
+            "Random testing",
+            "Fixed testing",
+            "No grouping"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is mutation testing?",
+          "options": [
+            "Introducing bugs to test coverage",
+            "Finding bugs",
+            "Fixing bugs",
+            "Preventing bugs"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is test coverage?",
+          "options": [
+            "Percentage of code tested",
+            "All code tested",
+            "Some code tested",
+            "No coverage"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is black-box testing?",
+          "options": [
+            "Testing without seeing code",
+            "Testing with code access",
+            "Unit testing",
+            "Integration testing"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

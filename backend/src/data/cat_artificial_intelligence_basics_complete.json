@@ -1,0 +1,507 @@
+{
+  "category": "Artificial Intelligence Basics",
+  "aliases": [
+    "AI Fundamentals",
+    "Artificial Intelligence Intro",
+    "AI Concepts",
+    "Intelligent Systems",
+    "AI Overview"
+  ],
+  "topics": {
+    "Introduction to AI": {
+      "aliases": [
+        "AI Definition",
+        "What is AI",
+        "AI Purpose",
+        "AI Scope",
+        "AI Overview"
+      ],
+      "easy": [
+        {
+          "question": "What is Artificial Intelligence?",
+          "options": [
+            "Simulation of human intelligence in machines",
+            "Human intelligence",
+            "Machine hardware",
+            "Programming language"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are goals of AI?",
+          "options": [
+            "Simulate human intelligence, solve complex problems",
+            "Just automation",
+            "Just calculation",
+            "Just data storage"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Turing test?",
+          "options": [
+            "Test of machine intelligence through conversation",
+            "Testing intelligence score",
+            "Programming test",
+            "Hardware test"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are AI subfields?",
+          "options": [
+            "Machine Learning, NLP, Computer Vision, Robotics",
+            "Just Machine Learning",
+            "Just Robotics",
+            "Just Programming"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is agent in AI?",
+          "options": [
+            "Entity that perceives and acts in environment",
+            "Software tool",
+            "Hardware device",
+            "Programming library"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What are types of AI based on capability?",
+          "options": [
+            "Narrow AI, General AI, Super AI",
+            "Just Narrow",
+            "Just General",
+            "Just Super"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Narrow AI?",
+          "options": [
+            "AI designed for specific task",
+            "AI for all tasks",
+            "Human-level AI",
+            "Super intelligent AI"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is General AI?",
+          "options": [
+            "Hypothetical AI with human-level intelligence",
+            "Specific task AI",
+            "Narrow AI",
+            "Super AI"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is rationality in AI?",
+          "options": [
+            "Agent doing best action given knowledge",
+            "Emotional decision",
+            "Random action",
+            "No decision"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are examples of AI applications?",
+          "options": [
+            "Chatbots, Image recognition, Recommendation systems",
+            "Just chatbots",
+            "Just games",
+            "Just automation"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain problem-solving in AI",
+          "options": [
+            "Finding sequence of actions to reach goal",
+            "Random actions",
+            "Single action",
+            "No goal"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is state space?",
+          "options": [
+            "All possible states problem can be in",
+            "Current state only",
+            "No states",
+            "Fixed state"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is heuristic in AI?",
+          "options": [
+            "Rule of thumb to find solution efficiently",
+            "Exact solution",
+            "Random guess",
+            "No solution"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is knowledge representation?",
+          "options": [
+            "Encoding information for AI to use",
+            "Storing data",
+            "Displaying data",
+            "Protecting data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain Turing completeness",
+          "options": [
+            "System can compute any computable function",
+            "Limited computation",
+            "No computation",
+            "One computation only"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Types of AI": {
+      "aliases": [
+        "AI Classification",
+        "AI Categories",
+        "Reactive AI",
+        "Learning Agents",
+        "AI Taxonomy"
+      ],
+      "easy": [
+        {
+          "question": "What is reactive agent?",
+          "options": [
+            "Agent responding based on current input",
+            "Learning agent",
+            "Goal-based agent",
+            "Utility-based agent"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is deliberative agent?",
+          "options": [
+            "Agent planning actions before executing",
+            "Reactive only",
+            "No planning",
+            "Random action"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is goal-based agent?",
+          "options": [
+            "Agent taking actions to reach goal",
+            "Just reactive",
+            "No goals",
+            "Random goals"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is utility-based agent?",
+          "options": [
+            "Agent maximizing utility function",
+            "Just goals",
+            "Just reaction",
+            "No utility"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is learning agent?",
+          "options": [
+            "Agent improving from experience",
+            "Non-learning",
+            "Fixed behavior",
+            "No improvement"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is difference between agent types?",
+          "options": [
+            "Reactive: immediate, Deliberative: planning, Learning: improving",
+            "All same",
+            "No difference",
+            "Reactive best"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is agent architecture?",
+          "options": [
+            "Internal structure defining how agent works",
+            "Physical structure",
+            "Software structure",
+            "Database structure"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is percept?",
+          "options": [
+            "Input from environment to agent",
+            "Agent output",
+            "Environment state",
+            "Agent state"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is action?",
+          "options": [
+            "Output from agent affecting environment",
+            "Agent input",
+            "Internal process",
+            "Decision"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is PEAS model?",
+          "options": [
+            "Performance, Environment, Actuators, Sensors",
+            "Just Performance",
+            "Just Environment",
+            "Just Actuators"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain partially observable environment",
+          "options": [
+            "Agent doesn't perceive all relevant state",
+            "Complete visibility",
+            "No visibility",
+            "Random visibility"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is stochastic environment?",
+          "options": [
+            "Outcomes uncertain and probabilistic",
+            "Deterministic outcomes",
+            "Fixed outcomes",
+            "No outcomes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is dynamic environment?",
+          "options": [
+            "Environment changes over time",
+            "Static environment",
+            "No changes",
+            "Predetermined changes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain agent-environment interaction loop",
+          "options": [
+            "Perceive-Decide-Act cycle repeating",
+            "Single action",
+            "No loop",
+            "Random cycle"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is performance measure?",
+          "options": [
+            "Evaluates how well agent achieves goals",
+            "Agent speed",
+            "Agent size",
+            "Agent efficiency"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Search Algorithms Basics": {
+      "aliases": [
+        "Search Methods",
+        "Problem Solving",
+        "Path Finding",
+        "Search Strategies",
+        "Algorithm Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is search in AI?",
+          "options": [
+            "Exploring possible solutions systematically",
+            "Random exploration",
+            "Linear search",
+            "No exploration"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is BFS (Breadth First Search)?",
+          "options": [
+            "Exploring level by level",
+            "Depth exploration",
+            "Random exploration",
+            "No exploration"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is DFS (Depth First Search)?",
+          "options": [
+            "Exploring deep before exploring wide",
+            "Breadth exploration",
+            "Random exploration",
+            "No exploration"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is uninformed search?",
+          "options": [
+            "No domain knowledge used",
+            "Uses heuristics",
+            "Expert system",
+            "Probabilistic"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is informed search?",
+          "options": [
+            "Uses heuristics and domain knowledge",
+            "No knowledge",
+            "Random search",
+            "Blind search"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is time complexity of BFS?",
+          "options": [
+            "O(b^d) where b is branching, d is depth",
+            "O(n)",
+            "O(1)",
+            "O(log n)"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is time complexity of DFS?",
+          "options": [
+            "O(b^m) where m is maximum depth",
+            "O(b^d)",
+            "O(n)",
+            "O(1)"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is A* search?",
+          "options": [
+            "Best first search using f(n)=g(n)+h(n)",
+            "Uniform cost",
+            "Depth first",
+            "Breadth first"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is admissible heuristic?",
+          "options": [
+            "Never overestimates actual cost",
+            "Always overestimates",
+            "Random estimate",
+            "No estimate"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is greedy best-first search?",
+          "options": [
+            "Using heuristic only, not actual cost",
+            "Using actual cost",
+            "No heuristic",
+            "Random choice"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain A* optimality",
+          "options": [
+            "A* guarantees optimal solution if heuristic admissible",
+            "No guarantee",
+            "Random solution",
+            "Always suboptimal"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is consistent heuristic?",
+          "options": [
+            "Satisfies triangle inequality h(n)<=cost(n,n')+h(n')",
+            "Inconsistent",
+            "Random",
+            "No consistency"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain iterative deepening",
+          "options": [
+            "Depth first with increasing depth limits",
+            "Standard depth first",
+            "Breadth first",
+            "No iteration"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is branch and bound?",
+          "options": [
+            "Pruning search tree with upper bounds",
+            "Full exploration",
+            "No pruning",
+            "Random pruning"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain bidirectional search",
+          "options": [
+            "Searching from goal and initial simultaneously",
+            "One direction only",
+            "Random direction",
+            "No direction"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

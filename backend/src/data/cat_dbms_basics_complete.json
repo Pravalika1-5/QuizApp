@@ -1,0 +1,507 @@
+{
+  "category": "DBMS Basics",
+  "aliases": [
+    "Database Management",
+    "Database Basics",
+    "SQL Fundamentals",
+    "DBMS Fundamentals",
+    "Database Systems"
+  ],
+  "topics": {
+    "DBMS Introduction": {
+      "aliases": [
+        "Database Concepts",
+        "DBMS Overview",
+        "Database Types",
+        "DBMS Purpose",
+        "Data Management"
+      ],
+      "easy": [
+        {
+          "question": "What is DBMS?",
+          "options": [
+            "Software managing database creation and access",
+            "Just database",
+            "Programming language",
+            "File system"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why use DBMS?",
+          "options": [
+            "Organized data access, security, efficiency",
+            "Store files",
+            "Run programs",
+            "Display graphics"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is database?",
+          "options": [
+            "Organized collection of related data",
+            "Random data",
+            "Program storage",
+            "File folder"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are advantages of DBMS over files?",
+          "options": [
+            "Better security, redundancy control, query capability",
+            "Faster storage",
+            "Smaller size",
+            "Easier backup"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are main DBMS types?",
+          "options": [
+            "Relational, NoSQL, hierarchical",
+            "Just relational",
+            "Just file-based",
+            "Graph only"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is schema?",
+          "options": [
+            "Structure defining database tables and fields",
+            "Database content",
+            "Query language",
+            "User interface"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ACID properties?",
+          "options": [
+            "Atomicity, Consistency, Isolation, Durability",
+            "Just data types",
+            "Security protocols",
+            "Backup strategies"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is data integrity?",
+          "options": [
+            "Correctness and consistency of data",
+            "Data encryption",
+            "Data backup",
+            "Data speed"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is data redundancy?",
+          "options": [
+            "Duplicate data across database",
+            "Compressed data",
+            "Unique data",
+            "Sparse data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is data consistency?",
+          "options": [
+            "All copies of data are identical",
+            "Data accuracy",
+            "Data completeness",
+            "Data availability"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain transaction in DBMS context",
+          "options": [
+            "Sequence of operations treated as single unit",
+            "Single query",
+            "Single update",
+            "Single read"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is concurrency control?",
+          "options": [
+            "Managing simultaneous database access",
+            "Sequential processing",
+            "Backup process",
+            "Query optimization"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain rollback and commit",
+          "options": [
+            "Commit saves transaction, rollback undoes it",
+            "Both same operation",
+            "Commit deletes",
+            "Rollback saves"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is CAP theorem?",
+          "options": [
+            "Consistency, Availability, Partition tolerance tradeoff",
+            "Data protection",
+            "Query types",
+            "Backup methods"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is distributed database?",
+          "options": [
+            "Database distributed across multiple locations",
+            "Centralized database",
+            "Local database",
+            "Cloud backup"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "SQL Basics": {
+      "aliases": [
+        "SQL Queries",
+        "Query Language",
+        "Data Manipulation",
+        "SQL Commands",
+        "SQL Statements"
+      ],
+      "easy": [
+        {
+          "question": "What is SQL?",
+          "options": [
+            "Structured Query Language for databases",
+            "Scripting language",
+            "Programming language",
+            "Markup language"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is SELECT statement?",
+          "options": [
+            "Retrieves data from database",
+            "Inserts data",
+            "Deletes data",
+            "Updates data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is INSERT statement?",
+          "options": [
+            "Adds new rows to table",
+            "Retrieves data",
+            "Modifies data",
+            "Removes data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is UPDATE statement?",
+          "options": [
+            "Modifies existing data",
+            "Adds new data",
+            "Deletes data",
+            "Retrieves data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is DELETE statement?",
+          "options": [
+            "Removes rows from table",
+            "Adds rows",
+            "Modifies rows",
+            "Retrieves rows"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is WHERE clause?",
+          "options": [
+            "Filters results based on condition",
+            "Sorts data",
+            "Groups data",
+            "Joins tables"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ORDER BY clause?",
+          "options": [
+            "Sorts result set",
+            "Filters results",
+            "Groups results",
+            "Limits results"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is GROUP BY clause?",
+          "options": [
+            "Groups rows by column value",
+            "Sorts rows",
+            "Filters rows",
+            "Counts rows"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is HAVING clause?",
+          "options": [
+            "Filters groups created by GROUP BY",
+            "Filters rows",
+            "Joins tables",
+            "Orders results"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is JOIN operation?",
+          "options": [
+            "Combines rows from multiple tables",
+            "Adds data",
+            "Removes data",
+            "Sorts data"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What are types of JOINs?",
+          "options": [
+            "INNER, LEFT, RIGHT, FULL OUTER",
+            "Just INNER",
+            "Just LEFT",
+            "Just RIGHT"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is subquery?",
+          "options": [
+            "Query within another query",
+            "Multiple queries",
+            "Joined query",
+            "Grouped query"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is UNION operation?",
+          "options": [
+            "Combines result sets from multiple queries",
+            "Joins tables",
+            "Merges columns",
+            "Groups rows"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is aggregate function?",
+          "options": [
+            "Performs calculation on set of values",
+            "Calculates single row",
+            "Filters data",
+            "Sorts data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is common aggregate functions?",
+          "options": [
+            "SUM, AVG, COUNT, MIN, MAX",
+            "Just SUM",
+            "Just COUNT",
+            "Just AVG"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Normalization Basics": {
+      "aliases": [
+        "Database Normalization",
+        "Normal Forms",
+        "Schema Design",
+        "Data Organization",
+        "Normalization Intro"
+      ],
+      "easy": [
+        {
+          "question": "What is normalization?",
+          "options": [
+            "Process of organizing data to reduce redundancy",
+            "Sorting data",
+            "Encrypting data",
+            "Compressing data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why normalize database?",
+          "options": [
+            "Reduce redundancy, avoid anomalies, improve efficiency",
+            "Increase speed",
+            "Save space",
+            "Add security"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is first normal form (1NF)?",
+          "options": [
+            "Atomic values, no repeating groups",
+            "All data unique",
+            "All data sorted",
+            "All data indexed"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is second normal form (2NF)?",
+          "options": [
+            "1NF + no partial dependencies",
+            "No duplicates",
+            "All sorted",
+            "All indexed"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is third normal form (3NF)?",
+          "options": [
+            "2NF + no transitive dependencies",
+            "No foreign keys",
+            "No primary keys",
+            "No constraints"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is functional dependency?",
+          "options": [
+            "When one attribute determines another",
+            "Same attribute",
+            "Random dependency",
+            "No relationship"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is partial dependency?",
+          "options": [
+            "Non-key dependent on part of composite key",
+            "All keys dependent",
+            "No keys",
+            "Random keys"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is transitive dependency?",
+          "options": [
+            "Non-key dependent on another non-key",
+            "Direct dependency",
+            "No dependency",
+            "Self dependency"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is denormalization?",
+          "options": [
+            "Intentionally violating normalization for performance",
+            "Always normalize",
+            "Never normalize",
+            "Partial normalize"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "When is denormalization useful?",
+          "options": [
+            "When read performance critical",
+            "Never useful",
+            "Always use",
+            "For small databases"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is Boyce-Codd normal form (BCNF)?",
+          "options": [
+            "3NF + every determinant is candidate key",
+            "Like 3NF",
+            "Like 2NF",
+            "Like 1NF"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain anomalies in non-normalized data",
+          "options": [
+            "Insertion, update, deletion anomalies occur",
+            "Better performance",
+            "Less redundancy",
+            "More accuracy"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is insertion anomaly?",
+          "options": [
+            "Cannot insert row without complete data",
+            "Can insert partial",
+            "Must insert duplicates",
+            "No anomaly"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is update anomaly?",
+          "options": [
+            "Must update multiple rows for consistency",
+            "Update once",
+            "No updates needed",
+            "Updates automatic"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is deletion anomaly?",
+          "options": [
+            "Deleting row removes unrelated data",
+            "Clean deletion",
+            "No issue",
+            "Cascading deletes"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

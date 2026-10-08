@@ -1,0 +1,507 @@
+{
+  "category": "Mathematics for AI Basics",
+  "aliases": [
+    "Math for Machine Learning",
+    "Linear Algebra",
+    "Probability and Statistics",
+    "Calculus for AI",
+    "Mathematical Foundations"
+  ],
+  "topics": {
+    "Linear Algebra Basics": {
+      "aliases": [
+        "Matrix Operations",
+        "Vector Space",
+        "Linear Transformations",
+        "Algebra Fundamentals",
+        "Linear Systems"
+      ],
+      "easy": [
+        {
+          "question": "What is linear algebra?",
+          "options": [
+            "Study of vectors and matrices",
+            "Polynomial equations",
+            "Calculus",
+            "Statistics"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is vector?",
+          "options": [
+            "Array of numbers with direction",
+            "Just array",
+            "Just number",
+            "Just matrix"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is matrix?",
+          "options": [
+            "2D array of numbers",
+            "1D array",
+            "3D array",
+            "Just vector"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is matrix dimension?",
+          "options": [
+            "Rows x columns",
+            "Just rows",
+            "Just columns",
+            "Just size"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is vector addition?",
+          "options": [
+            "Adding corresponding elements",
+            "Multiplying",
+            "Subtracting",
+            "Dividing"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is dot product?",
+          "options": [
+            "Multiplying corresponding elements and summing",
+            "Just multiply",
+            "Just add",
+            "No product"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is matrix multiplication?",
+          "options": [
+            "Rows times columns rule",
+            "Element-wise",
+            "Just multiply",
+            "Just add"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is transpose?",
+          "options": [
+            "Flipping rows and columns",
+            "Just rotate",
+            "Just flip",
+            "No change"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is identity matrix?",
+          "options": [
+            "1s on diagonal, 0s elsewhere",
+            "All ones",
+            "All zeros",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is determinant?",
+          "options": [
+            "Scalar value from square matrix",
+            "Vector",
+            "Matrix size",
+            "Element sum"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is matrix inverse?",
+          "options": [
+            "Matrix that multiplies to identity",
+            "Transpose",
+            "Determinant",
+            "No inverse"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is eigenvalue?",
+          "options": [
+            "Scalar from Av=λv equation",
+            "Vector",
+            "Matrix",
+            "No value"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is eigenvector?",
+          "options": [
+            "Vector from Av=λv equation",
+            "Scalar",
+            "Matrix",
+            "No vector"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is rank of matrix?",
+          "options": [
+            "Number of independent rows/columns",
+            "Size",
+            "Rows only",
+            "Columns only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is singular matrix?",
+          "options": [
+            "Non-invertible matrix",
+            "Invertible",
+            "Square only",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Probability Basics": {
+      "aliases": [
+        "Probability Theory",
+        "Probability Distribution",
+        "Chance",
+        "Likelihood",
+        "Probability Concepts"
+      ],
+      "easy": [
+        {
+          "question": "What is probability?",
+          "options": [
+            "Likelihood of event occurring",
+            "Certainty",
+            "Frequency",
+            "Ratio"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is probability range?",
+          "options": [
+            "0 to 1",
+            "0 to 100",
+            "Any number",
+            "Negative to positive"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is sample space?",
+          "options": [
+            "All possible outcomes",
+            "One outcome",
+            "No outcome",
+            "Random outcome"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is event?",
+          "options": [
+            "Subset of sample space",
+            "One outcome",
+            "All outcomes",
+            "No outcome"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is independent event?",
+          "options": [
+            "One event doesn't affect another",
+            "Events depend",
+            "Always together",
+            "Mutually exclusive"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is conditional probability?",
+          "options": [
+            "Probability given another event",
+            "Without condition",
+            "Joint probability",
+            "No condition"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Bayes theorem?",
+          "options": [
+            "P(A|B) = P(B|A)P(A)/P(B)",
+            "Simple probability",
+            "Joint only",
+            "No formula"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is probability distribution?",
+          "options": [
+            "Function showing probability for values",
+            "Just values",
+            "Just probability",
+            "No function"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is normal distribution?",
+          "options": [
+            "Bell-shaped symmetric distribution",
+            "Flat",
+            "Skewed",
+            "Uniform"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is expected value?",
+          "options": [
+            "Average outcome over many trials",
+            "Most likely",
+            "Median",
+            "Mode only"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is variance?",
+          "options": [
+            "Spread of distribution",
+            "Average",
+            "Median",
+            "Range only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is standard deviation?",
+          "options": [
+            "Square root of variance",
+            "Variance only",
+            "Range only",
+            "No deviation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is covariance?",
+          "options": [
+            "How two variables vary together",
+            "Single variable",
+            "Separate",
+            "No relation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is correlation?",
+          "options": [
+            "Normalized covariance",
+            "Just covariance",
+            "Just variance",
+            "No relation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Central Limit Theorem?",
+          "options": [
+            "Sample means normally distributed",
+            "No convergence",
+            "Random distribution",
+            "Fixed"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Gradient Descent Basics": {
+      "aliases": [
+        "Optimization",
+        "Gradient",
+        "Learning Algorithm",
+        "Descent Method",
+        "Loss Minimization"
+      ],
+      "easy": [
+        {
+          "question": "What is gradient?",
+          "options": [
+            "Direction of steepest increase",
+            "Decrease only",
+            "Flat",
+            "No direction"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is gradient descent?",
+          "options": [
+            "Iterative optimization algorithm",
+            "One step",
+            "No step",
+            "Random walk"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why use gradient descent?",
+          "options": [
+            "Minimize loss function",
+            "Maximize only",
+            "No optimization",
+            "Random search"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is loss function?",
+          "options": [
+            "Measures prediction error",
+            "Measures accuracy",
+            "No measurement",
+            "Random metric"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is learning rate?",
+          "options": [
+            "Step size for gradient updates",
+            "Update count",
+            "No step",
+            "Random size"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is local minimum?",
+          "options": [
+            "Lowest point in region",
+            "Global lowest",
+            "Highest",
+            "No minimum"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is global minimum?",
+          "options": [
+            "Lowest point overall",
+            "Regional lowest",
+            "Highest",
+            "No minimum"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is batch gradient descent?",
+          "options": [
+            "Using all data for one update",
+            "One sample",
+            "Random sample",
+            "No batch"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is stochastic gradient descent?",
+          "options": [
+            "Using one sample per update",
+            "All samples",
+            "Random subset",
+            "No update"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is mini-batch gradient descent?",
+          "options": [
+            "Using subset of samples",
+            "Full batch",
+            "One sample",
+            "No batch"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is convergence?",
+          "options": [
+            "Algorithm reaches minimum",
+            "Diverges",
+            "Random",
+            "No convergence"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is momentum in optimization?",
+          "options": [
+            "Accumulating gradient direction",
+            "No accumulation",
+            "One step",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is learning rate scheduling?",
+          "options": [
+            "Adjusting rate over time",
+            "Fixed rate",
+            "No adjustment",
+            "Random rate"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is adaptive learning rate?",
+          "options": [
+            "Rate adjusts based on gradients",
+            "Fixed always",
+            "No adaptation",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Adam optimizer?",
+          "options": [
+            "Adaptive moment estimation",
+            "Simple GD",
+            "Basic SGD",
+            "No optimizer"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

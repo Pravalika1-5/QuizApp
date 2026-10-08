@@ -1,0 +1,737 @@
+{
+  "category": "Python Basics",
+  "aliases": [
+    "Python Programming",
+    "Core Python",
+    "Python Fundamentals",
+    "Python Language",
+    "Python Intro"
+  ],
+  "topics": {
+    "Variables": {
+      "aliases": [
+        "Variable Declaration",
+        "Data Storage",
+        "Variable Naming",
+        "Dynamic Typing",
+        "Variable Scope"
+      ],
+      "easy": [
+        {
+          "question": "What is a variable in Python?",
+          "options": [
+            "A named container to store data",
+            "A function definition",
+            "A class name",
+            "A loop construct"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Do you need to declare variable type in Python?",
+          "options": ["Yes", "No", "Only for integers", "Only for strings"],
+          "correct_answer": 1
+        },
+        {
+          "question": "How do you create a variable in Python?",
+          "options": ["int x = 5", "x = 5", "var x = 5", "declare x = 5"],
+          "correct_answer": 1
+        },
+        {
+          "question": "Can a variable name start with a number?",
+          "options": ["Yes", "No", "Only in functions", "Only in classes"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is dynamic typing in Python?",
+          "options": [
+            "Variable type changes based on value",
+            "Must declare type",
+            "Type is immutable",
+            "Type doesn't matter"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between local and global variables?",
+          "options": [
+            "Local in function, global outside",
+            "Both are same",
+            "Global is faster",
+            "Local is permanent"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do you use global keyword in Python?",
+          "options": [
+            "To modify global variable inside function",
+            "To declare variable",
+            "To import module",
+            "To define class"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is None in Python?",
+          "options": [
+            "Represents absence of value",
+            "A number",
+            "Empty string",
+            "False value"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you assign multiple values in one line?",
+          "options": [
+            "No",
+            "Yes: x, y = 1, 2",
+            "Only for same type",
+            "Only in functions"
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is variable shadowing?",
+          "options": [
+            "Using same name in nested scope",
+            "Hiding variables",
+            "Making variables private",
+            "Using underscore"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain variable scope in nested functions",
+          "options": [
+            "Inner function can access outer scope, but not modify without nonlocal",
+            "Inner functions cannot access outer",
+            "All scopes are the same",
+            "Only global accessible"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between mutable and immutable variables?",
+          "options": [
+            "Mutable can change, immutable cannot",
+            "Both can change",
+            "Immutable faster",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does Python handle variable references?",
+          "options": [
+            "Variables reference objects in memory",
+            "Variables store values directly",
+            "Variables are just names",
+            "Variables are immutable"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is nonlocal keyword used for?",
+          "options": [
+            "Modify variable in enclosing scope",
+            "Declare global variable",
+            "Make variable private",
+            "Import variable"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain object identity vs equality in Python",
+          "options": [
+            "is checks identity, == checks equality",
+            "Same thing",
+            "is is faster",
+            "== always true"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Data Types": {
+      "aliases": [
+        "Type System",
+        "Data Classification",
+        "Python Types",
+        "Built-in Types",
+        "Type Conversion"
+      ],
+      "easy": [
+        {
+          "question": "How many basic data types does Python have?",
+          "options": ["3", "5", "7", "10"],
+          "correct_answer": 2
+        },
+        {
+          "question": "Which of these is a sequence data type?",
+          "options": ["int", "list", "bool", "float"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is a string in Python?",
+          "options": [
+            "Sequence of characters",
+            "Number",
+            "Boolean",
+            "Function"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do you create a list in Python?",
+          "options": ["list()", "[]", "both", "{}"],
+          "correct_answer": 2
+        },
+        {
+          "question": "What is type() function used for?",
+          "options": [
+            "Check data type of variable",
+            "Convert to type",
+            "Define type",
+            "Compare types"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between list and tuple?",
+          "options": [
+            "List mutable, tuple immutable",
+            "Both mutable",
+            "Tuple mutable",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is a dictionary in Python?",
+          "options": [
+            "Key-value pair collection",
+            "Ordered list",
+            "Set of unique items",
+            "String sequence"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you convert string to integer?",
+          "options": [
+            "Yes using int()",
+            "No",
+            "Only if numeric string",
+            "With float conversion"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is a set in Python?",
+          "options": [
+            "Unordered collection of unique items",
+            "Ordered list",
+            "Key-value pair",
+            "String group"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the bool data type?",
+          "options": [
+            "True or False",
+            "Integer 0 or 1",
+            "String value",
+            "Number type"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain mutable vs immutable data types in Python",
+          "options": [
+            "Mutable can be changed in place, immutable cannot",
+            "Both mutable",
+            "Both immutable",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What happens with type coercion in Python?",
+          "options": [
+            "Automatic type conversion in expressions",
+            "Error occurs",
+            "Manual casting needed",
+            "No conversion"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you create custom data types?",
+          "options": [
+            "Yes using classes",
+            "No",
+            "Only built-in types",
+            "Using modules only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between == and is for type checking?",
+          "options": [
+            "is checks type and object, == checks value",
+            "Same thing",
+            "== is faster",
+            "is only for primitives"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain Python's duck typing philosophy",
+          "options": [
+            "If it acts like duck, it's duck; type less important",
+            "Types must be explicit",
+            "Types must match",
+            "Type checking is strict"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Operators": {
+      "aliases": [
+        "Operator Precedence",
+        "Arithmetic Ops",
+        "Logical Operators",
+        "Comparison Ops",
+        "Operator Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is the result of 10 + 5 * 2?",
+          "options": ["30", "20", "15", "25"],
+          "correct_answer": 1
+        },
+        {
+          "question": "Which operator is used for power in Python?",
+          "options": ["+", "^", "**", "pow"],
+          "correct_answer": 2
+        },
+        {
+          "question": "What does the // operator do?",
+          "options": [
+            "Division",
+            "Floor division",
+            "Comment",
+            "String concatenation"
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the result of 7 % 3?",
+          "options": ["2", "1", "4", "3"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What does 'not' operator do?",
+          "options": ["Logical AND", "Logical OR", "Logical NOT", "Comparison"],
+          "correct_answer": 2
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between / and // in Python?",
+          "options": [
+            "/ returns float, // returns integer",
+            "Same operation",
+            "// is faster",
+            "/ is slower"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does 'in' operator do?",
+          "options": [
+            "Checks membership in sequence",
+            "Creates variable",
+            "Logical operation",
+            "Assignment"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is operator precedence in Python?",
+          "options": [
+            "Order of evaluation in expressions",
+            "Number of operators",
+            "Operator names",
+            "Operator symbols"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is string concatenation operator?",
+          "options": ["+", "-", "*", "/"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does ** operator do with strings?",
+          "options": [
+            "Repeats string",
+            "Power operation",
+            "Error",
+            "Comparison"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain operator overloading in Python",
+          "options": [
+            "Define custom behavior for operators in classes",
+            "Not possible",
+            "Only for built-in types",
+            "Using functions only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is short-circuit evaluation?",
+          "options": [
+            "Second operand not evaluated if result determined by first",
+            "Both always evaluated",
+            "First not evaluated",
+            "Random evaluation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does the walrus operator := do?",
+          "options": [
+            "Assigns and returns value in expressions",
+            "Only comparison",
+            "String operation",
+            "Loop control"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain the difference between 'and' vs '&'",
+          "options": [
+            "'and' is logical, '&' is bitwise",
+            "Same thing",
+            "'&' is logical",
+            "'and' is bitwise"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the result of 3 ** 2 + 4 // 2?",
+          "options": ["11", "7", "9", "6"],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Conditional Statements": {
+      "aliases": [
+        "If-Else",
+        "Decision Making",
+        "Control Flow",
+        "Branching",
+        "Conditional Logic"
+      ],
+      "easy": [
+        {
+          "question": "What is the syntax of if statement in Python?",
+          "options": [
+            "if (condition) { }",
+            "if condition:",
+            "if condition then",
+            "if[condition]"
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What does 'elif' mean?",
+          "options": ["else if", "end if", "else loop", "else function"],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you use 'else' without 'if'?",
+          "options": ["Yes", "No", "Only in loops", "Only in functions"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is indentation in Python conditionals?",
+          "options": [
+            "Required for code block",
+            "Optional",
+            "For readability only",
+            "For comments"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you nest if statements?",
+          "options": ["No", "Yes", "Only twice", "Only in functions"],
+          "correct_answer": 1
+        }
+      ],
+      "medium": [
+        {
+          "question": "What does the ternary operator look like in Python?",
+          "options": [
+            "value1 if condition else value2",
+            "condition ? value1 : value2",
+            "if condition: value1 else: value2",
+            "(condition) ? value1 : value2"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you use 'pass' statement in if block?",
+          "options": [
+            "Yes, as placeholder",
+            "No",
+            "Only for empty functions",
+            "Only for loops"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between if-elif-else chain and multiple if statements?",
+          "options": [
+            "elif stops after first match, multiple ifs all execute",
+            "Same functionality",
+            "Multiple ifs faster",
+            "elif is slower"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can conditions use 'and' and 'or' operators?",
+          "options": ["Yes", "No", "Only 'and'", "Only 'or'"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What happens with empty if block without 'pass'?",
+          "options": ["Error", "Works fine", "Warning", "Skips block"],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain truthiness and falsiness in Python conditions",
+          "options": [
+            "Falsy: None, False, 0, empty sequences; Truthy: rest",
+            "Everything is truthy",
+            "Everything is falsy",
+            "Depends on type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is short-circuit evaluation in conditionals?",
+          "options": [
+            "'or' stops if true, 'and' stops if false",
+            "Both always evaluate",
+            "Evaluates right to left",
+            "Random order"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you assign value inside condition?",
+          "options": [
+            "Yes using := operator (Python 3.8+)",
+            "No",
+            "Only for simple types",
+            "Only in functions"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the scope of variable declared in if block?",
+          "options": [
+            "Same as enclosing function",
+            "Limited to if block",
+            "Global scope",
+            "Undefined"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does Python handle multiple comparisons like x > 5 > y?",
+          "options": [
+            "Evaluates as (x > 5) and (5 > y)",
+            "Evaluates left to right",
+            "Evaluates right to left",
+            "Error"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Loops": {
+      "aliases": [
+        "Loop Constructs",
+        "Iteration",
+        "Loop Types",
+        "Repetition",
+        "For-While Loops"
+      ],
+      "easy": [
+        {
+          "question": "What is a loop used for?",
+          "options": [
+            "Repeats code block",
+            "Skips code",
+            "Declares variable",
+            "Compares values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the syntax of for loop in Python?",
+          "options": [
+            "for i in range:",
+            "for(i=0; i<10; i++)",
+            "for i = 1 to 10",
+            "for i in collection:"
+          ],
+          "correct_answer": 3
+        },
+        {
+          "question": "How many types of loops are there?",
+          "options": ["1", "2", "3", "4"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What does break statement do?",
+          "options": [
+            "Exits the loop",
+            "Skips iteration",
+            "Pauses loop",
+            "Breaks syntax"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does continue statement do?",
+          "options": [
+            "Skips to next iteration",
+            "Exits loop",
+            "Pauses loop",
+            "Continues code"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the range() function used for?",
+          "options": [
+            "Generate sequence of numbers",
+            "Check variable range",
+            "Define loop bounds",
+            "Convert to list"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between while and for loop?",
+          "options": [
+            "for iterates over collection, while checks condition",
+            "while is faster",
+            "for is slower",
+            "Same functionality"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you use else with loops?",
+          "options": [
+            "Yes, executes if loop completes normally",
+            "No",
+            "Only for while",
+            "Only for for loop"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does range(10) produce?",
+          "options": ["0 to 9", "1 to 10", "0 to 10", "1 to 9"],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you nest loops in Python?",
+          "options": ["No", "Yes", "Only for loops", "Only while loops"],
+          "correct_answer": 1
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain enumerate() function in loops",
+          "options": [
+            "Returns index and value of items",
+            "Returns only values",
+            "Returns only index",
+            "Counts iterations"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is zip() function used for?",
+          "options": [
+            "Combines multiple iterables element-wise",
+            "Compresses file",
+            "Creates tuple",
+            "Combines strings"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "When does else block execute in loop?",
+          "options": [
+            "If loop completes without break",
+            "If loop breaks",
+            "Never",
+            "Always"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is list comprehension?",
+          "options": [
+            "Concise way to create list from loop",
+            "Explaining a list",
+            "List documentation",
+            "List sorting"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain the scope of loop variable in for loop",
+          "options": [
+            "Variable persists after loop ends",
+            "Variable dies after loop",
+            "Variable is global",
+            "Variable is local"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

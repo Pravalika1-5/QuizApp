@@ -1,0 +1,507 @@
+{
+  "category": "Natural Language Processing Basics",
+  "aliases": [
+    "NLP Fundamentals",
+    "Language Processing",
+    "NLP Concepts",
+    "Text Processing",
+    "NLP Overview"
+  ],
+  "topics": {
+    "Text Preprocessing": {
+      "aliases": [
+        "Text Cleaning",
+        "Data Preparation",
+        "Tokenization",
+        "Text Normalization",
+        "Preprocessing Steps"
+      ],
+      "easy": [
+        {
+          "question": "What is NLP?",
+          "options": [
+            "Processing human language computationally",
+            "Computer programming",
+            "Data science",
+            "Image processing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is tokenization?",
+          "options": [
+            "Splitting text into tokens (words/sentences)",
+            "Combining words",
+            "Removing words",
+            "Analyzing grammar"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is lemmatization?",
+          "options": [
+            "Reducing words to base form",
+            "Adding prefixes",
+            "Breaking words",
+            "Combining words"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is stemming?",
+          "options": [
+            "Reducing words to root form",
+            "Lemmatization exact",
+            "Adding suffix",
+            "Removing prefix"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are stop words?",
+          "options": [
+            "Common words with little meaning (the, is, a)",
+            "Important words",
+            "Rare words",
+            "New words"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is difference between stemming and lemmatization?",
+          "options": [
+            "Lemma is dictionary form, stem is rule-based",
+            "Both same",
+            "Stem is exact",
+            "Lemma is rough"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is normalization?",
+          "options": [
+            "Converting text to standard form",
+            "Randomizing text",
+            "Encrypting text",
+            "Compressing text"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is lowercase conversion?",
+          "options": [
+            "Converting all text to lowercase",
+            "Uppercase only",
+            "Mixed case",
+            "No conversion"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is removing punctuation?",
+          "options": [
+            "Removing special characters",
+            "Adding punctuation",
+            "Analyzing punctuation",
+            "Preserving punctuation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is removing special characters?",
+          "options": [
+            "Removing symbols and non-alphanumeric",
+            "Adding symbols",
+            "Keeping symbols",
+            "Analyzing symbols"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain NLP pipeline",
+          "options": [
+            "Preprocessing → tokenization → pos tagging → parsing → etc",
+            "Single step",
+            "No steps",
+            "Random order"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is POS tagging?",
+          "options": [
+            "Assigning part-of-speech to tokens",
+            "Tokenization",
+            "Stemming",
+            "Lemmatization"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is named entity recognition?",
+          "options": [
+            "Identifying people, places, organizations in text",
+            "Tokenization",
+            "Tagging",
+            "Classification"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is dependency parsing?",
+          "options": [
+            "Analyzing grammatical relationships between words",
+            "Sequence tagging",
+            "Classification",
+            "Clustering"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain constituency parsing",
+          "options": [
+            "Building parse tree showing phrase structure",
+            "Dependency tree",
+            "Word order",
+            "Grammar rules"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Embeddings": {
+      "aliases": [
+        "Word Embeddings",
+        "Vector Representation",
+        "Semantic Vectors",
+        "Word Vectors",
+        "Embedding Models"
+      ],
+      "easy": [
+        {
+          "question": "What is word embedding?",
+          "options": [
+            "Representing words as vectors",
+            "Word storage",
+            "Word classification",
+            "Word analysis"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Word2Vec?",
+          "options": [
+            "Neural model producing word embeddings",
+            "Text classifier",
+            "Language parser",
+            "Tokenizer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is GloVe?",
+          "options": [
+            "Global vectors for word representation",
+            "Word vector model",
+            "Embedding type",
+            "Vector analysis"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is FastText?",
+          "options": [
+            "Word embeddings for out-of-vocabulary words",
+            "Text classification",
+            "Language model",
+            "Tokenizer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is semantic similarity?",
+          "options": [
+            "Measuring meaning similarity between words",
+            "Spelling similarity",
+            "Length similarity",
+            "Frequency similarity"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is CBOW in Word2Vec?",
+          "options": [
+            "Continuous Bag of Words predicting word from context",
+            "Skip-gram model",
+            "Context prediction",
+            "Word classification"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Skip-gram in Word2Vec?",
+          "options": [
+            "Predicting context from target word",
+            "CBOW model",
+            "Word prediction",
+            "Context analysis"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is cosine similarity?",
+          "options": [
+            "Measuring angle between vectors for similarity",
+            "Euclidean distance",
+            "Manhattan distance",
+            "Hamming distance"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is embedding dimension?",
+          "options": [
+            "Size of embedding vector",
+            "Vocabulary size",
+            "Corpus size",
+            "Model size"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is contextual embedding?",
+          "options": [
+            "Embedding changing based on context",
+            "Static embedding",
+            "Fixed embedding",
+            "Global embedding"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is BERT embedding?",
+          "options": [
+            "Bidirectional contextual embedding from transformers",
+            "Word2Vec",
+            "GloVe",
+            "FastText"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ELMo?",
+          "options": [
+            "Embeddings from language models",
+            "Static embedding",
+            "Word vector",
+            "Character embedding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain negative sampling",
+          "options": [
+            "Training trick for efficiency in word embeddings",
+            "Positive sampling",
+            "No sampling",
+            "Random sampling"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is subword tokenization?",
+          "options": [
+            "Breaking words into subword units",
+            "Word-level tokenization",
+            "Character-level",
+            "Sentence-level"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain transfer learning in NLP",
+          "options": [
+            "Using pretrained embeddings on new task",
+            "Training from scratch",
+            "No pretraining",
+            "Random initialization"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "LLM Basics": {
+      "aliases": [
+        "Large Language Models",
+        "Language Models",
+        "Transformers",
+        "GPT Models",
+        "Neural Language Models"
+      ],
+      "easy": [
+        {
+          "question": "What is language model?",
+          "options": [
+            "Predicting next word given previous words",
+            "Text classifier",
+            "Language identifier",
+            "Grammar checker"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is LLM?",
+          "options": [
+            "Large Language Model with billions parameters",
+            "Small model",
+            "Classification model",
+            "No specific size"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is transformer?",
+          "options": [
+            "Architecture using self-attention for NLP",
+            "Neural network",
+            "RNN variant",
+            "CNN variant"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is attention mechanism?",
+          "options": [
+            "Weighting importance of different words",
+            "Random weighting",
+            "No weighting",
+            "Equal weighting"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is self-attention?",
+          "options": [
+            "Attention within same sequence",
+            "Cross-attention",
+            "External attention",
+            "No attention"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is context window?",
+          "options": [
+            "Maximum tokens model can process",
+            "Minimum tokens",
+            "Token type",
+            "Vocabulary size"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is prompt engineering?",
+          "options": [
+            "Designing prompts for better LLM outputs",
+            "Model training",
+            "Data collection",
+            "Evaluation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is zero-shot learning?",
+          "options": [
+            "Performing task without specific training",
+            "With training data",
+            "Supervised learning",
+            "Unsupervised only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is few-shot learning?",
+          "options": [
+            "Learning from few examples",
+            "Many examples",
+            "No examples",
+            "Random examples"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is tokenization in LLM?",
+          "options": [
+            "Converting text to tokens for LLM",
+            "Word splitting",
+            "Sentence splitting",
+            "Character splitting"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain multi-head attention",
+          "options": [
+            "Multiple attention heads computing different representations",
+            "Single attention",
+            "No attention",
+            "Fixed attention"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is position encoding?",
+          "options": [
+            "Adding position information to embeddings",
+            "Removing position",
+            "No encoding",
+            "Random encoding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is fine-tuning LLM?",
+          "options": [
+            "Training pretrained LLM on specific task",
+            "Training from scratch",
+            "No training",
+            "Testing only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is chain-of-thought prompting?",
+          "options": [
+            "Getting LLM to reason step-by-step",
+            "Direct answer",
+            "No reasoning",
+            "Random order"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain temperature in LLM generation",
+          "options": [
+            "Controlling randomness in output (0=deterministic)",
+            "Deterministic always",
+            "Random always",
+            "No effect"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

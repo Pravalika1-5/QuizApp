@@ -1,0 +1,337 @@
+{
+  "category": "Git & Version Control Basics",
+  "aliases": [
+    "Git Fundamentals",
+    "Version Control System",
+    "Git Commands",
+    "Source Control",
+    "Git Workflow"
+  ],
+  "topics": {
+    "Git Introduction": {
+      "aliases": [
+        "Git Basics",
+        "Version Control Concepts",
+        "Git Overview",
+        "Repository",
+        "Git Definition"
+      ],
+      "easy": [
+        {
+          "question": "What is Git?",
+          "options": [
+            "Distributed version control system",
+            "Programming language",
+            "Code editor",
+            "IDE"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why use Git?",
+          "options": [
+            "Track code changes, collaboration, history",
+            "Just backup",
+            "Just sharing",
+            "Just backup"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is repository?",
+          "options": [
+            "Directory storing project files and history",
+            "Just files",
+            "Just history",
+            "Just code"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is local repository?",
+          "options": [
+            "Copy on your computer",
+            "Remote server",
+            "Shared copy",
+            "Backup only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is remote repository?",
+          "options": [
+            "Server copy for collaboration",
+            "Local copy",
+            "Your computer",
+            "Backup storage"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is GitHub?",
+          "options": [
+            "Hosting service for Git repositories",
+            "Version control system",
+            "Programming language",
+            "Code editor"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is commit?",
+          "options": [
+            "Saving changes with message",
+            "Just saving",
+            "Uploading",
+            "Sharing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is working directory?",
+          "options": [
+            "Your local files being edited",
+            "Repository",
+            "Staging area",
+            "Remote server"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is staging area?",
+          "options": [
+            "Intermediate step before commit",
+            "Working directory",
+            "Repository",
+            "Remote"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is HEAD pointer?",
+          "options": [
+            "Points to current branch",
+            "File name",
+            "Commit message",
+            "Tag name"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain Git architecture (working/staging/history)",
+          "options": [
+            "Three-stage model for version control",
+            "Two stages",
+            "One stage",
+            "No stages"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is hash in Git?",
+          "options": [
+            "Unique identifier for commits",
+            "File name",
+            "Branch name",
+            "Tag name"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is .git directory?",
+          "options": [
+            "Contains repository metadata",
+            "Working files",
+            "Temporary files",
+            "Backup"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is distributed model advantage?",
+          "options": [
+            "Everyone has full history locally",
+            "One central copy",
+            "No local copy",
+            "Server only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is merge conflict?",
+          "options": [
+            "Different changes to same lines",
+            "Same changes",
+            "No conflict",
+            "Automatic merge"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Branches Basics": {
+      "aliases": [
+        "Branch Management",
+        "Branch Types",
+        "Feature Branches",
+        "Git Branches",
+        "Branching Strategy"
+      ],
+      "easy": [
+        {
+          "question": "What is branch?",
+          "options": [
+            "Independent line of development",
+            "Copy of repository",
+            "Backup",
+            "Tag"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is default branch?",
+          "options": ["master or main", "develop", "feature", "release"],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why use branches?",
+          "options": [
+            "Parallel development",
+            "Just organization",
+            "Just naming",
+            "Just backup"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is feature branch?",
+          "options": [
+            "Branch for specific feature",
+            "Main branch",
+            "Release branch",
+            "Hotfix branch"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is branch switching?",
+          "options": [
+            "Changing to different branch",
+            "Creating branch",
+            "Deleting branch",
+            "Merging branch"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is git checkout command?",
+          "options": [
+            "Switches branch or reverts files",
+            "Creates branch",
+            "Lists branches",
+            "Deletes branch"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is merge?",
+          "options": [
+            "Combining branches together",
+            "Creating branch",
+            "Deleting branch",
+            "Switching branch"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is fast-forward merge?",
+          "options": [
+            "Linear history merge",
+            "Complex merge",
+            "Conflict merge",
+            "Forced merge"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is three-way merge?",
+          "options": [
+            "Merging with common ancestor",
+            "Two-way merge",
+            "Simple merge",
+            "No merge"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is develop branch pattern?",
+          "options": [
+            "Main development branch",
+            "Release branch",
+            "Main production",
+            "Hotfix only"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain Git Flow branching model",
+          "options": [
+            "master, develop, feature, release, hotfix",
+            "Just master",
+            "Just develop",
+            "Simple model"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is rebase?",
+          "options": [
+            "Re-applying commits on new base",
+            "Linear merge",
+            "Merge commit",
+            "No change"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Difference between merge and rebase?",
+          "options": [
+            "Merge keeps branches, rebase rewrites history",
+            "Same operation",
+            "Rebase same",
+            "Merge different"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is cherry-pick?",
+          "options": [
+            "Applying specific commits to branch",
+            "Full merge",
+            "Branch creation",
+            "Delete commits"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is branch protection rule?",
+          "options": [
+            "Preventing forced pushes to branch",
+            "Allows anything",
+            "No protection",
+            "Optional"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

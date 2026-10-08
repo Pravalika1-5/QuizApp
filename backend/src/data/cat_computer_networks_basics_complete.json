@@ -1,0 +1,492 @@
+{
+  "category": "Computer Networks Basics",
+  "aliases": [
+    "Networking Fundamentals",
+    "Network Basics",
+    "Communication Networks",
+    "Computer Networking Intro",
+    "Networks Overview"
+  ],
+  "topics": {
+    "Computer Networks Introduction": {
+      "aliases": [
+        "Network Concepts",
+        "Network Purpose",
+        "Network Definition",
+        "Network Overview",
+        "Networking Intro"
+      ],
+      "easy": [
+        {
+          "question": "What is computer network?",
+          "options": [
+            "Connected computers sharing resources",
+            "Single computer",
+            "Program network",
+            "Software network"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why do we need networks?",
+          "options": [
+            "Resource sharing, communication, data exchange",
+            "Just storage",
+            "Just computing",
+            "Just display"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are types of networks?",
+          "options": ["LAN, WAN, MAN", "Just LAN", "Just WAN", "Just MAN"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is LAN?",
+          "options": [
+            "Local Area Network, limited geographic area",
+            "Large network",
+            "Wide network",
+            "Global network"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is WAN?",
+          "options": [
+            "Wide Area Network, geographically spread",
+            "Local network",
+            "Small network",
+            "Single area"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What are network topologies?",
+          "options": [
+            "Bus, Star, Ring, Mesh, Tree",
+            "Just bus",
+            "Just star",
+            "Just ring"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is bandwidth?",
+          "options": [
+            "Maximum data transfer rate",
+            "Minimum rate",
+            "Average rate",
+            "Peak rate"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is latency?",
+          "options": [
+            "Delay in data transmission",
+            "Transfer speed",
+            "Network size",
+            "Connection type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is throughput?",
+          "options": [
+            "Actual data transfer rate achieved",
+            "Maximum rate",
+            "Minimum rate",
+            "Average rate"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is packet?",
+          "options": [
+            "Unit of data transmitted over network",
+            "Large data",
+            "Small data",
+            "Protocol"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain network layer concept",
+          "options": [
+            "Abstraction levels enabling standardized communication",
+            "Single layer",
+            "Physical layer only",
+            "No layers"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is network protocol?",
+          "options": [
+            "Set of rules for data communication",
+            "Hardware device",
+            "Software application",
+            "Data type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is routing?",
+          "options": [
+            "Process of forwarding packets to destination",
+            "Sending all packets",
+            "Random forwarding",
+            "No forwarding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is switching?",
+          "options": [
+            "Forwarding frames/packets within network",
+            "Changing direction",
+            "Power switching",
+            "Manual routing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is network congestion?",
+          "options": [
+            "Network overloaded with traffic",
+            "No traffic",
+            "Light traffic",
+            "Normal traffic"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "OSI Model Basics": {
+      "aliases": [
+        "OSI Layers",
+        "Network Layers",
+        "OSI Reference Model",
+        "7 Layers",
+        "OSI Framework"
+      ],
+      "easy": [
+        {
+          "question": "What is OSI model?",
+          "options": [
+            "7-layer framework for network communication",
+            "5-layer model",
+            "3-layer model",
+            "2-layer model"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are OSI layers?",
+          "options": [
+            "Physical, Data Link, Network, Transport, Session, Presentation, Application",
+            "Just Physical and Network",
+            "Just Data Link",
+            "Just Application"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Physical layer?",
+          "options": [
+            "Hardware and cables transmitting data",
+            "Software layer",
+            "Protocol layer",
+            "Application layer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Data Link layer?",
+          "options": [
+            "Manages frame delivery between adjacent nodes",
+            "Physical connections",
+            "Application protocols",
+            "Transport layer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Application layer?",
+          "options": [
+            "User services and applications",
+            "Hardware layer",
+            "Network layer",
+            "Transport layer"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is Network layer function?",
+          "options": [
+            "Routing packets to destination",
+            "Frame delivery",
+            "Session management",
+            "Data display"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Transport layer function?",
+          "options": [
+            "End-to-end communication, reliable delivery",
+            "Packet routing",
+            "Frame handling",
+            "Display data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is PDU (Protocol Data Unit)?",
+          "options": [
+            "Data unit at each OSI layer",
+            "Physical device",
+            "Protocol definition",
+            "User data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is encapsulation?",
+          "options": [
+            "Adding header/trailer at each layer",
+            "Removing headers",
+            "Encrypting data",
+            "Compressing data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Session layer function?",
+          "options": [
+            "Manages communication sessions",
+            "Physical transmission",
+            "Routing packets",
+            "Data display"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain each OSI layer with examples",
+          "options": [
+            "Physical:cable, DataLink:MAC, Network:IP, Transport:TCP, Session:dialog, Presentation:encryption, Application:HTTP",
+            "All same layer",
+            "No differences",
+            "No examples"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is advantage of OSI model?",
+          "options": [
+            "Standardization, modular design, ease of troubleshooting",
+            "No advantages",
+            "Increases complexity",
+            "Decreases efficiency"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does data move through OSI layers?",
+          "options": [
+            "Down layers on send, up layers on receive",
+            "Same direction",
+            "Random direction",
+            "No movement"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is cross-layer interaction?",
+          "options": [
+            "Layers communicate with each other",
+            "Layers isolated",
+            "No communication",
+            "Random communication"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain handshake process in OSI",
+          "options": [
+            "Three-way communication establishing connection",
+            "One-way communication",
+            "No handshake",
+            "Random connection"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "HTTP vs HTTPS": {
+      "aliases": [
+        "Web Protocols",
+        "Secure Communication",
+        "HTTP Protocol",
+        "HTTPS Protocol",
+        "Protocol Comparison"
+      ],
+      "easy": [
+        {
+          "question": "What is HTTP?",
+          "options": [
+            "HyperText Transfer Protocol for web communication",
+            "Secure protocol",
+            "Encryption protocol",
+            "Network protocol"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is HTTPS?",
+          "options": [
+            "HTTP Secure with encryption",
+            "Just HTTP",
+            "Different protocol",
+            "Old protocol"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is main difference?",
+          "options": [
+            "HTTPS encrypted, HTTP not",
+            "Both encrypted",
+            "Both not encrypted",
+            "Same protocol"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is SSL/TLS?",
+          "options": [
+            "Encryption protocol for HTTPS",
+            "HTTP variant",
+            "Web protocol",
+            "Network layer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What port does HTTP use?",
+          "options": ["80", "443", "8080", "3000"],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What port does HTTPS use?",
+          "options": ["443", "80", "8080", "3000"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is SSL certificate?",
+          "options": [
+            "Digital certificate verifying website authenticity",
+            "Website address",
+            "Encryption key",
+            "Protocol version"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why use HTTPS?",
+          "options": [
+            "Data encryption, authentication, integrity",
+            "Faster speed",
+            "Easier setup",
+            "No specific reason"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is handshake in HTTPS?",
+          "options": [
+            "Agreement on encryption before data transfer",
+            "Data transfer",
+            "Connection close",
+            "Session end"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is certificate authority?",
+          "options": [
+            "Issues and verifies SSL certificates",
+            "Website host",
+            "Internet provider",
+            "Browser vendor"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain TLS handshake process",
+          "options": [
+            "ClientHello, ServerHello, Certificate, KeyExchange, Finished",
+            "Single message",
+            "No handshake",
+            "Random sequence"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is cipher suite?",
+          "options": [
+            "Set of encryption algorithms used",
+            "Single algorithm",
+            "Key generation",
+            "Certificate type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How is symmetric encryption used in HTTPS?",
+          "options": [
+            "TLS handshake exchanges keys, then symmetric encryption",
+            "Always asymmetric",
+            "No encryption",
+            "Random encryption"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is perfect forward secrecy?",
+          "options": [
+            "Session key compromise doesn't expose past communications",
+            "Exposes all past data",
+            "No security",
+            "Random security"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain man-in-the-middle attack prevention",
+          "options": [
+            "Certificate verification, encryption prevent it",
+            "No prevention",
+            "Can't prevent",
+            "Random prevention"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

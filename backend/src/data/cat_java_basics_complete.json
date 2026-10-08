@@ -1,0 +1,732 @@
+{
+  "category": "Java Basics",
+  "aliases": [
+    "Java Programming",
+    "Core Java",
+    "Java Fundamentals",
+    "Java OOP Intro",
+    "Java Language Basics"
+  ],
+  "topics": {
+    "Variables": {
+      "aliases": [
+        "Variable Declaration",
+        "Data Storage",
+        "Variable Naming",
+        "Variable Initialization",
+        "Variable Scope"
+      ],
+      "easy": [
+        {
+          "question": "What is a variable in Java?",
+          "options": [
+            "A named container to store data",
+            "A type of method",
+            "A looping construct",
+            "A class modifier"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Which keyword is used to declare a variable in Java?",
+          "options": ["var", "declare", "int", "function"],
+          "correct_answer": 2
+        },
+        {
+          "question": "What does 'int x = 5;' mean?",
+          "options": [
+            "Declare x as integer with value 5",
+            "Create a function x",
+            "Declare a loop",
+            "Create a class"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can a variable name start with a number?",
+          "options": ["Yes", "No", "Only in methods", "Only in classes"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the default value of an integer variable?",
+          "options": ["null", "0", "undefined", "1"],
+          "correct_answer": 1
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between a local and instance variable?",
+          "options": [
+            "Local is inside method, instance is inside class",
+            "Both are the same",
+            "Local is global, instance is local",
+            "Instance is temporary"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Which of the following is a valid variable name?",
+          "options": ["2variable", "_myVar", "my-var", "my var"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What happens when you declare a variable without initializing it?",
+          "options": [
+            "Error",
+            "Default value is assigned",
+            "It remains null",
+            "Program crashes"
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "Can two variables have the same name in different scopes?",
+          "options": ["No", "Yes", "Only in static methods", "Only in classes"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is variable shadowing?",
+          "options": [
+            "Using same variable name in nested scope",
+            "Hiding variables with comments",
+            "Declaring variables in loops",
+            "Using private variables"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain the difference between primitive and reference variables in terms of memory allocation",
+          "options": [
+            "Primitive stored in stack, reference stored in heap",
+            "Both stored in stack",
+            "Both stored in heap",
+            "Primitive stored in heap"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the scope of a variable declared in a try block?",
+          "options": [
+            "Limited to try block",
+            "Extends to catch and finally",
+            "Global scope",
+            "Method scope"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does Java handle variable initialization for class members vs local variables?",
+          "options": [
+            "Class members auto-init, local variables must be explicitly init",
+            "Both require explicit initialization",
+            "Local variables auto-init",
+            "Neither auto-init"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the final keyword used for in variable declaration?",
+          "options": [
+            "Makes variable immutable after initialization",
+            "Makes variable public",
+            "Declares variable scope",
+            "Optimizes memory"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain type widening in variable assignment",
+          "options": [
+            "Assigning smaller to larger data type automatically",
+            "Assigning larger to smaller type",
+            "Explicit casting",
+            "Variable shadowing"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Data Types": {
+      "aliases": [
+        "Primitive Types",
+        "Type System",
+        "Data Classification",
+        "Type Categories",
+        "Java Types"
+      ],
+      "easy": [
+        {
+          "question": "How many primitive data types does Java have?",
+          "options": ["4", "6", "8", "10"],
+          "correct_answer": 2
+        },
+        {
+          "question": "Which of these is a primitive data type?",
+          "options": ["String", "int", "ArrayList", "Array"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the range of the byte data type?",
+          "options": ["-128 to 127", "0 to 255", "-256 to 256", "0 to 127"],
+          "correct_answer": 0
+        },
+        {
+          "question": "Which data type is used for true/false values?",
+          "options": ["int", "boolean", "char", "byte"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is String in Java?",
+          "options": [
+            "Primitive type",
+            "Reference type",
+            "Operator",
+            "Keyword"
+          ],
+          "correct_answer": 1
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between float and double in Java?",
+          "options": [
+            "Float is 32-bit, double is 64-bit",
+            "Float is 64-bit, double is 32-bit",
+            "No difference",
+            "Double is faster"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is type casting?",
+          "options": [
+            "Converting one data type to another",
+            "Creating a new variable",
+            "Copying data",
+            "Comparing values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Is explicit casting needed for this: int x = 5.5;",
+          "options": ["No", "Yes", "Only sometimes", "Never"],
+          "correct_answer": 1
+        },
+        {
+          "question": "Which data type holds Unicode characters?",
+          "options": ["byte", "char", "String", "int"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What happens when char variable stores a number?",
+          "options": [
+            "Error",
+            "Stores ASCII value",
+            "Converts to string",
+            "Stores 0"
+          ],
+          "correct_answer": 1
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain the difference between precision loss in float vs double",
+          "options": [
+            "Float has more precision loss due to 32-bit limitation",
+            "Double has more precision loss",
+            "Both have same precision",
+            "No precision loss"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is autoboxing and unboxing in Java?",
+          "options": [
+            "Converting primitive to wrapper and vice versa",
+            "Creating arrays",
+            "Method overloading",
+            "Type casting"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you safely cast a long to int without data loss?",
+          "options": [
+            "Always safe",
+            "Depends on value",
+            "Never safe",
+            "Only in static methods"
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the difference between wrapper class and primitive type in memory?",
+          "options": [
+            "Wrapper is object in heap, primitive in stack",
+            "Both in heap",
+            "Both in stack",
+            "Depends on scope"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain what happens with implicit type promotion in expressions",
+          "options": [
+            "Smaller types promoted to larger for operations",
+            "Larger types demoted to smaller",
+            "No type changes occur",
+            "Explicit casting required always"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Operators": {
+      "aliases": [
+        "Operator Precedence",
+        "Arithmetic Ops",
+        "Logical Operators",
+        "Bitwise Ops",
+        "Operator Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is the result of 10 + 5 * 2?",
+          "options": ["30", "20", "15", "25"],
+          "correct_answer": 1
+        },
+        {
+          "question": "Which operator is used for modulo operation?",
+          "options": ["+", "-", "%", "/"],
+          "correct_answer": 2
+        },
+        {
+          "question": "What does the == operator do?",
+          "options": [
+            "Assigns value",
+            "Compares values",
+            "Increments value",
+            "Decrements value"
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the result of true && false?",
+          "options": ["true", "false", "null", "undefined"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What does ! operator do?",
+          "options": [
+            "Logical AND",
+            "Logical OR",
+            "Logical NOT",
+            "XOR operation"
+          ],
+          "correct_answer": 2
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between & and && in Java?",
+          "options": [
+            "& is bitwise, && is logical with short-circuit",
+            "Both are same",
+            "&& is bitwise",
+            "No difference in functionality"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the ternary operator in Java?",
+          "options": [
+            "condition ? value1 : value2",
+            "if-else statement",
+            "switch statement",
+            "while loop"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is operator precedence?",
+          "options": [
+            "Order in which operators are evaluated",
+            "Number of operators",
+            "Operator names",
+            "Operator symbols"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does the instanceof operator do?",
+          "options": [
+            "Checks if object is instance of class",
+            "Creates instance",
+            "Compares values",
+            "Assigns values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the result of 5 / 2 in Java with integer operands?",
+          "options": ["2.5", "2", "3", "2.0"],
+          "correct_answer": 1
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain operator short-circuiting with an example",
+          "options": [
+            "In && if first is false, second not evaluated",
+            "Both operands always evaluated",
+            "Only first evaluated",
+            "Operators evaluated in reverse"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between prefix and postfix increment?",
+          "options": [
+            "Prefix returns incremented value, postfix returns original",
+            "Both return same",
+            "Postfix increments first",
+            "Only prefix increments"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does operator overloading differ in Java vs other languages?",
+          "options": [
+            "Java doesn't support operator overloading",
+            "Java fully supports it",
+            "Only for strings",
+            "Only in classes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is bitwise XOR used for?",
+          "options": [
+            "Flips bits that differ between operands",
+            "Adds numbers",
+            "Compares values",
+            "Logical comparison"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain the compound assignment operator +=",
+          "options": [
+            "x += y is equivalent to x = x + y",
+            "Adds and doesn't assign",
+            "Only multiplies",
+            "String concatenation"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Control Statements": {
+      "aliases": [
+        "Conditional Statements",
+        "If-Else",
+        "Decision Making",
+        "Branching",
+        "Control Flow"
+      ],
+      "easy": [
+        {
+          "question": "What is the syntax of if statement in Java?",
+          "options": [
+            "if (condition) { }",
+            "if condition { }",
+            "if condition []",
+            "if[condition]{}"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you use multiple if statements?",
+          "options": ["No", "Yes", "Only once", "Only in classes"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the else if statement used for?",
+          "options": [
+            "Check multiple conditions",
+            "Loop statement",
+            "Error handling",
+            "Class declaration"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the switch statement used for?",
+          "options": [
+            "Looping",
+            "Multiple choices based on single value",
+            "Error handling",
+            "Object creation"
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "Do you need break statement in switch case?",
+          "options": ["No", "Yes, usually", "Only in last case", "Never"],
+          "correct_answer": 1
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between if-else and switch?",
+          "options": [
+            "Switch is for multiple discrete values, if-else for ranges",
+            "Same functionality",
+            "If-else is faster",
+            "Switch only works with strings"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What happens without break in switch case?",
+          "options": [
+            "Fall-through to next case",
+            "Program ends",
+            "Error occurs",
+            "Nothing happens"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can switch statement use String type?",
+          "options": [
+            "No",
+            "Yes",
+            "Only in Java 8+",
+            "Only with wrapper class"
+          ],
+          "correct_answer": 1
+        },
+        {
+          "question": "What is the default case in switch?",
+          "options": [
+            "Executes if no case matches",
+            "Default value",
+            "Error handler",
+            "Final case"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you nest if statements?",
+          "options": ["No", "Yes", "Only twice", "Only in methods"],
+          "correct_answer": 1
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain fall-through behavior and when it's useful",
+          "options": [
+            "Multiple cases execute same code when break omitted",
+            "Error condition",
+            "Performance optimization",
+            "Not useful"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What types can switch statement accept?",
+          "options": [
+            "byte, short, int, long, char, String, enum",
+            "Only int and String",
+            "All primitive types",
+            "Only reference types"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the scope of variable declared in if block?",
+          "options": [
+            "Limited to if block",
+            "Extends to next statement",
+            "Global",
+            "Method scope"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you use return statement in switch case?",
+          "options": [
+            "Yes, exits method immediately",
+            "No",
+            "Only with break",
+            "Only in default"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain ternary operator vs if-else performance",
+          "options": [
+            "Ternary slightly faster, more concise",
+            "If-else faster",
+            "Same performance",
+            "Depends on compiler"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Loops": {
+      "aliases": [
+        "Loop Constructs",
+        "Iteration",
+        "Loop Types",
+        "Repetition",
+        "For-While-Do"
+      ],
+      "easy": [
+        {
+          "question": "What does a loop do?",
+          "options": [
+            "Repeats code block",
+            "Skips code",
+            "Declares variable",
+            "Creates object"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the syntax of for loop?",
+          "options": [
+            "for(init; condition; increment)",
+            "for(condition)",
+            "for(init; increment)",
+            "for(;;)"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How many types of loops are there in Java?",
+          "options": ["2", "3", "4", "5"],
+          "correct_answer": 1
+        },
+        {
+          "question": "What does break statement do in a loop?",
+          "options": [
+            "Exits the loop",
+            "Skips to next iteration",
+            "Pauses loop",
+            "Restarts loop"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does continue statement do?",
+          "options": [
+            "Skips current iteration and goes to next",
+            "Exits loop",
+            "Pauses loop",
+            "Restarts loop"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between while and do-while loop?",
+          "options": [
+            "do-while executes at least once, while may not",
+            "while executes at least once",
+            "Same functionality",
+            "do-while is faster"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is enhanced for loop (for-each)?",
+          "options": [
+            "Loop through array/collection elements directly",
+            "Regular for loop",
+            "While loop variant",
+            "Do-while loop"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you use break statement outside of a loop?",
+          "options": ["No", "Yes", "Only in switch", "Only in methods"],
+          "correct_answer": 2
+        },
+        {
+          "question": "What happens if loop condition is always true?",
+          "options": [
+            "Infinite loop",
+            "Loop doesn't execute",
+            "Loop exits",
+            "Error"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you nest loops in Java?",
+          "options": ["No", "Yes", "Only for loops", "Only while loops"],
+          "correct_answer": 1
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain the order of execution in for loop initialization, condition, and increment",
+          "options": [
+            "Init once, condition before each iteration, increment after each",
+            "All happen simultaneously",
+            "Increment first",
+            "Condition evaluated last"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between labeled break and unlabeled break?",
+          "options": [
+            "Labeled can break outer loop, unlabeled only current",
+            "Both same",
+            "Unlabeled is faster",
+            "Only labeled works"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you modify loop variable inside loop?",
+          "options": [
+            "Yes, but affects loop iterations",
+            "No",
+            "Only in for loop",
+            "Only in while loop"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the scope of loop variable declared in for loop?",
+          "options": [
+            "Limited to for loop block",
+            "Extends beyond loop",
+            "Global scope",
+            "Method scope"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain performance implications of nested loops",
+          "options": [
+            "Outer × inner iterations executed, O(n²) complexity",
+            "O(n) complexity",
+            "O(1) complexity",
+            "Depends on compiler"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

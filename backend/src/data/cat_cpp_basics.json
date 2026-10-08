@@ -1,0 +1,327 @@
+{
+  "category_name": "C++ Basics",
+  "category_aliases": [
+    "cpp",
+    "c++",
+    "cplusplus",
+    "c plus plus",
+    "cpp programming",
+    "cpp basics",
+    "c++ fundamentals"
+  ],
+  "topics": {
+    "Basics and Syntax": {
+      "easy": [
+        {
+          "question": "Which header file is used for input/output in C++?",
+          "options": ["<iostream>", "<stdio.h>", "<conio.h>", "<stdlib.h>"],
+          "correct_answer": 0,
+          "explanation": "<iostream> is the standard C++ header for cin and cout."
+        },
+        {
+          "question": "What is the correct way to declare a constant in C++?",
+          "options": [
+            "const int x = 5;",
+            "constant int x = 5;",
+            "int const x = 5;",
+            "#define x 5"
+          ],
+          "correct_answer": 0,
+          "explanation": "const keyword makes a variable read-only."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between struct and class in C++?",
+          "options": [
+            "Default access specifier",
+            "Memory allocation",
+            "Inheritance support",
+            "No difference"
+          ],
+          "correct_answer": 0,
+          "explanation": "struct defaults to public; class defaults to private."
+        },
+        {
+          "question": "Which operator is used for scope resolution?",
+          "options": ["::", ":", "->", "."],
+          "correct_answer": 0,
+          "explanation": ":: is the scope resolution operator."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is RAII in C++?",
+          "options": [
+            "Resource Acquisition Is Initialization",
+            "Random Access Input Iterator",
+            "Runtime Automatic Instance Initialization",
+            "Resource Allocation In Initialization"
+          ],
+          "correct_answer": 0,
+          "explanation": "RAII binds resource lifetime to object lifetime."
+        },
+        {
+          "question": "What does the explicit keyword prevent?",
+          "options": [
+            "Implicit conversions",
+            "Inheritance",
+            "Polymorphism",
+            "Overloading"
+          ],
+          "correct_answer": 0,
+          "explanation": "explicit prevents implicit type conversions for constructors."
+        }
+      ],
+      "interview": [
+        {
+          "question": "Why is using namespace std generally discouraged in headers?",
+          "options": [
+            "Pollutes global namespace",
+            "Slows compilation",
+            "Increases binary size",
+            "Breaks templates"
+          ],
+          "correct_answer": 0,
+          "explanation": "It brings all std names into global scope, causing conflicts."
+        }
+      ]
+    },
+    "Pointers and References": {
+      "easy": [
+        {
+          "question": "What does & operator do when used with a variable?",
+          "options": [
+            "Returns address",
+            "Returns value",
+            "Dereferences",
+            "Multiplies"
+          ],
+          "correct_answer": 0,
+          "explanation": "& returns the memory address of a variable."
+        },
+        {
+          "question": "What is a null pointer?",
+          "options": [
+            "Pointer pointing to nothing",
+            "Pointer to zero",
+            "Invalid pointer",
+            "All of the above"
+          ],
+          "correct_answer": 3,
+          "explanation": "Null pointer does not point to any valid memory."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the size of a pointer on a 64-bit system?",
+          "options": ["4 bytes", "8 bytes", "16 bytes", "Depends on type"],
+          "correct_answer": 1,
+          "explanation": "Pointers are 8 bytes on 64-bit architectures."
+        },
+        {
+          "question": "Can a reference be null in C++?",
+          "options": [
+            "No",
+            "Yes",
+            "Only in some compilers",
+            "Only for const references"
+          ],
+          "correct_answer": 0,
+          "explanation": "References must be initialized and cannot be null."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is a dangling pointer?",
+          "options": [
+            "Points to freed memory",
+            "Points to null",
+            "Uninitialized pointer",
+            "Void pointer"
+          ],
+          "correct_answer": 0,
+          "explanation": "Dangling pointer points to memory that has been deallocated."
+        },
+        {
+          "question": "What is a smart pointer?",
+          "options": [
+            "Auto-manages memory",
+            "Faster pointer",
+            "Smaller pointer",
+            "Const pointer"
+          ],
+          "correct_answer": 0,
+          "explanation": "Smart pointers (unique_ptr, shared_ptr) auto-delete objects."
+        }
+      ],
+      "interview": [
+        {
+          "question": "When should you use shared_ptr vs unique_ptr?",
+          "options": [
+            "Shared ownership vs exclusive",
+            "Performance vs safety",
+            "Small vs large objects",
+            "Stack vs heap"
+          ],
+          "correct_answer": 0,
+          "explanation": "unique_ptr for single ownership; shared_ptr for multiple owners."
+        }
+      ]
+    },
+    "Object Oriented Programming": {
+      "easy": [
+        {
+          "question": "Which feature allows function overriding?",
+          "options": [
+            "Polymorphism",
+            "Encapsulation",
+            "Abstraction",
+            "Inheritance"
+          ],
+          "correct_answer": 0,
+          "explanation": "Runtime polymorphism enables function overriding."
+        },
+        {
+          "question": "What is the default access specifier for class members?",
+          "options": ["private", "public", "protected", "internal"],
+          "correct_answer": 0,
+          "explanation": "Class members are private by default."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is a virtual destructor used for?",
+          "options": [
+            "Proper cleanup in inheritance",
+            "Faster destruction",
+            "Preventing deletion",
+            "Abstract classes"
+          ],
+          "correct_answer": 0,
+          "explanation": "Virtual destructor ensures derived class destructor is called."
+        },
+        {
+          "question": "What is pure virtual function?",
+          "options": [
+            "Makes class abstract",
+            "Cannot be called",
+            "Has no body",
+            "All of the above"
+          ],
+          "correct_answer": 3,
+          "explanation": "Pure virtual function (= 0) makes class abstract."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is the diamond problem?",
+          "options": [
+            "Multiple inheritance ambiguity",
+            "Circular dependency",
+            "Memory leak",
+            "Deadlock"
+          ],
+          "correct_answer": 0,
+          "explanation": "Diamond problem occurs with multiple inheritance of same base."
+        },
+        {
+          "question": "What does virtual inheritance solve?",
+          "options": [
+            "Diamond problem",
+            "Memory fragmentation",
+            "Slow dispatch",
+            "Template bloat"
+          ],
+          "correct_answer": 0,
+          "explanation": "Virtual inheritance ensures single base class instance."
+        }
+      ],
+      "interview": [
+        {
+          "question": "Can you call a virtual function from a constructor?",
+          "options": [
+            "Yes but not recommended",
+            "No",
+            "Only pure virtual",
+            "Only in derived"
+          ],
+          "correct_answer": 0,
+          "explanation": "Virtual dispatch does not work fully in constructors."
+        }
+      ]
+    },
+    "STL and Templates": {
+      "easy": [
+        {
+          "question": "Which STL container uses contiguous memory?",
+          "options": ["vector", "list", "map", "set"],
+          "correct_answer": 0,
+          "explanation": "vector stores elements in contiguous memory like arrays."
+        },
+        {
+          "question": "What does STL stand for?",
+          "options": [
+            "Standard Template Library",
+            "System Type Library",
+            "Simple Template Language",
+            "Standard Type List"
+          ],
+          "correct_answer": 0,
+          "explanation": "STL is the Standard Template Library."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the time complexity of vector push_back?",
+          "options": ["Amortized O(1)", "O(n)", "O(log n)", "O(1) always"],
+          "correct_answer": 0,
+          "explanation": "Amortized O(1) due to occasional reallocation."
+        },
+        {
+          "question": "Which container provides O(1) lookup?",
+          "options": ["unordered_map", "vector", "list", "deque"],
+          "correct_answer": 0,
+          "explanation": "unordered_map uses hash tables for O(1) average lookup."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is SFINAE?",
+          "options": [
+            "Substitution Failure Is Not An Error",
+            "Standard Function Is Not Available Error",
+            "Static Failure In Name Expression",
+            "None"
+          ],
+          "correct_answer": 0,
+          "explanation": "SFINAE allows template specialization based on valid substitutions."
+        },
+        {
+          "question": "What is a variadic template?",
+          "options": [
+            "Accepts variable arguments",
+            "Variable size template",
+            "Virtual template",
+            "None"
+          ],
+          "correct_answer": 0,
+          "explanation": "Variadic templates use parameter packs (Args...)."
+        }
+      ],
+      "interview": [
+        {
+          "question": "When would you prefer list over vector?",
+          "options": [
+            "Frequent insertions/deletions",
+            "Random access needed",
+            "Small data",
+            "Cache performance critical"
+          ],
+          "correct_answer": 0,
+          "explanation": "list has O(1) insertion/deletion at any position."
+        }
+      ]
+    }
+  }
+}

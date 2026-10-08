@@ -1,0 +1,507 @@
+{
+  "category": "Web Development Basics",
+  "aliases": [
+    "Web Development",
+    "Frontend Development",
+    "Web Stack",
+    "Web Technologies",
+    "Web Development Fundamentals"
+  ],
+  "topics": {
+    "HTML Basics": {
+      "aliases": [
+        "HTML Elements",
+        "HTML Structure",
+        "Markup Language",
+        "HTML Tags",
+        "HTML Fundamentals"
+      ],
+      "easy": [
+        {
+          "question": "What is HTML?",
+          "options": [
+            "Markup language for web pages",
+            "Programming language",
+            "Styling language",
+            "Database"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is HTML element?",
+          "options": [
+            "Tag and content pair",
+            "Just tag",
+            "Just text",
+            "Just attribute"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is semantic HTML?",
+          "options": [
+            "HTML describing content meaning",
+            "Just tags",
+            "Just styling",
+            "Just attributes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are basic HTML tags?",
+          "options": [
+            "<html>, <head>, <body>, etc",
+            "Just <div>",
+            "Just <p>",
+            "Just <a>"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is DOCTYPE?",
+          "options": [
+            "Declaration of HTML version",
+            "HTML tag",
+            "CSS",
+            "JavaScript"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What are form elements?",
+          "options": [
+            "input, textarea, button, select",
+            "Just text",
+            "Just links",
+            "Just divs"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is input type?",
+          "options": [
+            "text, email, password, etc",
+            "Just text",
+            "Just attributes",
+            "Just tags"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is data attribute?",
+          "options": [
+            "Custom attributes for storing data",
+            "HTML5 feature",
+            "Style attribute",
+            "Class attribute"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is accessibility in HTML?",
+          "options": [
+            "Making content accessible to all",
+            "Just design",
+            "Just styling",
+            "Just layout"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is aria-label?",
+          "options": [
+            "Accessibility label for screen readers",
+            "Style property",
+            "HTML attribute",
+            "JavaScript"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is semantic vs div-based layout?",
+          "options": [
+            "Semantic better for meaning, div generic",
+            "Both same",
+            "div better",
+            "no difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is canvas element?",
+          "options": [
+            "Drawing graphics with JavaScript",
+            "Text element",
+            "Form element",
+            "Layout element"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is svg element?",
+          "options": [
+            "Scalable vector graphics",
+            "Raster images",
+            "Text format",
+            "HTML5 only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is shadow DOM?",
+          "options": [
+            "Encapsulated DOM subtree",
+            "Main DOM",
+            "Virtual DOM",
+            "No DOM"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are web components?",
+          "options": [
+            "Reusable custom elements",
+            "HTML elements",
+            "CSS components",
+            "JavaScript"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "JavaScript Basics": {
+      "aliases": [
+        "JS Programming",
+        "Client-side Scripting",
+        "JavaScript Language",
+        "JS Fundamentals",
+        "Interactive Web"
+      ],
+      "easy": [
+        {
+          "question": "What is JavaScript?",
+          "options": [
+            "Programming language for web interactivity",
+            "Markup language",
+            "Styling language",
+            "Database"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is var, let, const?",
+          "options": [
+            "Variable declaration types",
+            "Just naming",
+            "Just scoping",
+            "Just values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is hoisting?",
+          "options": [
+            "Variables declared before initialization",
+            "Function call",
+            "Variable value",
+            "No hoisting"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is closure?",
+          "options": [
+            "Function accessing outer scope",
+            "Just function",
+            "Just scope",
+            "Just variable"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is callback?",
+          "options": [
+            "Function passed to another function",
+            "Return value",
+            "Function call",
+            "Nested function"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is Promise?",
+          "options": [
+            "Async operation result holder",
+            "Just function",
+            "Just variable",
+            "Just value"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is async/await?",
+          "options": [
+            "Syntax for async operations",
+            "Just functions",
+            "Just keywords",
+            "Just operators"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is this keyword?",
+          "options": [
+            "Refers to context object",
+            "Just variable",
+            "Just function",
+            "Just keyword"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is event bubbling?",
+          "options": [
+            "Event propagating up DOM",
+            "Event capturing",
+            "Event handling",
+            "No propagation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is event delegation?",
+          "options": [
+            "Parent handling child events",
+            "Child only",
+            "No delegation",
+            "Separate handlers"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain prototypal inheritance",
+          "options": [
+            "Objects inheriting from prototype chain",
+            "Class-based",
+            "No inheritance",
+            "Multiple inheritance"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is higher-order function?",
+          "options": [
+            "Function returning/taking functions",
+            "Regular function",
+            "Nested function",
+            "Simple function"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is event loop?",
+          "options": [
+            "Mechanism handling async code",
+            "Loop construct",
+            "Function loop",
+            "No loop"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is microtask vs macrotask?",
+          "options": [
+            "Different task queue priorities",
+            "Same priority",
+            "No difference",
+            "Random order"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is WeakMap in JavaScript?",
+          "options": [
+            "Map with weak key references",
+            "Strong references",
+            "Regular map",
+            "Not used"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "DOM Basics": {
+      "aliases": [
+        "Document Object Model",
+        "DOM Manipulation",
+        "DOM Selection",
+        "DOM Tree",
+        "DOM Interaction"
+      ],
+      "easy": [
+        {
+          "question": "What is DOM?",
+          "options": [
+            "Tree structure representing HTML",
+            "Just HTML",
+            "Just JavaScript",
+            "Just styling"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is document object?",
+          "options": [
+            "Root object for accessing DOM",
+            "HTML file",
+            "JavaScript file",
+            "CSS file"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to select elements?",
+          "options": [
+            "getElementById, querySelector, etc",
+            "Just names",
+            "Just tags",
+            "Just classes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is getElementById?",
+          "options": [
+            "Selects element by id",
+            "By class",
+            "By tag",
+            "By attribute"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is querySelector?",
+          "options": [
+            "CSS selector for any element",
+            "Just id",
+            "Just class",
+            "Just tag"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "How to add/remove classes?",
+          "options": [
+            "classList.add/remove",
+            "className",
+            "setAttribute",
+            "style"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to modify text content?",
+          "options": [
+            "textContent or innerText property",
+            "innerHTML",
+            "value",
+            "attribute"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to create new element?",
+          "options": [
+            "createElement method",
+            "new Element",
+            "HTML string",
+            "Clone"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to append element?",
+          "options": [
+            "appendChild or append method",
+            "insertElement",
+            "addElement",
+            "attachElement"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is innerHTML vs textContent?",
+          "options": [
+            "innerHTML parses HTML, textContent as text",
+            "Same thing",
+            "textContent parses",
+            "innerHTML text"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is nodeList vs collection?",
+          "options": [
+            "NodeList static, collection live",
+            "Both static",
+            "Both live",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is event listener?",
+          "options": [
+            "Function responding to events",
+            "Event itself",
+            "Event handler",
+            "Event trigger"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to prevent default behavior?",
+          "options": [
+            "preventDefault() method",
+            "stopPropagation",
+            "return false",
+            "Just skip"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is stop propagation?",
+          "options": [
+            "Prevents event bubbling up",
+            "Allow bubbling",
+            "Stop all events",
+            "Stop nothing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is virtual DOM concept?",
+          "options": [
+            "In-memory DOM representation",
+            "Real DOM",
+            "HTML only",
+            "CSS only"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

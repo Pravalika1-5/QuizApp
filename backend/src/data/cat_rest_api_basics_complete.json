@@ -1,0 +1,477 @@
+{
+  "category": "REST API Basics",
+  "aliases": [
+    "RESTful API",
+    "REST Architecture",
+    "API Design",
+    "Web Services",
+    "REST Fundamentals"
+  ],
+  "topics": {
+    "What is REST": {
+      "aliases": [
+        "REST Architecture",
+        "REST Principles",
+        "REST Constraints",
+        "REST Definition",
+        "REST Concept"
+      ],
+      "easy": [
+        {
+          "question": "What is REST?",
+          "options": [
+            "Representational State Transfer architecture",
+            "Just API",
+            "Programming language",
+            "Database"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is API?",
+          "options": [
+            "Interface for software communication",
+            "Just program",
+            "Just software",
+            "Just service"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is resource in REST?",
+          "options": [
+            "Entity accessed via endpoint",
+            "Just data",
+            "Just code",
+            "Just service"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is endpoint?",
+          "options": [
+            "URL addressing specific resource",
+            "Just path",
+            "Just domain",
+            "Just method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is HTTP protocol?",
+          "options": [
+            "Protocol for web communication",
+            "Just transfer",
+            "Just format",
+            "Just connection"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What are REST constraints?",
+          "options": [
+            "Client-server, stateless, cacheable, etc",
+            "Just design",
+            "Just implementation",
+            "No constraints"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is statelessness?",
+          "options": [
+            "Each request has all needed info",
+            "Server remembers state",
+            "Client remembers",
+            "Mixed memory"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is uniform interface?",
+          "options": [
+            "Consistent API design",
+            "Varied design",
+            "No design",
+            "Random design"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is client-server model?",
+          "options": [
+            "Separate client and server concerns",
+            "Same entity",
+            "No separation",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is layered architecture?",
+          "options": [
+            "API layers transparent to client",
+            "Direct connection",
+            "No layers",
+            "Random layers"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain REST maturity model levels",
+          "options": [
+            "Level 0-3: HTTP, Resources, Methods, HATEOAS",
+            "Just HTTP",
+            "Just URLs",
+            "No levels"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is HATEOAS?",
+          "options": [
+            "Links in responses for navigation",
+            "Just responses",
+            "Just endpoints",
+            "No links"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is cacheability?",
+          "options": [
+            "Responses marked as cacheable/non-cacheable",
+            "Always cacheable",
+            "Never cacheable",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Richardson model?",
+          "options": [
+            "Framework for REST maturity",
+            "Design pattern",
+            "Architecture style",
+            "Development model"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain REST vs SOAP",
+          "options": [
+            "REST simple HTTP, SOAP complex XML protocol",
+            "Same protocol",
+            "REST worse",
+            "SOAP simpler"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "HTTP Methods": {
+      "aliases": [
+        "HTTP Verbs",
+        "Request Methods",
+        "CRUD Operations",
+        "HTTP Protocol Methods",
+        "REST Methods"
+      ],
+      "easy": [
+        {
+          "question": "What is GET method?",
+          "options": [
+            "Retrieves data without modification",
+            "Modifies data",
+            "Deletes data",
+            "Creates data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is POST method?",
+          "options": [
+            "Creates new resource",
+            "Retrieves data",
+            "Modifies data",
+            "Deletes data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is PUT method?",
+          "options": [
+            "Replaces entire resource",
+            "Retrieves data",
+            "Creates resource",
+            "Deletes resource"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is DELETE method?",
+          "options": [
+            "Deletes resource",
+            "Retrieves data",
+            "Creates resource",
+            "Modifies resource"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is PATCH method?",
+          "options": [
+            "Partially updates resource",
+            "Full replacement",
+            "Delete resource",
+            "Retrieve data"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "Difference between PUT and PATCH?",
+          "options": [
+            "PUT full replacement, PATCH partial",
+            "Same operation",
+            "PATCH full",
+            "PUT partial"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is idempotent method?",
+          "options": [
+            "Same result on repeated calls",
+            "Different result",
+            "No result",
+            "Random result"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Is GET idempotent?",
+          "options": ["Yes", "No", "Sometimes", "Only once"],
+          "correct_answer": 0
+        },
+        {
+          "question": "Is POST idempotent?",
+          "options": [
+            "No, creates new each time",
+            "Yes",
+            "Maybe",
+            "Only sometimes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is safe method?",
+          "options": [
+            "Doesn't modify server state",
+            "Modifies state",
+            "Deletes data",
+            "Complex operation"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Is PUT idempotent?",
+          "options": ["Yes, replaces same way", "No", "Sometimes", "Depends"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is HEAD method?",
+          "options": [
+            "Like GET but no body",
+            "Like POST",
+            "Like DELETE",
+            "Like PATCH"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is OPTIONS method?",
+          "options": [
+            "Describes communication options",
+            "Requests data",
+            "Modifies data",
+            "Deletes data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain CRUD to HTTP mapping",
+          "options": [
+            "Create:POST, Read:GET, Update:PUT/PATCH, Delete:DELETE",
+            "Just URLs",
+            "Just methods",
+            "Random mapping"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are query parameters in GET?",
+          "options": [
+            "URL parameters for filtering",
+            "Body parameters",
+            "Header parameters",
+            "Path parameters"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Status Codes": {
+      "aliases": [
+        "HTTP Status Codes",
+        "Response Codes",
+        "Status Categories",
+        "HTTP Responses",
+        "Status Numbers"
+      ],
+      "easy": [
+        {
+          "question": "What do 2xx status codes mean?",
+          "options": ["Success", "Redirect", "Client error", "Server error"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 200 status?",
+          "options": [
+            "OK - request succeeded",
+            "Created",
+            "Accepted",
+            "No content"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 201 status?",
+          "options": [
+            "Created - resource created",
+            "OK",
+            "Accepted",
+            "No content"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What do 3xx status codes mean?",
+          "options": ["Redirect", "Success", "Client error", "Server error"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 301 status?",
+          "options": [
+            "Moved Permanently",
+            "Temporary Redirect",
+            "OK",
+            "Created"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is 304 status?",
+          "options": [
+            "Not Modified - cached response valid",
+            "Redirect",
+            "OK",
+            "Created"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What do 4xx status codes mean?",
+          "options": ["Client error", "Success", "Redirect", "Server error"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 400 status?",
+          "options": [
+            "Bad Request - invalid input",
+            "Not found",
+            "Forbidden",
+            "Internal error"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 401 status?",
+          "options": [
+            "Unauthorized - auth needed",
+            "Forbidden",
+            "Bad request",
+            "Not found"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 404 status?",
+          "options": [
+            "Not Found - resource missing",
+            "Unauthorized",
+            "Forbidden",
+            "Bad request"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What do 5xx status codes mean?",
+          "options": ["Server error", "Client error", "Redirect", "Success"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 500 status?",
+          "options": [
+            "Internal Server Error",
+            "Bad request",
+            "Not found",
+            "Unauthorized"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 503 status?",
+          "options": [
+            "Service Unavailable",
+            "Server error",
+            "Bad request",
+            "Not found"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 403 status?",
+          "options": [
+            "Forbidden - no permission",
+            "Unauthorized",
+            "Not found",
+            "Bad request"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 429 status?",
+          "options": [
+            "Too Many Requests - rate limited",
+            "Not found",
+            "Server error",
+            "Bad request"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

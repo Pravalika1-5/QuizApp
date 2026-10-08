@@ -1,0 +1,502 @@
+{
+  "category": "Prompt Engineering Basics",
+  "aliases": [
+    "Prompt Design",
+    "Prompt Techniques",
+    "LLM Prompting",
+    "Prompt Strategies",
+    "AI Prompting"
+  ],
+  "topics": {
+    "What is Prompt Engineering": {
+      "aliases": [
+        "Prompt Basics",
+        "Prompt Definition",
+        "Prompting Concept",
+        "Prompt Introduction",
+        "Prompt Art"
+      ],
+      "easy": [
+        {
+          "question": "What is prompt engineering?",
+          "options": [
+            "Crafting inputs to get better LLM outputs",
+            "Just asking questions",
+            "Writing code",
+            "Data entry"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why is prompt engineering important?",
+          "options": [
+            "Better outputs from same model",
+            "No importance",
+            "Wastes time",
+            "For fun"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is prompt?",
+          "options": [
+            "Input text given to LLM",
+            "Output text",
+            "Model",
+            "No input"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What affects prompt quality?",
+          "options": [
+            "Clarity, specificity, context",
+            "Random",
+            "Nothing",
+            "Length only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is unclear prompt?",
+          "options": [
+            "Ambiguous or vague instruction",
+            "Clear instruction",
+            "Specific",
+            "No ambiguity"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is ambiguity in prompts?",
+          "options": [
+            "Multiple interpretations possible",
+            "One meaning",
+            "No meaning",
+            "Clear"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to avoid ambiguity?",
+          "options": [
+            "Be specific and clear",
+            "Be vague",
+            "Be random",
+            "Use shortcuts"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is context in prompt?",
+          "options": [
+            "Background information provided",
+            "No information",
+            "Only input",
+            "Only output"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why provide context?",
+          "options": [
+            "Helps LLM understand intent better",
+            "Confuses model",
+            "Wastes tokens",
+            "Not needed"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is prompt iteration?",
+          "options": [
+            "Refining prompt based on outputs",
+            "One-time prompt",
+            "No changes",
+            "Random changes"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is role-playing prompt?",
+          "options": [
+            "Assigning LLM a specific role",
+            "Direct question",
+            "No role",
+            "Random role"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is example-based prompting?",
+          "options": [
+            "Providing examples in prompt",
+            "No examples",
+            "One example",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is constraint in prompt?",
+          "options": [
+            "Limiting output format or content",
+            "No limits",
+            "Any format",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is prompt pattern?",
+          "options": [
+            "Reusable prompt structure",
+            "Random structure",
+            "One time use",
+            "No pattern"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is evaluating prompt quality?",
+          "options": [
+            "Measuring output usefulness",
+            "Just asking",
+            "No measurement",
+            "Feeling based"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Prompting Techniques": {
+      "aliases": [
+        "Prompt Methods",
+        "Prompting Strategies",
+        "Advanced Prompting",
+        "Technique Types",
+        "Prompting Tactics"
+      ],
+      "easy": [
+        {
+          "question": "What is zero-shot prompting?",
+          "options": [
+            "No examples, direct instruction",
+            "With examples",
+            "Many examples",
+            "No instruction"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is few-shot prompting?",
+          "options": [
+            "Providing few examples",
+            "No examples",
+            "Many examples",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is chain-of-thought?",
+          "options": [
+            "Asking LLM to show reasoning steps",
+            "Just answer",
+            "No steps",
+            "Hidden steps"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why use few-shot?",
+          "options": [
+            "Better performance with examples",
+            "No benefit",
+            "Slower",
+            "Confuses"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is system prompt?",
+          "options": [
+            "Instructions defining LLM behavior",
+            "User prompt",
+            "No instruction",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is user prompt?",
+          "options": [
+            "Actual user query to LLM",
+            "System instruction",
+            "No query",
+            "Background"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is temperature parameter?",
+          "options": [
+            "Controls randomness of outputs",
+            "Response time",
+            "Token count",
+            "No control"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does high temperature mean?",
+          "options": [
+            "More random/creative outputs",
+            "Less random",
+            "Deterministic",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does low temperature mean?",
+          "options": [
+            "More deterministic outputs",
+            "Random",
+            "Creative",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is top-k sampling?",
+          "options": [
+            "Sampling from top k probable tokens",
+            "All tokens",
+            "Random tokens",
+            "No sampling"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is nucleus sampling (top-p)?",
+          "options": [
+            "Sampling from cumulative probability",
+            "Fixed tokens",
+            "No sampling",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is multi-step prompting?",
+          "options": [
+            "Breaking problem into steps",
+            "One step",
+            "No steps",
+            "Random order"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is self-consistency?",
+          "options": [
+            "Generating multiple outputs and voting",
+            "Single output",
+            "No voting",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is prompt injection?",
+          "options": [
+            "Malicious prompt trying to override behavior",
+            "Normal prompt",
+            "No malice",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is prompt defense?",
+          "options": [
+            "Protecting against malicious prompts",
+            "No protection",
+            "Allows injection",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Context Window": {
+      "aliases": [
+        "Context Length",
+        "Token Limit",
+        "Context Size",
+        "Window Basics",
+        "Token Context"
+      ],
+      "easy": [
+        {
+          "question": "What is context window?",
+          "options": [
+            "Maximum tokens LLM can process",
+            "Output tokens",
+            "No limit",
+            "Fixed number"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is token?",
+          "options": ["Smallest unit of text", "Word", "Character", "No unit"],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why does context window matter?",
+          "options": [
+            "Limits input/output size",
+            "No effect",
+            "Always unlimited",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is token limit?",
+          "options": [
+            "Maximum tokens in conversation",
+            "No limit",
+            "Unlimited",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What happens when exceeding context?",
+          "options": [
+            "Error or truncation",
+            "Works fine",
+            "Expands automatically",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "How to manage context window?",
+          "options": [
+            "Summarize, split, or compress",
+            "Ignore",
+            "Always expand",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is context window evolution?",
+          "options": [
+            "Models increasing context over time",
+            "Always same",
+            "Always smaller",
+            "No change"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is GPT-4 context window?",
+          "options": [
+            "8k/32k/128k tokens variants",
+            "Fixed 4k",
+            "Unlimited",
+            "No context"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is prompt compression?",
+          "options": [
+            "Summarizing to fit context",
+            "No compression",
+            "Always remove",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is RAG (retrieval-augmented)?",
+          "options": [
+            "Fetching external info to extend context",
+            "Just LLM",
+            "No retrieval",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is attention mechanism context?",
+          "options": [
+            "Mathematical basis for context processing",
+            "Just attention",
+            "No math",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is sliding window approach?",
+          "options": [
+            "Processing context in overlapping windows",
+            "Fixed window",
+            "No overlap",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is hierarchical attention?",
+          "options": [
+            "Attention across different context levels",
+            "Single level",
+            "No hierarchy",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is memory augmentation?",
+          "options": [
+            "Extending context with external memory",
+            "No memory",
+            "Just LLM",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is sparse attention?",
+          "options": [
+            "Efficient attention with limited connections",
+            "All connections",
+            "No attention",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

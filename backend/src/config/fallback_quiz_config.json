@@ -1,0 +1,391 @@
+{
+  "quiz_categories": [
+    {
+      "category_name": "Java Basics",
+      "filename": "cat_java_basics_complete.json",
+      "aliases": [
+        "java",
+        "core java",
+        "java basics",
+        "java programming",
+        "java fundamentals"
+      ],
+      "level": "beginner",
+      "topics": 5,
+      "mcq_count": 75
+    },
+    {
+      "category_name": "Python Basics",
+      "filename": "cat_python_basics_complete.json",
+      "aliases": [
+        "python",
+        "core python",
+        "python basics",
+        "python programming",
+        "python fundamentals"
+      ],
+      "level": "beginner",
+      "topics": 5,
+      "mcq_count": 75
+    },
+    {
+      "category_name": "C++ Basics",
+      "filename": "cat_cpp_basics.json",
+      "aliases": [
+        "cpp",
+        "c++",
+        "cplusplus",
+        "c plus plus",
+        "cpp programming",
+        "cpp basics",
+        "c++ fundamentals"
+      ],
+      "level": "beginner",
+      "topics": 4,
+      "mcq_count": 16
+    },
+    {
+      "category_name": "JavaScript Basics",
+      "filename": "cat_javascript_basics.json",
+      "aliases": [
+        "javascript",
+        "js",
+        "es6",
+        "ecmascript",
+        "js basics",
+        "javascript programming",
+        "frontend scripting"
+      ],
+      "level": "beginner",
+      "topics": 4,
+      "mcq_count": 16
+    },
+    {
+      "category_name": "SQL Basics",
+      "filename": "cat_sql_basics_complete.json",
+      "aliases": [
+        "sql",
+        "sql queries",
+        "database queries",
+        "mysql basics",
+        "select query"
+      ],
+      "level": "beginner",
+      "topics": 5,
+      "mcq_count": 75
+    },
+    {
+      "category_name": "Git & Version Control Basics",
+      "filename": "cat_git_version_control_basics_complete.json",
+      "aliases": [
+        "git",
+        "github",
+        "version control",
+        "git basics",
+        "git workflow"
+      ],
+      "level": "beginner",
+      "topics": 2,
+      "mcq_count": 60
+    },
+    {
+      "category_name": "Web Development Basics",
+      "filename": "cat_web_development_basics_complete.json",
+      "aliases": [
+        "web dev",
+        "html css js",
+        "frontend basics",
+        "backend basics",
+        "web programming"
+      ],
+      "level": "beginner",
+      "topics": 3,
+      "mcq_count": 60
+    },
+    {
+      "category_name": "OOPS Fundamentals",
+      "filename": "cat_oops_fundamentals_complete.json",
+      "aliases": [
+        "oops",
+        "oop",
+        "object oriented programming",
+        "oop concepts",
+        "object oriented basics"
+      ],
+      "level": "intermediate",
+      "topics": 5,
+      "mcq_count": 75
+    },
+    {
+      "category_name": "DSA Basics",
+      "filename": "cat_dsa_basics_complete.json",
+      "aliases": [
+        "dsa",
+        "data structures",
+        "algorithms",
+        "problem solving",
+        "data structures and algorithms"
+      ],
+      "level": "intermediate",
+      "topics": 4,
+      "mcq_count": 60
+    },
+    {
+      "category_name": "DBMS Basics",
+      "filename": "cat_dbms_basics_complete.json",
+      "aliases": [
+        "dbms",
+        "database",
+        "sql basics",
+        "relational database",
+        "database fundamentals"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 45
+    },
+    {
+      "category_name": "Operating Systems Basics",
+      "filename": "cat_operating_systems_basics_complete.json",
+      "aliases": [
+        "os",
+        "operating systems",
+        "os basics",
+        "process scheduling",
+        "memory management"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 45
+    },
+    {
+      "category_name": "Computer Networks Basics",
+      "filename": "cat_computer_networks_basics_complete.json",
+      "aliases": [
+        "cn",
+        "computer networks",
+        "networking",
+        "tcp ip",
+        "osi model"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 45
+    },
+    {
+      "category_name": "REST API Basics",
+      "filename": "cat_rest_api_basics_complete.json",
+      "aliases": [
+        "rest api",
+        "api development",
+        "http methods",
+        "crud api",
+        "backend api"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 60
+    },
+    {
+      "category_name": "Software Engineering Basics",
+      "filename": "cat_software_engineering_basics_complete.json",
+      "aliases": [
+        "software engineering",
+        "sdlc",
+        "agile",
+        "software lifecycle",
+        "design patterns basics"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 60
+    },
+    {
+      "category_name": "Data Science Basics",
+      "filename": "cat_data_science_basics_complete.json",
+      "aliases": ["data science", "eda", "pandas", "numpy", "data analysis"],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 60
+    },
+    {
+      "category_name": "Mathematics for AI Basics",
+      "filename": "cat_mathematics_for_ai_basics_complete.json",
+      "aliases": [
+        "math for ai",
+        "linear algebra",
+        "probability ai",
+        "statistics ai",
+        "gradient descent"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 60
+    },
+    {
+      "category_name": "Engineering Mathematics",
+      "filename": "cat_engineering_math.json",
+      "aliases": [
+        "math",
+        "maths",
+        "engineering maths",
+        "engineering mathematics",
+        "calculus",
+        "algebra",
+        "matrices",
+        "determinants",
+        "vectors",
+        "complex numbers",
+        "differential equations",
+        "numerical methods",
+        "optimization",
+        "engg math",
+        "eng math",
+        "engineering math"
+      ],
+      "level": "intermediate",
+      "topics": 5,
+      "mcq_count": 28
+    },
+    {
+      "category_name": "Docker and DevOps",
+      "filename": "cat_docker_devops.json",
+      "aliases": [
+        "docker",
+        "devops",
+        "kubernetes",
+        "k8s",
+        "ci cd",
+        "containers",
+        "infrastructure",
+        "jenkins",
+        "github actions",
+        "terraform",
+        "ansible",
+        "aws",
+        "cloud"
+      ],
+      "level": "intermediate",
+      "topics": 4,
+      "mcq_count": 16
+    },
+    {
+      "category_name": "Artificial Intelligence Basics",
+      "filename": "cat_artificial_intelligence_basics_complete.json",
+      "aliases": [
+        "ai",
+        "artificial intelligence",
+        "ai basics",
+        "intelligent systems",
+        "machine intelligence"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 45
+    },
+    {
+      "category_name": "Machine Learning Basics",
+      "filename": "cat_machine_learning_basics_complete.json",
+      "aliases": [
+        "ml",
+        "machine learning",
+        "ml basics",
+        "supervised learning",
+        "unsupervised learning"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 45
+    },
+    {
+      "category_name": "Prompt Engineering",
+      "filename": "cat_prompt_engineering_basics_complete.json",
+      "aliases": [
+        "prompt engineering",
+        "prompt design",
+        "llm prompts",
+        "ai prompting",
+        "prompt strategies"
+      ],
+      "level": "intermediate",
+      "topics": 3,
+      "mcq_count": 60
+    },
+    {
+      "category_name": "Deep Learning Basics",
+      "filename": "cat_deep_learning_basics_complete.json",
+      "aliases": ["dl", "deep learning", "neural networks", "cnn", "rnn"],
+      "level": "advanced",
+      "topics": 3,
+      "mcq_count": 45
+    },
+    {
+      "category_name": "Reinforcement Learning Basics",
+      "filename": "cat_reinforcement_learning_basics_complete.json",
+      "aliases": [
+        "rl",
+        "reinforcement learning",
+        "q learning",
+        "policy learning",
+        "reward learning"
+      ],
+      "level": "advanced",
+      "topics": 3,
+      "mcq_count": 45
+    },
+    {
+      "category_name": "Natural Language Processing Basics",
+      "filename": "cat_nlp_basics_complete.json",
+      "aliases": [
+        "nlp",
+        "language models",
+        "text processing",
+        "llm basics",
+        "chatbots"
+      ],
+      "level": "advanced",
+      "topics": 3,
+      "mcq_count": 45
+    },
+    {
+      "category_name": "System Design",
+      "filename": "cat_system_design.json",
+      "aliases": [
+        "system design",
+        "scalability",
+        "distributed systems",
+        "high level design",
+        "lld",
+        "hld",
+        "architecture"
+      ],
+      "level": "advanced",
+      "topics": 4,
+      "mcq_count": 16
+    },
+    {
+      "category_name": "LLM Interview Topics",
+      "filename": "cat_llm_interview_topics_complete.json",
+      "aliases": [
+        "llm interview",
+        "rag",
+        "hallucinations",
+        "tokens",
+        "transformer architecture"
+      ],
+      "level": "advanced",
+      "topics": 4,
+      "mcq_count": 60
+    }
+  ],
+  "metadata": {
+    "total_categories": 25,
+    "total_mcqs": 1350,
+    "generated_date": "2024",
+    "fallback_dataset": true,
+    "purpose": "Comprehensive fallback quiz dataset for placements, backend readiness, AI workflow understanding, and developer interviews",
+    "data_directory": "../data/",
+    "nlp_enabled": true,
+    "keyword_matching": "Automatic alias-based category detection for user queries"
+  }
+}

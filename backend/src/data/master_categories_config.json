@@ -1,0 +1,349 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Java Basics",
+      "filename": "cat_java_basics_complete.json",
+      "description": "Java programming fundamentals",
+      "level": "beginner",
+      "mcqCount": 75,
+      "topics": 5,
+      "aliases": [
+        "Java Programming",
+        "Object-Oriented Java",
+        "Java Language",
+        "Java Fundamentals",
+        "Core Java"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Python Basics",
+      "filename": "cat_python_basics_complete.json",
+      "description": "Python programming fundamentals",
+      "level": "beginner",
+      "mcqCount": 75,
+      "topics": 5,
+      "aliases": [
+        "Python Programming",
+        "Python Language",
+        "Python Fundamentals",
+        "Scripting",
+        "Python Basics"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "OOPS Fundamentals",
+      "filename": "cat_oops_fundamentals_complete.json",
+      "description": "Object-Oriented Programming concepts",
+      "level": "intermediate",
+      "mcqCount": 75,
+      "topics": 5,
+      "aliases": [
+        "Object-Oriented",
+        "OOP Concepts",
+        "Classes",
+        "Inheritance",
+        "Polymorphism"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "DSA Basics",
+      "filename": "cat_dsa_basics_complete.json",
+      "description": "Data Structures and Algorithms fundamentals",
+      "level": "intermediate",
+      "mcqCount": 60,
+      "topics": 4,
+      "aliases": [
+        "Data Structures",
+        "Algorithms",
+        "DSA Interview",
+        "Algorithm Design",
+        "Data Organization"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "DBMS Basics",
+      "filename": "cat_dbms_basics_complete.json",
+      "description": "Database Management System concepts",
+      "level": "intermediate",
+      "mcqCount": 45,
+      "topics": 3,
+      "aliases": [
+        "Database",
+        "SQL Fundamentals",
+        "Data Management",
+        "Database Design",
+        "RDBMS"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Operating Systems Basics",
+      "filename": "cat_operating_systems_basics_complete.json",
+      "description": "Operating Systems fundamentals",
+      "level": "intermediate",
+      "mcqCount": 45,
+      "topics": 3,
+      "aliases": [
+        "OS Concepts",
+        "System Design",
+        "Process Management",
+        "Memory Management",
+        "OS Fundamentals"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Computer Networks Basics",
+      "filename": "cat_computer_networks_basics_complete.json",
+      "description": "Networking fundamentals for web and distributed systems",
+      "level": "intermediate",
+      "mcqCount": 45,
+      "topics": 3,
+      "aliases": [
+        "Networking",
+        "Web Protocols",
+        "OSI Model",
+        "Network Architecture",
+        "Internet Basics"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Artificial Intelligence Basics",
+      "filename": "cat_artificial_intelligence_basics_complete.json",
+      "description": "AI concepts and problem-solving",
+      "level": "intermediate",
+      "mcqCount": 45,
+      "topics": 3,
+      "aliases": [
+        "AI Fundamentals",
+        "Intelligent Systems",
+        "Search Algorithms",
+        "AI Concepts",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Machine Learning Basics",
+      "filename": "cat_machine_learning_basics_complete.json",
+      "description": "Machine Learning fundamentals",
+      "level": "intermediate",
+      "mcqCount": 45,
+      "topics": 3,
+      "aliases": [
+        "ML Fundamentals",
+        "Learning Algorithms",
+        "Predictive Models",
+        "ML Concepts",
+        "Data Models"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Deep Learning Basics",
+      "filename": "cat_deep_learning_basics_complete.json",
+      "description": "Deep Learning and neural networks",
+      "level": "advanced",
+      "mcqCount": 45,
+      "topics": 3,
+      "aliases": [
+        "Neural Networks",
+        "DL Concepts",
+        "Deep Models",
+        "Neural Computation",
+        "DL Fundamentals"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Reinforcement Learning Basics",
+      "filename": "cat_reinforcement_learning_basics_complete.json",
+      "description": "Reinforcement Learning concepts",
+      "level": "advanced",
+      "mcqCount": 45,
+      "topics": 3,
+      "aliases": [
+        "RL Fundamentals",
+        "Agents",
+        "Learning Strategies",
+        "Policy Learning",
+        "RL Concepts"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "NLP Basics",
+      "filename": "cat_nlp_basics_complete.json",
+      "description": "Natural Language Processing fundamentals",
+      "level": "advanced",
+      "mcqCount": 45,
+      "topics": 3,
+      "aliases": [
+        "Natural Language",
+        "Text Processing",
+        "NLP Concepts",
+        "Language Models",
+        "NLP Fundamentals"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "SQL Basics",
+      "filename": "cat_sql_basics_complete.json",
+      "description": "SQL database query fundamentals",
+      "level": "beginner",
+      "mcqCount": 75,
+      "topics": 5,
+      "aliases": [
+        "SQL Query",
+        "Database Queries",
+        "SQL Fundamentals",
+        "Query Language",
+        "SQL Basics"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Software Engineering Basics",
+      "filename": "cat_software_engineering_basics_complete.json",
+      "description": "Software development lifecycle and practices",
+      "level": "intermediate",
+      "mcqCount": 60,
+      "topics": 3,
+      "aliases": [
+        "Software Development",
+        "SDLC",
+        "Agile",
+        "Testing",
+        "Engineering Practices"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Git & Version Control Basics",
+      "filename": "cat_git_version_control_basics_complete.json",
+      "description": "Git and version control fundamentals",
+      "level": "beginner",
+      "mcqCount": 60,
+      "topics": 2,
+      "aliases": [
+        "Git",
+        "Version Control",
+        "Source Control",
+        "Git Workflow",
+        "Branches"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Web Development Basics",
+      "filename": "cat_web_development_basics_complete.json",
+      "description": "Web development with HTML, CSS, JavaScript, and DOM",
+      "level": "beginner",
+      "mcqCount": 60,
+      "topics": 3,
+      "aliases": [
+        "Web Dev",
+        "Frontend Development",
+        "Web Stack",
+        "JavaScript",
+        "Web Technologies"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "REST API Basics",
+      "filename": "cat_rest_api_basics_complete.json",
+      "description": "REST API design and HTTP fundamentals",
+      "level": "intermediate",
+      "mcqCount": 60,
+      "topics": 3,
+      "aliases": [
+        "REST",
+        "API Design",
+        "HTTP Protocol",
+        "Web Services",
+        "RESTful"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Data Science Basics",
+      "filename": "cat_data_science_basics_complete.json",
+      "description": "Data science fundamentals and analysis",
+      "level": "intermediate",
+      "mcqCount": 60,
+      "topics": 3,
+      "aliases": [
+        "Data Analysis",
+        "Analytics",
+        "Data Processing",
+        "Visualization",
+        "Data Fundamentals"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Mathematics for AI Basics",
+      "filename": "cat_mathematics_for_ai_basics_complete.json",
+      "description": "Mathematical foundations for AI and ML",
+      "level": "intermediate",
+      "mcqCount": 60,
+      "topics": 3,
+      "aliases": [
+        "Math for ML",
+        "Linear Algebra",
+        "Probability",
+        "Statistics",
+        "Calculus"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Prompt Engineering Basics",
+      "filename": "cat_prompt_engineering_basics_complete.json",
+      "description": "Prompt engineering and LLM interaction techniques",
+      "level": "intermediate",
+      "mcqCount": 60,
+      "topics": 3,
+      "aliases": [
+        "Prompting",
+        "LLM Prompts",
+        "AI Prompting",
+        "Prompt Design",
+        "LLM Techniques"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "LLM Interview Topics",
+      "filename": "cat_llm_interview_topics_complete.json",
+      "description": "Advanced LLM concepts for interview preparation",
+      "level": "advanced",
+      "mcqCount": 60,
+      "topics": 4,
+      "aliases": [
+        "LLM Concepts",
+        "Language Models",
+        "LLM Fundamentals",
+        "Interview Prep",
+        "LLM Advanced"
+      ]
+    }
+  ],
+  "metadata": {
+    "totalCategories": 21,
+    "totalMCQs": 1230,
+    "generatedDate": "2024",
+    "fallbackDataset": true,
+    "purpose": "Comprehensive fallback quiz dataset for placements, backend readiness, AI workflow understanding, and developer interviews",
+    "structure": "Each category file contains aliases and topics with easy/medium/hard MCQs",
+    "usage": "Load individual category files from backend/src/data/ directory or integrate into fallback quiz configuration"
+  }
+}

@@ -1,0 +1,507 @@
+{
+  "category": "Data Science Basics",
+  "aliases": [
+    "Data Analysis",
+    "Data Fundamentals",
+    "Data Processing",
+    "Analytics Basics",
+    "Data Science Introduction"
+  ],
+  "topics": {
+    "Data Cleaning": {
+      "aliases": [
+        "Data Preparation",
+        "Data Quality",
+        "Cleaning Process",
+        "Data Preprocessing",
+        "Missing Data"
+      ],
+      "easy": [
+        {
+          "question": "What is data cleaning?",
+          "options": [
+            "Removing errors and inconsistencies",
+            "Just collecting",
+            "Just storing",
+            "Just analysis"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is missing data?",
+          "options": [
+            "Absent values in dataset",
+            "Extra data",
+            "Duplicate data",
+            "No data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to handle missing data?",
+          "options": [
+            "Remove, impute, or leave blank",
+            "Ignore",
+            "Duplicate",
+            "Add random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is imputation?",
+          "options": [
+            "Filling missing values with estimates",
+            "Removing rows",
+            "Adding columns",
+            "Deleting data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are duplicates?",
+          "options": [
+            "Repeated identical rows",
+            "Similar rows",
+            "Blank rows",
+            "Extra columns"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "How to remove duplicates?",
+          "options": [
+            "Using drop_duplicates method",
+            "Manual deletion",
+            "Random selection",
+            "No removal"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is outlier?",
+          "options": [
+            "Unusual data point different from others",
+            "Normal point",
+            "Average",
+            "Median"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to detect outliers?",
+          "options": [
+            "Statistical methods, IQR, Z-score",
+            "Visual inspection only",
+            "Random",
+            "Not possible"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is data type issue?",
+          "options": [
+            "Column wrong data type",
+            "Column correct type",
+            "No issue",
+            "Random type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is inconsistent format?",
+          "options": [
+            "Data format varies",
+            "Same format",
+            "Consistent",
+            "Standardized"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is mean imputation?",
+          "options": [
+            "Filling with column average",
+            "Median fill",
+            "Mode fill",
+            "Random fill"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is forward fill?",
+          "options": [
+            "Filling with previous value",
+            "Next value",
+            "Average",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is data validation?",
+          "options": [
+            "Checking data quality and accuracy",
+            "Just storing",
+            "Just loading",
+            "No check"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is normalization in cleaning?",
+          "options": [
+            "Standardizing format and values",
+            "Creating normal",
+            "Calculating mean",
+            "Finding outliers"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is data profiling?",
+          "options": [
+            "Analyzing data structure and content",
+            "Storing data",
+            "Loading data",
+            "Visualizing"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Feature Engineering": {
+      "aliases": [
+        "Feature Creation",
+        "Feature Selection",
+        "Feature Transform",
+        "Variable Engineering",
+        "Feature Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is feature?",
+          "options": [
+            "Input variable for model",
+            "Output variable",
+            "Result",
+            "Parameter"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is feature engineering?",
+          "options": [
+            "Creating relevant features from raw data",
+            "Just analysis",
+            "Just modeling",
+            "Just prediction"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is feature selection?",
+          "options": [
+            "Choosing most relevant features",
+            "Creating features",
+            "Removing all",
+            "Random choice"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why do feature engineering?",
+          "options": [
+            "Improves model performance",
+            "No benefit",
+            "Worsens",
+            "Random effect"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is categorical feature?",
+          "options": [
+            "Non-numeric categories",
+            "Numbers only",
+            "Text only",
+            "No type"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is numerical feature?",
+          "options": [
+            "Numeric values",
+            "Text values",
+            "Categories",
+            "Mixed type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is encoding?",
+          "options": [
+            "Converting categorical to numeric",
+            "Converting numeric",
+            "Storing data",
+            "Loading data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is one-hot encoding?",
+          "options": [
+            "Creating binary columns for categories",
+            "Ordinal encoding",
+            "Label encoding",
+            "No encoding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is scaling/normalization?",
+          "options": [
+            "Converting values to standard range",
+            "No change",
+            "Random change",
+            "Just labels"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is feature interaction?",
+          "options": [
+            "Creating new features from existing",
+            "Multiplying values",
+            "Linear combination",
+            "Just labels"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is polynomial features?",
+          "options": [
+            "Creating powers and interactions",
+            "Just squares",
+            "Just linear",
+            "No new features"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is dimensionality reduction?",
+          "options": [
+            "Reducing feature count",
+            "Increasing features",
+            "No change",
+            "Random"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is PCA for features?",
+          "options": [
+            "Creating principal components",
+            "Removing features",
+            "Adding features",
+            "Renaming"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is feature importance?",
+          "options": [
+            "Ranking feature contribution to prediction",
+            "Feature count",
+            "Feature size",
+            "No importance"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is multicollinearity?",
+          "options": [
+            "High correlation between features",
+            "Low correlation",
+            "No correlation",
+            "Random"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Data Visualization Basics": {
+      "aliases": [
+        "Plotting Data",
+        "Visualization Types",
+        "Charts",
+        "Graphs",
+        "Visual Analysis"
+      ],
+      "easy": [
+        {
+          "question": "What is data visualization?",
+          "options": [
+            "Representing data graphically",
+            "Text reports",
+            "Tables only",
+            "No representation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is scatter plot?",
+          "options": [
+            "Points showing relationship between two variables",
+            "Bars",
+            "Lines",
+            "Boxes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is histogram?",
+          "options": [
+            "Distribution of single variable",
+            "Two variables",
+            "Time series",
+            "Categories"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is box plot?",
+          "options": [
+            "Shows quartiles and outliers",
+            "Scatter only",
+            "Just average",
+            "No outliers"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is bar chart?",
+          "options": [
+            "Categorical data comparison",
+            "Continuous data",
+            "Time series",
+            "Relationships"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is line plot?",
+          "options": [
+            "Time series or trend visualization",
+            "Categories",
+            "Distributions",
+            "Relationships"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is heatmap?",
+          "options": [
+            "Color intensity showing values",
+            "Temperature only",
+            "Just colors",
+            "No values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is pie chart?",
+          "options": [
+            "Parts of whole percentages",
+            "Trends",
+            "Distributions",
+            "Comparisons"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "When use scatter plot?",
+          "options": [
+            "Showing correlation between variables",
+            "Single variable",
+            "Categories",
+            "Time only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "When use histogram?",
+          "options": [
+            "Understanding distribution shape",
+            "Comparing categories",
+            "Time trends",
+            "Relationships"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is violin plot?",
+          "options": [
+            "Distribution with probability density",
+            "Just box plot",
+            "Just histogram",
+            "Just scatter"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is pair plot?",
+          "options": [
+            "Plotting all variable pairs",
+            "Single pair",
+            "One variable",
+            "No pairs"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is faceting/subplots?",
+          "options": [
+            "Multiple plots for different subgroups",
+            "Single plot",
+            "Overlapping plots",
+            "No subplots"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is color encoding?",
+          "options": [
+            "Using color to represent third variable",
+            "Just aesthetics",
+            "Just labeling",
+            "No encoding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is effective visualization?",
+          "options": [
+            "Clear, accurate, insightful representation",
+            "Just pretty",
+            "Just colored",
+            "Just big"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

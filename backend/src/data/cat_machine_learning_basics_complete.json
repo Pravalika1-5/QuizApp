@@ -1,0 +1,507 @@
+{
+  "category": "Machine Learning Basics",
+  "aliases": [
+    "ML Fundamentals",
+    "Machine Learning Intro",
+    "ML Concepts",
+    "Learning Algorithms",
+    "ML Overview"
+  ],
+  "topics": {
+    "Machine Learning Introduction": {
+      "aliases": [
+        "ML Definition",
+        "What is ML",
+        "ML Purpose",
+        "ML Scope",
+        "ML Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is Machine Learning?",
+          "options": [
+            "Systems learning from data without explicit programming",
+            "Programming languages",
+            "Hardware",
+            "User interface"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is supervised learning?",
+          "options": [
+            "Learning from labeled training data",
+            "No labels",
+            "Self-learning",
+            "Unsupervised only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is unsupervised learning?",
+          "options": [
+            "Learning from unlabeled data to find patterns",
+            "Labeled data",
+            "Supervised only",
+            "No patterns"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is reinforcement learning?",
+          "options": [
+            "Learning through rewards and penalties",
+            "Supervised learning",
+            "Unsupervised learning",
+            "No learning"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is training data?",
+          "options": [
+            "Data used to train model",
+            "Testing data",
+            "Real data",
+            "New data"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is test data?",
+          "options": [
+            "Data used to evaluate model performance",
+            "Training data",
+            "Validation data",
+            "Real data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is validation data?",
+          "options": [
+            "Data used to tune hyperparameters",
+            "Training data",
+            "Test data",
+            "Final data"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is feature?",
+          "options": [
+            "Input variable or attribute",
+            "Output variable",
+            "Model parameter",
+            "Data type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is label?",
+          "options": [
+            "Target output variable in supervised learning",
+            "Input variable",
+            "Feature name",
+            "Data attribute"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is model?",
+          "options": [
+            "Mathematical representation learned from data",
+            "Real data",
+            "Algorithm",
+            "Dataset"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain bias-variance tradeoff",
+          "options": [
+            "High bias underfits, high variance overfits",
+            "No tradeoff",
+            "Always balance",
+            "No balance needed"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is overfitting?",
+          "options": [
+            "Model learns training data too well, poor generalization",
+            "Good generalization",
+            "Training only",
+            "Test only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is underfitting?",
+          "options": [
+            "Model too simple to learn pattern",
+            "Too complex",
+            "Good fit",
+            "Balanced fit"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is cross-validation?",
+          "options": [
+            "Dividing data into folds for robust evaluation",
+            "Single split",
+            "Random split",
+            "No validation"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain feature scaling importance",
+          "options": [
+            "Normalizes features for better convergence",
+            "No effect",
+            "Slows convergence",
+            "Optional only"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Supervised Learning": {
+      "aliases": [
+        "Supervised Learning Methods",
+        "Classification",
+        "Regression",
+        "Labeled Learning",
+        "Supervised Methods"
+      ],
+      "easy": [
+        {
+          "question": "What is classification?",
+          "options": [
+            "Predicting discrete categories",
+            "Predicting continuous values",
+            "Clustering data",
+            "Dimensionality reduction"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is regression?",
+          "options": [
+            "Predicting continuous numerical values",
+            "Predicting categories",
+            "Finding patterns",
+            "Reducing dimensions"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is decision tree?",
+          "options": [
+            "Tree-like model making decisions at nodes",
+            "Linear model",
+            "Neural network",
+            "Clustering method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is logistic regression?",
+          "options": [
+            "Classification using logistic function",
+            "Predicting continuous values",
+            "Tree-based model",
+            "Clustering"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is linear regression?",
+          "options": [
+            "Predicting continuous values using linear function",
+            "Classification",
+            "Clustering",
+            "Tree model"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is support vector machine (SVM)?",
+          "options": [
+            "Finds optimal hyperplane separating classes",
+            "Linear regression",
+            "Decision tree",
+            "Clustering only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is k-nearest neighbors (KNN)?",
+          "options": [
+            "Classifies based on k nearest training samples",
+            "Regression only",
+            "Clustering",
+            "Dimensionality reduction"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is random forest?",
+          "options": [
+            "Ensemble of decision trees",
+            "Single tree",
+            "Neural network",
+            "Linear model"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is naive Bayes?",
+          "options": [
+            "Probability-based classifier assuming feature independence",
+            "Deterministic",
+            "Regression",
+            "Clustering"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is gradient descent?",
+          "options": [
+            "Optimization algorithm minimizing loss",
+            "Classification method",
+            "Clustering method",
+            "Distance metric"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain SVM kernel trick",
+          "options": [
+            "Maps data to high dimension implicitly",
+            "Explicit mapping",
+            "No mapping",
+            "Linear mapping only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ROC curve?",
+          "options": [
+            "Shows tradeoff between true positive and false positive rates",
+            "Performance metric",
+            "Accuracy only",
+            "No comparison"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is precision and recall?",
+          "options": [
+            "Precision: correct positive ratio, Recall: positive detection ratio",
+            "Same metric",
+            "No difference",
+            "Random metrics"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is F1 score?",
+          "options": [
+            "Harmonic mean of precision and recall",
+            "Accuracy only",
+            "Single metric",
+            "Random score"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain ensemble methods benefit",
+          "options": [
+            "Combining multiple models reduces error",
+            "Single model better",
+            "No benefit",
+            "Increases error"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Unsupervised Learning": {
+      "aliases": [
+        "Unsupervised Methods",
+        "Clustering",
+        "Dimensionality Reduction",
+        "Pattern Discovery",
+        "Unsupervised Basics"
+      ],
+      "easy": [
+        {
+          "question": "What is clustering?",
+          "options": [
+            "Grouping similar data points together",
+            "Classification",
+            "Regression",
+            "Dimensionality reduction"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is k-means clustering?",
+          "options": [
+            "Partitioning data into k clusters",
+            "Hierarchical clustering",
+            "Density clustering",
+            "Grid clustering"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is dimensionality reduction?",
+          "options": [
+            "Reducing number of features while preserving info",
+            "Increasing features",
+            "Clustering data",
+            "Classification"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is principal component analysis (PCA)?",
+          "options": [
+            "Finding principal components of data",
+            "Clustering",
+            "Classification",
+            "Regression"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is hierarchical clustering?",
+          "options": [
+            "Building tree of clusters",
+            "Flat clustering",
+            "Single cluster",
+            "No clustering"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is centroid in k-means?",
+          "options": [
+            "Center point of cluster",
+            "Random point",
+            "Boundary point",
+            "Feature point"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is DBSCAN?",
+          "options": [
+            "Density-based clustering method",
+            "Partition-based",
+            "Hierarchical",
+            "Grid-based"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is silhouette score?",
+          "options": [
+            "Measures clustering quality -1 to 1",
+            "0 to 1 only",
+            "Any value",
+            "No score"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is elbow method?",
+          "options": [
+            "Finding optimal k by plot of inertia vs k",
+            "Mathematical formula",
+            "Random selection",
+            "No method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is association rule mining?",
+          "options": [
+            "Finding relationships between items",
+            "Clustering items",
+            "Classifying items",
+            "Regressing items"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain convergence in k-means",
+          "options": [
+            "Centroids stop changing significantly",
+            "Always diverges",
+            "Random convergence",
+            "No convergence"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is curse of dimensionality?",
+          "options": [
+            "Performance degrades with too many features",
+            "More features better",
+            "No effect",
+            "Always helps"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain manifold learning",
+          "options": [
+            "Assuming data on lower-dimensional manifold",
+            "Data on surface",
+            "No structure",
+            "Random structure"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is t-SNE?",
+          "options": [
+            "Dimensionality reduction for visualization",
+            "Clustering only",
+            "Classification",
+            "Regression"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain autoencoder concept",
+          "options": [
+            "Neural network learning compressed representation",
+            "Linear model",
+            "Decision tree",
+            "Regression model"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

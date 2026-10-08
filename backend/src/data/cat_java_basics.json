@@ -1,0 +1,623 @@
+{
+  "category_name": "JAVA BASICS",
+  "category_aliases": [
+    "java", "java basics", "core java", "java programming", "java fundamentals"
+  ],
+  "topics": [
+    {
+      "topic_name": "Variables",
+      "aliases": [
+        "java variables", "variable declaration", "var java", "identifiers java", "variable types java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which of the following is a valid variable name in Java?",
+            "options": ["2name", "_myVar", "my-var", "class"],
+            "correct_answer": "_myVar"
+          },
+          {
+            "question": "What is the default value of an int variable in Java?",
+            "options": ["null", "1", "0", "undefined"],
+            "correct_answer": "0"
+          },
+          {
+            "question": "Which keyword is used to declare a constant in Java?",
+            "options": ["const", "static", "final", "fixed"],
+            "correct_answer": "final"
+          },
+          {
+            "question": "What is the scope of a local variable in Java?",
+            "options": [
+              "Entire class",
+              "Entire program",
+              "Within the block it is declared",
+              "Within the package"
+            ],
+            "correct_answer": "Within the block it is declared"
+          },
+          {
+            "question": "Which of the following correctly declares an integer variable in Java?",
+            "options": ["integer x = 5;", "Int x = 5;", "int x = 5;", "x int = 5;"],
+            "correct_answer": "int x = 5;"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between instance variables and local variables in Java?",
+            "options": [
+              "Instance variables are declared inside methods; local variables are declared in the class",
+              "Instance variables belong to the class object; local variables exist only within a method",
+              "There is no difference",
+              "Local variables have default values; instance variables do not"
+            ],
+            "correct_answer": "Instance variables belong to the class object; local variables exist only within a method"
+          },
+          {
+            "question": "What happens if you use a local variable in Java without initializing it?",
+            "options": [
+              "It defaults to 0",
+              "It defaults to null",
+              "Compile-time error",
+              "Runtime exception"
+            ],
+            "correct_answer": "Compile-time error"
+          },
+          {
+            "question": "Which of the following is true about static variables in Java?",
+            "options": [
+              "Each object has its own copy",
+              "They are shared across all instances of the class",
+              "They cannot be accessed without an object",
+              "They are destroyed after each method call"
+            ],
+            "correct_answer": "They are shared across all instances of the class"
+          },
+          {
+            "question": "What is variable shadowing in Java?",
+            "options": [
+              "Declaring a variable with the same name in an inner scope that hides the outer variable",
+              "Using a variable before declaring it",
+              "Assigning null to a variable",
+              "Declaring two variables of different types with the same name"
+            ],
+            "correct_answer": "Declaring a variable with the same name in an inner scope that hides the outer variable"
+          },
+          {
+            "question": "Which modifier makes a variable accessible only within its own class?",
+            "options": ["public", "protected", "private", "default"],
+            "correct_answer": "private"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the output of: int x = 5; int y = x++; System.out.println(y);",
+            "options": ["6", "5", "4", "Compile error"],
+            "correct_answer": "5"
+          },
+          {
+            "question": "In Java, where are instance variables stored in memory?",
+            "options": ["Stack", "Heap", "Code segment", "Register"],
+            "correct_answer": "Heap"
+          },
+          {
+            "question": "What is the effect of declaring a variable as both static and final?",
+            "options": [
+              "It becomes a class-level constant shared by all instances",
+              "It becomes a local constant",
+              "It can only be accessed by static methods",
+              "It is destroyed after the class is loaded"
+            ],
+            "correct_answer": "It becomes a class-level constant shared by all instances"
+          },
+          {
+            "question": "Which of the following causes a NullPointerException in Java?",
+            "options": [
+              "Accessing a method on an uninitialized object reference",
+              "Declaring an int without initialization",
+              "Using a final variable",
+              "Declaring a static variable"
+            ],
+            "correct_answer": "Accessing a method on an uninitialized object reference"
+          },
+          {
+            "question": "What is the output of: int a = 10; int b = a; b = 20; System.out.println(a);",
+            "options": ["20", "10", "0", "Compile error"],
+            "correct_answer": "10"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Data Types",
+      "aliases": [
+        "java data types", "primitive types", "data types java", "int float java", "type system java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which of the following is a primitive data type in Java?",
+            "options": ["String", "Integer", "int", "Array"],
+            "correct_answer": "int"
+          },
+          {
+            "question": "What is the size of a boolean data type in Java?",
+            "options": ["1 bit", "1 byte", "2 bytes", "Not precisely defined by JVM"],
+            "correct_answer": "Not precisely defined by JVM"
+          },
+          {
+            "question": "Which data type is used to store a single character in Java?",
+            "options": ["String", "char", "byte", "short"],
+            "correct_answer": "char"
+          },
+          {
+            "question": "What is the range of a byte data type in Java?",
+            "options": ["0 to 255", "-128 to 127", "-256 to 255", "0 to 127"],
+            "correct_answer": "-128 to 127"
+          },
+          {
+            "question": "Which data type would you use to store a decimal number with high precision in Java?",
+            "options": ["float", "double", "int", "long"],
+            "correct_answer": "double"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is autoboxing in Java?",
+            "options": [
+              "Converting a primitive type to its corresponding wrapper class automatically",
+              "Converting a String to an integer",
+              "Casting a double to a float",
+              "Converting an array to a list"
+            ],
+            "correct_answer": "Converting a primitive type to its corresponding wrapper class automatically"
+          },
+          {
+            "question": "What is the difference between float and double in Java?",
+            "options": [
+              "float is 64-bit; double is 32-bit",
+              "float is 32-bit single precision; double is 64-bit double precision",
+              "They are identical",
+              "double cannot store negative numbers"
+            ],
+            "correct_answer": "float is 32-bit single precision; double is 64-bit double precision"
+          },
+          {
+            "question": "What happens when you assign a long value to an int variable without casting in Java?",
+            "options": [
+              "The value is truncated automatically",
+              "Compile-time error",
+              "Runtime exception",
+              "The int becomes a long"
+            ],
+            "correct_answer": "Compile-time error"
+          },
+          {
+            "question": "Which wrapper class corresponds to the primitive type int?",
+            "options": ["Int", "INTEGER", "Integer", "Intobj"],
+            "correct_answer": "Integer"
+          },
+          {
+            "question": "What is the default value of a boolean instance variable in Java?",
+            "options": ["true", "false", "null", "0"],
+            "correct_answer": "false"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the result of: System.out.println(1.0 / 0.0); in Java?",
+            "options": ["ArithmeticException", "NaN", "Infinity", "Compile error"],
+            "correct_answer": "Infinity"
+          },
+          {
+            "question": "What is the result of: System.out.println(0.1 + 0.2 == 0.3); in Java?",
+            "options": ["true", "false", "Compile error", "Runtime error"],
+            "correct_answer": "false"
+          },
+          {
+            "question": "Which of the following correctly explains type promotion in Java?",
+            "options": [
+              "Smaller types are automatically promoted to larger types in expressions",
+              "Larger types are demoted to smaller types",
+              "All types are converted to String in expressions",
+              "Type promotion only applies to objects"
+            ],
+            "correct_answer": "Smaller types are automatically promoted to larger types in expressions"
+          },
+          {
+            "question": "What is the output of: char c = 'A'; int i = c; System.out.println(i);",
+            "options": ["A", "65", "1", "Compile error"],
+            "correct_answer": "65"
+          },
+          {
+            "question": "What is the maximum value of a long data type in Java?",
+            "options": ["2^31 - 1", "2^63 - 1", "2^32 - 1", "2^64 - 1"],
+            "correct_answer": "2^63 - 1"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Operators",
+      "aliases": [
+        "java operators", "operators in java", "arithmetic operators", "bitwise java", "operator precedence java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "What does the % operator do in Java?",
+            "options": ["Division", "Multiplication", "Returns the remainder", "Exponentiation"],
+            "correct_answer": "Returns the remainder"
+          },
+          {
+            "question": "What is the result of 10 / 3 in Java (integer division)?",
+            "options": ["3.33", "3", "4", "2"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "Which operator is used to compare two values for equality in Java?",
+            "options": ["=", "===", "==", "!="],
+            "correct_answer": "=="
+          },
+          {
+            "question": "What does the && operator represent in Java?",
+            "options": ["Bitwise AND", "Logical OR", "Logical AND", "Bitwise OR"],
+            "correct_answer": "Logical AND"
+          },
+          {
+            "question": "What is the result of !true in Java?",
+            "options": ["true", "false", "null", "1"],
+            "correct_answer": "false"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between == and .equals() in Java?",
+            "options": [
+              "== compares object references; .equals() compares content",
+              "== compares content; .equals() compares references",
+              "They are identical",
+              "== works only for primitives; .equals() works only for objects"
+            ],
+            "correct_answer": "== compares object references; .equals() compares content"
+          },
+          {
+            "question": "What is the result of 5 & 3 in Java (bitwise AND)?",
+            "options": ["8", "1", "7", "2"],
+            "correct_answer": "1"
+          },
+          {
+            "question": "What does the >>> operator do in Java?",
+            "options": [
+              "Signed right shift",
+              "Unsigned right shift (fills with 0)",
+              "Left shift",
+              "Bitwise XOR"
+            ],
+            "correct_answer": "Unsigned right shift (fills with 0)"
+          },
+          {
+            "question": "What is the result of: int x = 5; x += 3; System.out.println(x);",
+            "options": ["5", "3", "8", "15"],
+            "correct_answer": "8"
+          },
+          {
+            "question": "Which operator has the highest precedence in Java?",
+            "options": ["&&", "||", "++", "+"],
+            "correct_answer": "++"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the result of: System.out.println(5 | 3); in Java?",
+            "options": ["1", "7", "8", "2"],
+            "correct_answer": "7"
+          },
+          {
+            "question": "What is the output of: int a = 5; System.out.println(a++ + ++a);",
+            "options": ["10", "11", "12", "13"],
+            "correct_answer": "12"
+          },
+          {
+            "question": "What does the ternary operator ?: return in Java?",
+            "options": [
+              "Always returns boolean",
+              "Returns one of two values based on a condition",
+              "Returns null if condition is false",
+              "Returns void"
+            ],
+            "correct_answer": "Returns one of two values based on a condition"
+          },
+          {
+            "question": "What is the result of: System.out.println(~5); in Java?",
+            "options": ["4", "-6", "-5", "6"],
+            "correct_answer": "-6"
+          },
+          {
+            "question": "What is short-circuit evaluation in Java?",
+            "options": [
+              "The JVM skips all operators after the first",
+              "In && and ||, the second operand is not evaluated if the result is determined by the first",
+              "All expressions are evaluated before the result is computed",
+              "Only bitwise operators use short-circuit evaluation"
+            ],
+            "correct_answer": "In && and ||, the second operand is not evaluated if the result is determined by the first"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Control Statements",
+      "aliases": [
+        "if else java", "switch java", "conditional java", "control flow java", "branching java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which statement is used to execute a block of code if a condition is true in Java?",
+            "options": ["for", "while", "if", "switch"],
+            "correct_answer": "if"
+          },
+          {
+            "question": "What keyword is used in a switch statement to exit a case block?",
+            "options": ["exit", "stop", "break", "return"],
+            "correct_answer": "break"
+          },
+          {
+            "question": "What happens if no case matches in a switch statement and there is a default?",
+            "options": [
+              "The program crashes",
+              "The default block executes",
+              "Nothing happens",
+              "The first case executes"
+            ],
+            "correct_answer": "The default block executes"
+          },
+          {
+            "question": "Which of the following is the correct syntax for an if-else statement in Java?",
+            "options": [
+              "if x > 0 { } else { }",
+              "if (x > 0) { } else { }",
+              "if [x > 0] { } else { }",
+              "if (x > 0) then { } else { }"
+            ],
+            "correct_answer": "if (x > 0) { } else { }"
+          },
+          {
+            "question": "Can a switch statement in Java work with String values?",
+            "options": [
+              "No, only integers",
+              "Yes, since Java 7",
+              "Yes, since Java 1.0",
+              "No, only char values"
+            ],
+            "correct_answer": "Yes, since Java 7"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is fall-through in a switch statement?",
+            "options": [
+              "When the default case runs first",
+              "When execution continues to the next case after a matched case without a break",
+              "When no case matches",
+              "When the switch exits immediately"
+            ],
+            "correct_answer": "When execution continues to the next case after a matched case without a break"
+          },
+          {
+            "question": "What is the output of: int x = 2; switch(x) { case 1: case 2: System.out.println(\"A\"); break; case 3: System.out.println(\"B\"); }",
+            "options": ["B", "A", "AB", "Nothing"],
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which of the following can be used as a switch expression type in Java 14+?",
+            "options": [
+              "float only",
+              "int, String, char, enum, and more",
+              "boolean only",
+              "double only"
+            ],
+            "correct_answer": "int, String, char, enum, and more"
+          },
+          {
+            "question": "What is a nested if statement?",
+            "options": [
+              "An if statement inside a loop",
+              "An if statement inside another if statement",
+              "An if statement with multiple conditions",
+              "An if statement without an else"
+            ],
+            "correct_answer": "An if statement inside another if statement"
+          },
+          {
+            "question": "What is the difference between if-else if and switch in Java?",
+            "options": [
+              "switch is faster for equality checks on discrete values; if-else handles ranges and complex conditions",
+              "They are identical in all cases",
+              "if-else is always faster",
+              "switch can handle boolean conditions"
+            ],
+            "correct_answer": "switch is faster for equality checks on discrete values; if-else handles ranges and complex conditions"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the output of: int x = 5; if (x > 3) if (x > 4) System.out.println(\"A\"); else System.out.println(\"B\");",
+            "options": ["A", "B", "AB", "Nothing"],
+            "correct_answer": "A"
+          },
+          {
+            "question": "In Java 14+, what is the arrow syntax in switch expressions used for?",
+            "options": [
+              "To define lambda expressions",
+              "To return a value from a case without fall-through",
+              "To declare anonymous classes",
+              "To handle exceptions in switch"
+            ],
+            "correct_answer": "To return a value from a case without fall-through"
+          },
+          {
+            "question": "What is the dangling else problem in Java?",
+            "options": [
+              "An else without a matching if",
+              "Ambiguity in which if an else belongs to when nested ifs exist without braces",
+              "An if without a condition",
+              "Multiple else blocks for one if"
+            ],
+            "correct_answer": "Ambiguity in which if an else belongs to when nested ifs exist without braces"
+          },
+          {
+            "question": "Which of the following switch expression features was introduced in Java 14 as standard?",
+            "options": [
+              "switch with float",
+              "switch expressions returning values using yield",
+              "switch with boolean",
+              "switch with double"
+            ],
+            "correct_answer": "switch expressions returning values using yield"
+          },
+          {
+            "question": "What is the output of: boolean a = true, b = false; System.out.println(a ? b ? \"X\" : \"Y\" : \"Z\");",
+            "options": ["X", "Y", "Z", "Compile error"],
+            "correct_answer": "Y"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Loops",
+      "aliases": [
+        "java loops", "for loop java", "while loop java", "iteration java", "looping java"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which loop in Java is guaranteed to execute at least once?",
+            "options": ["for", "while", "do-while", "for-each"],
+            "correct_answer": "do-while"
+          },
+          {
+            "question": "What does the break statement do inside a loop?",
+            "options": [
+              "Skips the current iteration",
+              "Exits the loop immediately",
+              "Restarts the loop",
+              "Pauses the loop"
+            ],
+            "correct_answer": "Exits the loop immediately"
+          },
+          {
+            "question": "What is the output of: for(int i = 0; i < 3; i++) System.out.print(i);",
+            "options": ["123", "012", "0123", "321"],
+            "correct_answer": "012"
+          },
+          {
+            "question": "Which loop is best suited for iterating over an array in Java?",
+            "options": ["while", "do-while", "for-each (enhanced for)", "goto"],
+            "correct_answer": "for-each (enhanced for)"
+          },
+          {
+            "question": "What does the continue statement do in a loop?",
+            "options": [
+              "Exits the loop",
+              "Skips the rest of the current iteration and moves to the next",
+              "Restarts the loop from the beginning",
+              "Pauses execution"
+            ],
+            "correct_answer": "Skips the rest of the current iteration and moves to the next"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is an infinite loop in Java and how can it be intentionally created?",
+            "options": [
+              "A loop that runs 1000 times; using for(int i=0;i<1000;i++)",
+              "A loop with no termination condition; using while(true) or for(;;)",
+              "A loop that throws an exception",
+              "A loop that calls itself recursively"
+            ],
+            "correct_answer": "A loop with no termination condition; using while(true) or for(;;)"
+          },
+          {
+            "question": "What is the difference between while and do-while loops?",
+            "options": [
+              "while checks condition before execution; do-while checks after at least one execution",
+              "do-while checks condition before execution; while checks after",
+              "They are identical",
+              "while is faster than do-while"
+            ],
+            "correct_answer": "while checks condition before execution; do-while checks after at least one execution"
+          },
+          {
+            "question": "What is the output of: int i = 0; while(i < 5) { if(i == 3) break; i++; } System.out.println(i);",
+            "options": ["5", "4", "3", "0"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "Can you use a labeled break in Java to exit an outer loop from an inner loop?",
+            "options": [
+              "No, break only exits the innermost loop",
+              "Yes, using a label on the outer loop and break labelName",
+              "Yes, but only in for loops",
+              "No, you need a flag variable"
+            ],
+            "correct_answer": "Yes, using a label on the outer loop and break labelName"
+          },
+          {
+            "question": "What is the time complexity of a nested loop where both loops run n times?",
+            "options": ["O(n)", "O(n log n)", "O(n²)", "O(2n)"],
+            "correct_answer": "O(n²)"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the output of: for(int i=0; i<3; i++) { for(int j=0; j<3; j++) { if(j==1) continue; System.out.print(i+\"\"+j+\" \"); } }",
+            "options": [
+              "00 02 10 12 20 22",
+              "00 01 02 10 11 12 20 21 22",
+              "01 11 21",
+              "00 10 20"
+            ],
+            "correct_answer": "00 02 10 12 20 22"
+          },
+          {
+            "question": "What is iterator invalidation in the context of Java enhanced for loops?",
+            "options": [
+              "When you modify a collection while iterating over it with for-each, causing ConcurrentModificationException",
+              "When the loop variable is reassigned",
+              "When the array index goes out of bounds",
+              "When the loop runs zero times"
+            ],
+            "correct_answer": "When you modify a collection while iterating over it with for-each, causing ConcurrentModificationException"
+          },
+          {
+            "question": "What is the output of: int sum = 0; for(int i=1; i<=10; i+=2) sum += i; System.out.println(sum);",
+            "options": ["25", "30", "55", "20"],
+            "correct_answer": "25"
+          },
+          {
+            "question": "Which of the following correctly uses a labeled continue in Java?",
+            "options": [
+              "continue outer; where outer: is a label on the outer loop",
+              "continue(outer);",
+              "goto outer;",
+              "skip outer;"
+            ],
+            "correct_answer": "continue outer; where outer: is a label on the outer loop"
+          },
+          {
+            "question": "What is the difference between Iterator and for-each loop in Java when removing elements?",
+            "options": [
+              "Both support safe removal",
+              "Iterator.remove() is safe during iteration; for-each throws ConcurrentModificationException on removal",
+              "for-each supports removal; Iterator does not",
+              "Neither supports removal during iteration"
+            ],
+            "correct_answer": "Iterator.remove() is safe during iteration; for-each throws ConcurrentModificationException on removal"
+          }
+        ]
+      }
+    }
+  ]
+}

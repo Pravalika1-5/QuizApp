@@ -1,0 +1,507 @@
+{
+  "category": "Deep Learning Basics",
+  "aliases": [
+    "Deep Neural Networks",
+    "DL Fundamentals",
+    "Neural Network Basics",
+    "Deep Learning Intro",
+    "DL Overview"
+  ],
+  "topics": {
+    "Neural Networks Basics": {
+      "aliases": [
+        "NN Structure",
+        "Network Architecture",
+        "NN Layers",
+        "Network Components",
+        "NN Fundamentals"
+      ],
+      "easy": [
+        {
+          "question": "What is neural network?",
+          "options": [
+            "Computational model inspired by biological neurons",
+            "Computer network",
+            "Data structure",
+            "Algorithm"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is neuron in neural network?",
+          "options": [
+            "Basic computational unit with weights and bias",
+            "Network connection",
+            "Data point",
+            "Parameter"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is layer in neural network?",
+          "options": [
+            "Collection of neurons processing data together",
+            "Single neuron",
+            "Network connection",
+            "Data input"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is input layer?",
+          "options": [
+            "Receives input features",
+            "Produces output",
+            "Hidden layer",
+            "Process layer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is output layer?",
+          "options": [
+            "Produces predictions",
+            "Receives input",
+            "Hidden layer",
+            "Process layer"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is hidden layer?",
+          "options": [
+            "Layers between input and output",
+            "Final layer",
+            "First layer",
+            "No layer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is weight in neural network?",
+          "options": [
+            "Parameter multiplying input signal",
+            "Input value",
+            "Output value",
+            "Bias term"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is bias in neural network?",
+          "options": [
+            "Shift parameter added to weighted sum",
+            "Weight parameter",
+            "Activation function",
+            "Learning rate"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is activation function?",
+          "options": [
+            "Non-linear function applied to neuron output",
+            "Linear function",
+            "Weight function",
+            "Bias function"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ReLU activation?",
+          "options": [
+            "max(0,x) - Rectified Linear Unit",
+            "Sigmoid function",
+            "Tanh function",
+            "Linear function"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Why use activation functions?",
+          "options": [
+            "Introduce non-linearity for complex patterns",
+            "Linear patterns only",
+            "No reason",
+            "Optional"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is sigmoid activation?",
+          "options": [
+            "1/(1+e^-x) outputs 0-1",
+            "Linear output",
+            "Unbounded output",
+            "Binary output"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is tanh activation?",
+          "options": [
+            "Outputs -1 to 1",
+            "0 to 1 output",
+            "Unbounded",
+            "Binary"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain vanishing gradient problem",
+          "options": [
+            "Gradients become tiny during backprop",
+            "Gradients explode",
+            "No gradients",
+            "Large gradients"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is gradient explosion?",
+          "options": [
+            "Gradients become very large during training",
+            "Gradients vanish",
+            "No gradients",
+            "Small gradients"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Backpropagation Basics": {
+      "aliases": [
+        "Gradient Computation",
+        "Error Backprop",
+        "BP Algorithm",
+        "Gradient Descent",
+        "Learning Process"
+      ],
+      "easy": [
+        {
+          "question": "What is backpropagation?",
+          "options": [
+            "Algorithm for computing gradients efficiently",
+            "Forward pass only",
+            "Error calculation",
+            "Weight update"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is forward propagation?",
+          "options": [
+            "Computing output from input through network",
+            "Backward computation",
+            "Gradient computation",
+            "Weight update"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is loss function?",
+          "options": [
+            "Measures difference between predicted and actual",
+            "Accuracy function",
+            "Prediction function",
+            "Input function"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is MSE (Mean Squared Error)?",
+          "options": [
+            "Average squared difference between predicted and actual",
+            "Linear error",
+            "Absolute error",
+            "Cross entropy"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is gradient?",
+          "options": [
+            "Derivative of loss with respect to parameter",
+            "Loss value",
+            "Parameter value",
+            "Network output"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is chain rule in backprop?",
+          "options": [
+            "Computing gradient through composition of functions",
+            "Simple rule",
+            "Direct calculation",
+            "No rule"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is learning rate?",
+          "options": [
+            "Controls step size in weight update",
+            "Network accuracy",
+            "Parameter count",
+            "Batch size"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is epoch?",
+          "options": [
+            "One complete pass through training data",
+            "Single batch",
+            "Single sample",
+            "Multiple passes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is batch size?",
+          "options": [
+            "Number of samples in one batch",
+            "Dataset size",
+            "Number of features",
+            "Number of layers"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is cross-entropy loss?",
+          "options": [
+            "Loss function for classification",
+            "Regression loss",
+            "Squared error",
+            "Absolute error"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain momentum in optimization",
+          "options": [
+            "Accelerates gradient descent using previous gradients",
+            "Single gradient",
+            "Random direction",
+            "No acceleration"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is Adam optimizer?",
+          "options": [
+            "Combines momentum and RMSprop",
+            "Simple SGD",
+            "Gradient descent",
+            "No optimizer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is mini-batch gradient descent?",
+          "options": [
+            "Using small batches for gradient estimation",
+            "Full batch",
+            "Single sample",
+            "All samples"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain learning rate scheduling",
+          "options": [
+            "Changing learning rate during training",
+            "Fixed learning rate",
+            "Random rate",
+            "No scheduling"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is regularization?",
+          "options": [
+            "Adding penalty to prevent overfitting",
+            "No penalty",
+            "Always overfit",
+            "Encourages overfitting"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "CNN Basics": {
+      "aliases": [
+        "Convolutional Neural Networks",
+        "CNN Architecture",
+        "Convolution Operation",
+        "CNN Layers",
+        "Image Networks"
+      ],
+      "easy": [
+        {
+          "question": "What is CNN?",
+          "options": [
+            "Neural network with convolutional layers",
+            "Fully connected network",
+            "Recurrent network",
+            "Generative network"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is convolution operation?",
+          "options": [
+            "Sliding filter over input extracting features",
+            "Full connection",
+            "Random operation",
+            "Direct multiplication"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is filter/kernel?",
+          "options": [
+            "Small learnable matrix for feature extraction",
+            "Large matrix",
+            "Fixed matrix",
+            "Random matrix"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is pooling?",
+          "options": [
+            "Reducing spatial dimensions downsampling",
+            "Upsampling",
+            "Feature extraction",
+            "Classification"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is max pooling?",
+          "options": [
+            "Selecting maximum value in pooling region",
+            "Average pooling",
+            "Sum pooling",
+            "Mean pooling"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is stride in convolution?",
+          "options": [
+            "Step size moving filter across input",
+            "Filter size",
+            "Padding amount",
+            "Input size"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is padding?",
+          "options": [
+            "Adding zeros around input",
+            "Removing input",
+            "Extracting features",
+            "Adding filters"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are feature maps?",
+          "options": [
+            "Output of convolutional layers",
+            "Input images",
+            "Filters only",
+            "Parameters"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is receptive field?",
+          "options": [
+            "Region of input affecting output neuron",
+            "Output size",
+            "Filter size",
+            "Network depth"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is flattening layer?",
+          "options": [
+            "Converts 2D/3D to 1D for fully connected",
+            "Reshaping output",
+            "Adding dimension",
+            "Removing dimension"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain parameter sharing in CNN",
+          "options": [
+            "Same filter used across input reducing parameters",
+            "Different filters",
+            "No sharing",
+            "Random sharing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is transposed convolution?",
+          "options": [
+            "Upsampling operation for segmentation",
+            "Downsampling",
+            "Standard convolution",
+            "Average convolution"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 1x1 convolution?",
+          "options": [
+            "Reduces channel dimension, mixing features",
+            "Feature extraction",
+            "Spatial reduction",
+            "Upsampling"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain data augmentation for CNN",
+          "options": [
+            "Creating variations of training data",
+            "Reducing data",
+            "No augmentation",
+            "Random cropping"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is transfer learning in CNN?",
+          "options": [
+            "Using pretrained model on new task",
+            "Training from scratch",
+            "No learning",
+            "Random weights"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

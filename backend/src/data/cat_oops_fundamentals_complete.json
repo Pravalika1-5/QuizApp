@@ -1,0 +1,827 @@
+{
+  "category": "OOPS Fundamentals",
+  "aliases": [
+    "Object-Oriented Programming",
+    "OOP Basics",
+    "Object-Oriented Design",
+    "OOP Principles",
+    "Classes and Objects"
+  ],
+  "topics": {
+    "Classes and Objects": {
+      "aliases": [
+        "Class Definition",
+        "Object Creation",
+        "Instantiation",
+        "Instance Variables",
+        "Class Structure"
+      ],
+      "easy": [
+        {
+          "question": "What is a class in OOP?",
+          "options": [
+            "Blueprint for creating objects",
+            "A function",
+            "A data type",
+            "A method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is an object?",
+          "options": [
+            "Instance of a class",
+            "A function",
+            "A variable type",
+            "A method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do you create an object?",
+          "options": [
+            "Using new keyword and class name",
+            "Using class keyword",
+            "Using def keyword",
+            "Using function"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are instance variables?",
+          "options": [
+            "Variables belonging to object",
+            "Global variables",
+            "Static variables",
+            "Method parameters"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is a constructor?",
+          "options": [
+            "Method to initialize object",
+            "Class definition",
+            "Object method",
+            "Static method"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between class and object?",
+          "options": [
+            "Class is blueprint, object is instance",
+            "Both are same",
+            "Object is blueprint",
+            "Class is instance"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 'this' or 'self' keyword?",
+          "options": [
+            "Reference to current object",
+            "Reference to class",
+            "Reference to method",
+            "Reference to variable"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you have multiple constructors?",
+          "options": [
+            "Yes using constructor overloading",
+            "No",
+            "Only one allowed",
+            "Only in static context"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are class variables?",
+          "options": [
+            "Variables shared by all objects",
+            "Variables for single object",
+            "Static variables",
+            "Method variables"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between instance and class variable?",
+          "options": [
+            "Instance per object, class shared",
+            "Same thing",
+            "Class is temporary",
+            "Instance is shared"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain the difference between deep copy and shallow copy of objects",
+          "options": [
+            "Deep copies all properties, shallow copies references",
+            "Both copy everything",
+            "Same functionality",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is object serialization?",
+          "options": [
+            "Converting object to byte stream",
+            "Creating new object",
+            "Copying object",
+            "Deleting object"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does garbage collection work with objects?",
+          "options": [
+            "Automatically removes unreferenced objects",
+            "Manual deletion required",
+            "Never deleted",
+            "Deleted immediately"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is object composition?",
+          "options": [
+            "Objects containing other objects",
+            "Objects inheriting from others",
+            "Objects in arrays",
+            "Objects calling methods"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain object identity vs equality",
+          "options": [
+            "Identity is same object, equality is same value",
+            "Both check value",
+            "Both check reference",
+            "No difference"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Encapsulation": {
+      "aliases": [
+        "Data Hiding",
+        "Access Control",
+        "Visibility",
+        "Information Hiding",
+        "Private-Public"
+      ],
+      "easy": [
+        {
+          "question": "What is encapsulation?",
+          "options": [
+            "Bundling data and methods together, hiding internal details",
+            "Creating methods",
+            "Defining classes",
+            "Inheritance"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are access modifiers?",
+          "options": [
+            "Control visibility of class members",
+            "Modify class behavior",
+            "Define methods",
+            "Create variables"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does 'private' access modifier do?",
+          "options": [
+            "Restricts access to class only",
+            "Allows public access",
+            "Allows package access",
+            "Allows inheritance access"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does 'public' access modifier do?",
+          "options": [
+            "Allows access from anywhere",
+            "Restricts to class",
+            "Restricts to package",
+            "Allows inheritance only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Why use getters and setters?",
+          "options": [
+            "Control access to private variables",
+            "Create public access",
+            "Define methods",
+            "Improve performance"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between private and protected?",
+          "options": [
+            "Protected allows subclass access, private doesn't",
+            "Both same",
+            "Private allows more access",
+            "Protected is more restrictive"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does package-private (default) access do?",
+          "options": [
+            "Allows access within package only",
+            "Allows all access",
+            "Restricts all access",
+            "Allows subclass only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you access private members from outside class?",
+          "options": [
+            "No, using getter/setter only",
+            "Yes directly",
+            "Only with reflection",
+            "Only in subclass"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the benefit of encapsulation?",
+          "options": [
+            "Protects internal state, allows controlled modification",
+            "Increases performance",
+            "Reduces code",
+            "Simplifies syntax"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do you validate data in setter?",
+          "options": [
+            "Check value before assignment",
+            "Cannot validate",
+            "Validation in getter only",
+            "Using constructor only"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is the principle of least privilege?",
+          "options": [
+            "Grant minimum necessary access to members",
+            "Grant all access",
+            "Restrict all access",
+            "Random access"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does encapsulation relate to data integrity?",
+          "options": [
+            "Ensures data consistency through controlled access",
+            "No relationship",
+            "Decreases integrity",
+            "Increases complexity"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you break encapsulation using reflection?",
+          "options": [
+            "Yes, but violates design principles",
+            "No",
+            "Only in some languages",
+            "Only for testing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is defensive copying?",
+          "options": [
+            "Returning copy of mutable object to prevent external modification",
+            "Copying code",
+            "Creating backup",
+            "Safe deletion"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain immutable objects and encapsulation relationship",
+          "options": [
+            "Immutable objects are inherently encapsulated",
+            "Same thing",
+            "No relationship",
+            "Opposite concepts"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Inheritance": {
+      "aliases": [
+        "Class Hierarchy",
+        "Subclass",
+        "Superclass",
+        "Parent-Child",
+        "Extending Class"
+      ],
+      "easy": [
+        {
+          "question": "What is inheritance?",
+          "options": [
+            "Mechanism to acquire properties of parent class",
+            "Creating new class",
+            "Copying code",
+            "Method definition"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is a parent class?",
+          "options": [
+            "Class being inherited from",
+            "Class inheriting from others",
+            "Base class",
+            "Class with inheritance"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is a child class?",
+          "options": [
+            "Class inheriting from parent",
+            "Parent class",
+            "Base class",
+            "Abstract class"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do you inherit from a class?",
+          "options": [
+            "Using extends keyword",
+            "Using implements",
+            "Using super",
+            "Using new"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can a class inherit from multiple classes?",
+          "options": [
+            "Depends on language",
+            "Yes always",
+            "No, not supported",
+            "Only interfaces"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is method overriding?",
+          "options": [
+            "Subclass providing different implementation of parent method",
+            "Creating method",
+            "Calling parent method",
+            "Hiding method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the super keyword?",
+          "options": [
+            "Reference to parent class",
+            "Reference to current class",
+            "Reference to object",
+            "Reference to method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between method overriding and overloading?",
+          "options": [
+            "Overriding in subclass with same signature, overloading multiple methods same class",
+            "Same thing",
+            "Overloading in subclass",
+            "Overriding in same class"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are abstract classes?",
+          "options": [
+            "Classes that cannot be instantiated, define abstract methods",
+            "Classes with no methods",
+            "Classes with all private members",
+            "Classes in abstract layer"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is 'final' keyword in inheritance?",
+          "options": [
+            "Prevents overriding or inheritance",
+            "Allows inheritance",
+            "Final version of code",
+            "Final method"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain the Liskov Substitution Principle",
+          "options": [
+            "Subclass objects should substitute parent without breaking code",
+            "Parent substitutes child",
+            "Objects are identical",
+            "No substitution"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between interface and abstract class?",
+          "options": [
+            "Interface defines contract, abstract class has partial implementation",
+            "Same thing",
+            "Interface is slower",
+            "Abstract is incomplete"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does Java handle multiple inheritance?",
+          "options": [
+            "Not allowed for classes, but through interfaces",
+            "Fully allowed",
+            "Not supported at all",
+            "Using mixins"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the diamond problem?",
+          "options": [
+            "Ambiguity when class inherits from multiple parents",
+            "Problem with diamonds",
+            "Data structure issue",
+            "Performance problem"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain method resolution order (MRO) in inheritance",
+          "options": [
+            "Order in which methods are searched in hierarchy",
+            "Alphabetical order",
+            "Random order",
+            "Speed order"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Polymorphism": {
+      "aliases": [
+        "Many Forms",
+        "Method Overriding",
+        "Dynamic Binding",
+        "Runtime Behavior",
+        "Compile-time Polymorphism"
+      ],
+      "easy": [
+        {
+          "question": "What is polymorphism?",
+          "options": [
+            "Ability to take many forms",
+            "Many classes",
+            "Many methods",
+            "Many objects"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are two types of polymorphism?",
+          "options": [
+            "Compile-time and Runtime",
+            "Static and Dynamic",
+            "Method and Constructor",
+            "Class and Object"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is compile-time polymorphism?",
+          "options": [
+            "Method overloading",
+            "Method overriding",
+            "Constructor",
+            "Inheritance"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is runtime polymorphism?",
+          "options": [
+            "Method overriding, resolved at runtime",
+            "Method overloading",
+            "Static binding",
+            "Early binding"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How can same method name work differently?",
+          "options": [
+            "Through polymorphism",
+            "Using different classes",
+            "Using different variables",
+            "Using loops"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is method overloading?",
+          "options": [
+            "Multiple methods same name different parameters",
+            "Redefining method in subclass",
+            "Inheriting method",
+            "Hiding method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you overload method with different return types only?",
+          "options": [
+            "No, must differ in parameters",
+            "Yes",
+            "Only for primitives",
+            "Only for objects"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the difference between static and dynamic binding?",
+          "options": [
+            "Static at compile-time, dynamic at runtime",
+            "Both at compile-time",
+            "Both at runtime",
+            "No difference"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is virtual method?",
+          "options": [
+            "Method resolved at runtime based on object type",
+            "Method that doesn't exist",
+            "Static method",
+            "Private method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can interface define polymorphic behavior?",
+          "options": [
+            "Yes through implementation",
+            "No",
+            "Only abstract class",
+            "Only inheritance"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain runtime polymorphism with example",
+          "options": [
+            "Parent reference holds child object, method based on object type",
+            "Compile-time determination",
+            "Static binding",
+            "Early resolution"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is covariant return type?",
+          "options": [
+            "Subclass can return subtype of parent method return type",
+            "Same return type",
+            "Contravariant type",
+            "No such concept"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How does JVM determine which method to call?",
+          "options": [
+            "Based on actual object type at runtime",
+            "Based on reference type",
+            "Based on method name",
+            "Randomly selected"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ad-hoc polymorphism?",
+          "options": [
+            "Method overloading, context-dependent behavior",
+            "Runtime polymorphism",
+            "Parametric polymorphism",
+            "Type polymorphism"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain parametric polymorphism",
+          "options": [
+            "Generic types working with any type safely",
+            "Method overloading",
+            "Inheritance",
+            "Runtime binding"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Abstraction": {
+      "aliases": [
+        "Abstract Methods",
+        "Abstract Classes",
+        "Hiding Complexity",
+        "Simplification",
+        "Interface Design"
+      ],
+      "easy": [
+        {
+          "question": "What is abstraction?",
+          "options": [
+            "Hiding complex implementation, showing only interface",
+            "Creating abstract class",
+            "Hiding data",
+            "Simplifying code"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is an abstract method?",
+          "options": [
+            "Method without implementation, must be overridden",
+            "Method with implementation",
+            "Private method",
+            "Static method"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you instantiate abstract class?",
+          "options": ["No", "Yes", "Sometimes", "Only with methods"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is interface?",
+          "options": [
+            "Contract defining methods to implement",
+            "Class definition",
+            "Method list",
+            "Data container"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Do interfaces have implementation?",
+          "options": [
+            "No, only method signatures",
+            "Yes",
+            "Partial implementation",
+            "Only in Java 8+"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the difference between abstract class and interface?",
+          "options": [
+            "Abstract has partial impl, interface has none (mostly)",
+            "Same thing",
+            "Interface is faster",
+            "Abstract is abstract"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can abstract class have private members?",
+          "options": ["Yes", "No", "Only methods", "Only variables"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does 'implements' keyword do?",
+          "options": [
+            "Class implements interface contract",
+            "Inherits from class",
+            "Creates method",
+            "Defines interface"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can interface have static methods?",
+          "options": [
+            "Yes in Java 8+",
+            "No",
+            "Only in abstract",
+            "Only constants"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is purpose of abstract methods?",
+          "options": [
+            "Define contract without implementation",
+            "Hide implementation",
+            "Provide implementation",
+            "Store data"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain interface segregation principle",
+          "options": [
+            "Many specific interfaces better than one general",
+            "One interface for all",
+            "Larger interfaces",
+            "Smaller classes"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are marker interfaces?",
+          "options": [
+            "Interfaces with no methods, used as markers",
+            "Interfaces with methods",
+            "Abstract interfaces",
+            "Public interfaces"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How do functional interfaces work?",
+          "options": [
+            "Single abstract method interface, used with lambdas",
+            "Multiple methods",
+            "No methods",
+            "All interfaces"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is the relationship between abstraction and encapsulation?",
+          "options": [
+            "Abstraction hides complexity, encapsulation hides data",
+            "Same thing",
+            "Opposite concepts",
+            "No relationship"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you provide default implementation in interface?",
+          "options": [
+            "Yes using default keyword in Java 8+",
+            "No",
+            "Only abstract methods",
+            "Only in classes"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

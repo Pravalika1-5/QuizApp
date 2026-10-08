@@ -1,0 +1,817 @@
+{
+  "category": "SQL Basics",
+  "aliases": [
+    "Structured Query Language",
+    "SQL Queries",
+    "Database Queries",
+    "SQL Programming",
+    "SQL Fundamentals"
+  ],
+  "topics": {
+    "SELECT Statement": {
+      "aliases": [
+        "SELECT Query",
+        "Data Retrieval",
+        "Column Selection",
+        "SELECT Syntax",
+        "Query Basics"
+      ],
+      "easy": [
+        {
+          "question": "What does SELECT do?",
+          "options": [
+            "Retrieves data from database",
+            "Inserts data",
+            "Deletes data",
+            "Modifies structure"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is basic SELECT syntax?",
+          "options": [
+            "SELECT column FROM table",
+            "SELECT * table",
+            "SELECT FROM column",
+            "SELECT table WHERE"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does SELECT * mean?",
+          "options": [
+            "Select all columns",
+            "Select all rows",
+            "Select first row",
+            "Select specific column"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you select specific columns?",
+          "options": ["Yes", "No", "Only one", "Only functions"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is DISTINCT keyword?",
+          "options": [
+            "Removes duplicate rows",
+            "Adds rows",
+            "Filters rows",
+            "Sorts rows"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "How to alias column in SELECT?",
+          "options": [
+            "SELECT column AS alias",
+            "SELECT column alias",
+            "SELECT alias column",
+            "SELECT column:alias"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is LIMIT clause?",
+          "options": [
+            "Restricts number of rows returned",
+            "Filters rows",
+            "Sorts rows",
+            "Groups rows"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can SELECT use expressions?",
+          "options": [
+            "Yes, like column+5",
+            "No expressions",
+            "Only functions",
+            "Only strings"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ORDER BY in SELECT?",
+          "options": [
+            "Sorts result set",
+            "Filters results",
+            "Groups results",
+            "Limits results"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does ASC/DESC mean?",
+          "options": [
+            "Ascending/Descending sort order",
+            "Add/Delete columns",
+            "Select/Skip rows",
+            "Alter/Drop table"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "How to count results in SELECT?",
+          "options": [
+            "SELECT COUNT(*)",
+            "SELECT COUNT(table)",
+            "SELECT SIZE(*)",
+            "SELECT LENGTH(*)"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is column aliasing importance?",
+          "options": [
+            "Improves readability and result handling",
+            "No importance",
+            "Confuses queries",
+            "Slows query"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to concatenate columns?",
+          "options": [
+            "Using CONCAT() or || operator",
+            "Direct concatenation",
+            "Using + operator",
+            "Using & operator"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can SELECT modify data?",
+          "options": [
+            "No, read-only operation",
+            "Yes, modifies",
+            "Sometimes",
+            "Only with WHERE"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is SELECT INTO?",
+          "options": [
+            "Creates new table from SELECT result",
+            "Selects data",
+            "Modifies table",
+            "Deletes table"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "WHERE Clause": {
+      "aliases": [
+        "Filtering Rows",
+        "Conditions",
+        "WHERE Syntax",
+        "Query Filtering",
+        "Row Selection"
+      ],
+      "easy": [
+        {
+          "question": "What does WHERE do?",
+          "options": [
+            "Filters rows based on condition",
+            "Selects columns",
+            "Sorts rows",
+            "Groups rows"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is WHERE syntax?",
+          "options": [
+            "SELECT * FROM table WHERE condition",
+            "WHERE SELECT * FROM table",
+            "SELECT WHERE FROM table",
+            "FROM WHERE SELECT table"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can WHERE use comparison operators?",
+          "options": ["Yes, =, <, >, <=, >=, <>", "Only =", "Only <", "Only >"],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is = operator in WHERE?",
+          "options": [
+            "Equality comparison",
+            "Assignment",
+            "Not equal",
+            "Greater than"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is <> operator?",
+          "options": [
+            "Not equal",
+            "Less than",
+            "Greater than",
+            "Less or equal"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "Can WHERE use AND operator?",
+          "options": [
+            "Yes, combines multiple conditions",
+            "No",
+            "Only in functions",
+            "Only in updates"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can WHERE use OR operator?",
+          "options": [
+            "Yes, either condition true",
+            "No",
+            "Only with AND",
+            "Only with NOT"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is BETWEEN in WHERE?",
+          "options": [
+            "Checks range between two values",
+            "Checks exact value",
+            "Checks maximum",
+            "Checks minimum"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is IN operator in WHERE?",
+          "options": [
+            "Checks if value in list",
+            "Checks range",
+            "Checks pattern",
+            "Checks null"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is LIKE operator?",
+          "options": [
+            "Pattern matching with wildcards",
+            "Exact match",
+            "Range check",
+            "Null check"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What does % wildcard do in LIKE?",
+          "options": [
+            "Matches any characters",
+            "Matches single char",
+            "Matches numbers",
+            "Matches nothing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does _ wildcard do?",
+          "options": [
+            "Matches single character",
+            "Any characters",
+            "No match",
+            "One digit"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can WHERE use subqueries?",
+          "options": [
+            "Yes, nested queries",
+            "No",
+            "Only functions",
+            "Only operators"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is operator precedence in WHERE?",
+          "options": [
+            "NOT > AND > OR",
+            "OR > AND > NOT",
+            "All equal",
+            "No precedence"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to handle NULL in WHERE?",
+          "options": [
+            "Use IS NULL or IS NOT NULL",
+            "Use = NULL",
+            "Use <> NULL",
+            "Use NULL operator"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "ORDER BY": {
+      "aliases": [
+        "Sorting Results",
+        "Sort Order",
+        "Ascending Descending",
+        "Result Ordering",
+        "ORDER BY Clause"
+      ],
+      "easy": [
+        {
+          "question": "What does ORDER BY do?",
+          "options": [
+            "Sorts result set",
+            "Filters rows",
+            "Groups rows",
+            "Limits rows"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ORDER BY syntax?",
+          "options": [
+            "SELECT * FROM table ORDER BY column",
+            "ORDER BY SELECT * FROM table",
+            "SELECT ORDER BY * FROM table",
+            "FROM ORDER BY table"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Default sort order is?",
+          "options": ["Ascending", "Descending", "Random", "No order"],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to sort descending?",
+          "options": [
+            "ORDER BY column DESC",
+            "ORDER BY DESC column",
+            "DESC ORDER BY column",
+            "SORT column DESC"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can ORDER BY multiple columns?",
+          "options": ["Yes", "No", "Only two", "Only one"],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is column number in ORDER BY?",
+          "options": [
+            "Using position like ORDER BY 2",
+            "Column name only",
+            "Always name",
+            "Not allowed"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can ORDER BY use expressions?",
+          "options": [
+            "Yes, like column+5",
+            "No",
+            "Only functions",
+            "Only constants"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to sort by multiple columns?",
+          "options": [
+            "ORDER BY col1, col2",
+            "ORDER BY col1 AND col2",
+            "ORDER BY col1 OR col2",
+            "ORDER BY col1;col2"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can NULL values be sorted?",
+          "options": [
+            "Yes, typically first or last",
+            "No",
+            "Only with special function",
+            "Cannot appear"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ORDER BY with LIMIT?",
+          "options": [
+            "Sorts then limits rows",
+            "Limits then sorts",
+            "No combination",
+            "Same result"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Can ORDER BY use calculated columns?",
+          "options": [
+            "Yes, including aliases",
+            "No",
+            "Only functions",
+            "Only original columns"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is COLLATE in ORDER BY?",
+          "options": [
+            "Specifies sort order rules",
+            "Sort direction",
+            "Sort function",
+            "No COLLATE"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can ORDER BY use CASE statement?",
+          "options": [
+            "Yes, conditional sorting",
+            "No",
+            "Only functions",
+            "Only operators"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Performance of ORDER BY on indexed column?",
+          "options": [
+            "Faster due to index",
+            "No difference",
+            "Always slow",
+            "Indexes forbidden"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to sort case-insensitive?",
+          "options": [
+            "Use LOWER() or UPPER()",
+            "Sort alone",
+            "Use CASE",
+            "Not possible"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Joins": {
+      "aliases": [
+        "Table Joins",
+        "Inner Join",
+        "Outer Join",
+        "Join Types",
+        "Joining Tables"
+      ],
+      "easy": [
+        {
+          "question": "What is JOIN?",
+          "options": [
+            "Combines rows from multiple tables",
+            "Selects rows",
+            "Groups rows",
+            "Filters rows"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What are JOIN types?",
+          "options": [
+            "INNER, LEFT, RIGHT, FULL OUTER",
+            "Just INNER",
+            "Just LEFT",
+            "Just RIGHT"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is INNER JOIN?",
+          "options": [
+            "Returns matching rows from both tables",
+            "Returns all rows",
+            "Returns left rows",
+            "Returns right rows"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is LEFT JOIN?",
+          "options": [
+            "Returns all left table rows plus matches",
+            "Returns only matches",
+            "Returns right rows",
+            "Returns nothing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ON clause?",
+          "options": [
+            "Specifies join condition",
+            "Sort condition",
+            "Filter condition",
+            "Group condition"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is RIGHT JOIN?",
+          "options": [
+            "Returns all right table rows plus matches",
+            "Returns left rows",
+            "Returns only matches",
+            "Returns nothing"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is FULL OUTER JOIN?",
+          "options": [
+            "Returns all rows from both tables",
+            "Returns matches only",
+            "Returns left only",
+            "Returns right only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can you JOIN more than two tables?",
+          "options": [
+            "Yes, multiple JOINs",
+            "No",
+            "Only two",
+            "Only functions"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is CROSS JOIN?",
+          "options": [
+            "Cartesian product of tables",
+            "Inner join",
+            "Left join",
+            "Right join"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is self JOIN?",
+          "options": [
+            "Table joined with itself",
+            "Join two tables",
+            "Join multiple tables",
+            "No self join"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "JOIN performance depends on?",
+          "options": [
+            "Indexes on join columns",
+            "Table size only",
+            "Column names",
+            "No dependency"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is JOIN with WHERE clause?",
+          "options": [
+            "Filters joined rows",
+            "Joins only",
+            "Filters before",
+            "No filtering"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can JOIN use expressions?",
+          "options": [
+            "Yes, in ON clause",
+            "No",
+            "Only column names",
+            "Only functions"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is ambiguous column in JOIN?",
+          "options": [
+            "Column exists in both tables",
+            "Doesn't exist",
+            "Exists once",
+            "No ambiguity"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "How to resolve ambiguous columns?",
+          "options": [
+            "Use table alias prefix",
+            "Use quotes",
+            "Use underscore",
+            "Cannot resolve"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Aggregate Functions": {
+      "aliases": [
+        "Aggregation",
+        "SUM AVG COUNT",
+        "Aggregate Operations",
+        "Functions",
+        "Statistical Functions"
+      ],
+      "easy": [
+        {
+          "question": "What are aggregate functions?",
+          "options": [
+            "Functions calculating over set of values",
+            "Single row functions",
+            "String functions",
+            "Date functions"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does COUNT do?",
+          "options": [
+            "Counts rows",
+            "Sums values",
+            "Averages values",
+            "Finds max"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does SUM do?",
+          "options": [
+            "Adds all values",
+            "Counts rows",
+            "Averages",
+            "Finds maximum"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does AVG do?",
+          "options": [
+            "Calculates average",
+            "Counts rows",
+            "Sums values",
+            "Finds max"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does MAX do?",
+          "options": [
+            "Finds maximum value",
+            "Finds minimum",
+            "Counts rows",
+            "Sums values"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What does MIN do?",
+          "options": [
+            "Finds minimum value",
+            "Finds maximum",
+            "Counts rows",
+            "Sums values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can aggregate functions ignore NULL?",
+          "options": [
+            "Yes, skip NULL values",
+            "No",
+            "Depends on function",
+            "Only COUNT"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does COUNT(*) count?",
+          "options": [
+            "All rows including NULL",
+            "Only non-NULL",
+            "Columns only",
+            "Distinct values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What does COUNT(column) count?",
+          "options": [
+            "Non-NULL column values",
+            "All rows",
+            "Distinct values",
+            "NULL values"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can aggregate functions use DISTINCT?",
+          "options": [
+            "Yes, with aggregate function",
+            "No",
+            "Only COUNT",
+            "Only SUM"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is aggregate without GROUP BY?",
+          "options": [
+            "Returns single row result",
+            "Groups all rows",
+            "Returns multiple rows",
+            "Error"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can mix aggregate and non-aggregate columns?",
+          "options": [
+            "No, requires GROUP BY",
+            "Yes always",
+            "Only non-aggregate",
+            "Only aggregate"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is nested aggregate functions?",
+          "options": [
+            "Function of aggregate result",
+            "Not allowed",
+            "Always allowed",
+            "Only in WHERE"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Performance of aggregate on large table?",
+          "options": [
+            "Can be slow, use indexes",
+            "Always fast",
+            "Always slow",
+            "Indexes forbidden"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is HAVING with aggregates?",
+          "options": [
+            "Filters grouped results",
+            "Filters before group",
+            "Filters columns",
+            "No filtering"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "topic_name": "Limits",
+  "aliases": ["limit", "limits calculus", "continuity", "l'hopital", "limits and continuity"],
+  "questions": {
+    "easy": [
+      {
+        "question": "What is the value of lim(x→2) of (x + 3)?",
+        "options": ["3", "5", "2", "6"],
+        "correct_answer": "5"
+      },
+      {
+        "question": "What is lim(x→0) of x²?",
+        "options": ["0", "1", "∞", "-1"],
+        "correct_answer": "0"
+      },
+      {
+        "question": "What is lim(x→∞) of 1/x?",
+        "options": ["1", "∞", "0", "-1"],
+        "correct_answer": "0"
+      },
+      {
+        "question": "What is lim(x→3) of (x² - 9)/(x - 3)?",
+        "options": ["0", "3", "6", "9"],
+        "correct_answer": "6"
+      },
+      {
+        "question": "A function f(x) is continuous at x = a if:",
+        "options": [
+          "lim(x→a) f(x) = 0",
+          "lim(x→a) f(x) = f(a)",
+          "f(a) = 0",
+          "f(a) is undefined"
+        ],
+        "correct_answer": "lim(x→a) f(x) = f(a)"
+      },
+      {
+        "question": "What is lim(x→1) of (x³ - 1)/(x - 1)?",
+        "options": ["1", "2", "3", "0"],
+        "correct_answer": "3"
+      },
+      {
+        "question": "What is lim(x→0) of sin(x)/x?",
+        "options": ["0", "∞", "1", "-1"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "What is lim(x→∞) of (2x + 1)/(x + 1)?",
+        "options": ["1", "2", "0", "∞"],
+        "correct_answer": "2"
+      },
+      {
+        "question": "Which of the following is true about a limit?",
+        "options": [
+          "The limit must equal the function value",
+          "The limit describes the value a function approaches",
+          "The limit is always defined",
+          "The limit equals zero at infinity"
+        ],
+        "correct_answer": "The limit describes the value a function approaches"
+      },
+      {
+        "question": "What is lim(x→4) of √x?",
+        "options": ["2", "4", "16", "8"],
+        "correct_answer": "2"
+      },
+      {
+        "question": "What is lim(x→0) of (1 - cos x)/x?",
+        "options": ["1", "0", "∞", "-1"],
+        "correct_answer": "0"
+      },
+      {
+        "question": "What is lim(x→2) of (x² - 4)/(x - 2)?",
+        "options": ["0", "2", "4", "8"],
+        "correct_answer": "4"
+      },
+      {
+        "question": "If lim(x→a) f(x) exists, what must be true?",
+        "options": [
+          "Left-hand limit equals right-hand limit",
+          "f(a) must be defined",
+          "f(a) must equal zero",
+          "The function must be differentiable"
+        ],
+        "correct_answer": "Left-hand limit equals right-hand limit"
+      },
+      {
+        "question": "What is lim(x→∞) of e^(-x)?",
+        "options": ["∞", "1", "0", "-1"],
+        "correct_answer": "0"
+      },
+      {
+        "question": "What is lim(x→0) of tan(x)/x?",
+        "options": ["0", "∞", "1", "-1"],
+        "correct_answer": "1"
+      }
+    ],
+    "medium": [
+      {
+        "question": "What is lim(x→0) of (e^x - 1)/x?",
+        "options": ["0", "e", "1", "∞"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "What is lim(x→∞) of (3x² + 2x)/(x² - 1)?",
+        "options": ["2", "3", "0", "∞"],
+        "correct_answer": "3"
+      },
+      {
+        "question": "What is lim(x→0⁺) of x·ln(x)?",
+        "options": ["0", "1", "-∞", "∞"],
+        "correct_answer": "0"
+      },
+      {
+        "question": "What is lim(x→π) of sin(x)/(x - π)?",
+        "options": ["0", "1", "-1", "π"],
+        "correct_answer": "-1"
+      },
+      {
+        "question": "What is lim(x→0) of (1 + x)^(1/x)?",
+        "options": ["1", "e", "0", "∞"],
+        "correct_answer": "e"
+      },
+      {
+        "question": "For f(x) = |x|/x, what is lim(x→0)?",
+        "options": ["0", "1", "-1", "Does not exist"],
+        "correct_answer": "Does not exist"
+      },
+      {
+        "question": "What is lim(x→∞) of (x + sin x)/x?",
+        "options": ["0", "∞", "1", "Does not exist"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "What is lim(x→0) of (sin 3x)/(sin 5x)?",
+        "options": ["3/5", "5/3", "1", "0"],
+        "correct_answer": "3/5"
+      },
+      {
+        "question": "What is lim(x→1) of (x^n - 1)/(x - 1)?",
+        "options": ["1", "n", "n-1", "0"],
+        "correct_answer": "n"
+      },
+      {
+        "question": "What is lim(x→0) of (a^x - 1)/x?",
+        "options": ["1", "a", "ln(a)", "0"],
+        "correct_answer": "ln(a)"
+      },
+      {
+        "question": "What is lim(x→∞) of x^(1/x)?",
+        "options": ["∞", "0", "1", "e"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "What is lim(x→0) of (cos x - 1)/x²?",
+        "options": ["0", "-1/2", "1/2", "1"],
+        "correct_answer": "-1/2"
+      },
+      {
+        "question": "What is lim(x→∞) of (1 + 1/x)^x?",
+        "options": ["1", "∞", "e", "0"],
+        "correct_answer": "e"
+      },
+      {
+        "question": "What is lim(x→0) of x·sin(1/x)?",
+        "options": ["1", "∞", "Does not exist", "0"],
+        "correct_answer": "0"
+      },
+      {
+        "question": "What is lim(x→2⁻) of 1/(x - 2)?",
+        "options": ["∞", "-∞", "0", "2"],
+        "correct_answer": "-∞"
+      }
+    ],
+    "hard": [
+      {
+        "question": "What is lim(x→0) of (x - sin x)/x³?",
+        "options": ["0", "1/6", "1/3", "1"],
+        "correct_answer": "1/6"
+      },
+      {
+        "question": "What is lim(x→0) of (tan x - sin x)/x³?",
+        "options": ["1/2", "1/3", "1/6", "1"],
+        "correct_answer": "1/2"
+      },
+      {
+        "question": "What is lim(x→∞) of x·(π/2 - arctan x)?",
+        "options": ["0", "π/2", "1", "∞"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "What is lim(x→0⁺) of x^x?",
+        "options": ["0", "1", "e", "∞"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "What is lim(x→0) of (e^x - e^(-x) - 2x)/x³?",
+        "options": ["1/3", "2/3", "1/6", "0"],
+        "correct_answer": "1/3"
+      },
+      {
+        "question": "What is lim(n→∞) of (1 + x/n)^n?",
+        "options": ["1", "x", "e^x", "∞"],
+        "correct_answer": "e^x"
+      },
+      {
+        "question": "What is lim(x→0) of (sin x - x cos x)/x³?",
+        "options": ["1/3", "1/6", "2/3", "1/2"],
+        "correct_answer": "1/3"
+      },
+      {
+        "question": "What is lim(x→∞) of (ln x)/x^n for any n > 0?",
+        "options": ["∞", "1", "0", "ln n"],
+        "correct_answer": "0"
+      },
+      {
+        "question": "What is lim(x→0) of [1/sin²x - 1/x²]?",
+        "options": ["0", "1/3", "1/6", "1"],
+        "correct_answer": "1/3"
+      },
+      {
+        "question": "What is lim(x→1) of (x^x - x)/(x - 1 - ln x)?",
+        "options": ["1", "2", "0", "e"],
+        "correct_answer": "2"
+      },
+      {
+        "question": "What is lim(x→0) of (e^(sin x) - e^x)/x²?",
+        "options": ["0", "-1/2", "1/2", "1"],
+        "correct_answer": "-1/2"
+      },
+      {
+        "question": "What is lim(x→∞) of x²·(cos(1/x) - 1)?",
+        "options": ["0", "-1/2", "1/2", "∞"],
+        "correct_answer": "-1/2"
+      },
+      {
+        "question": "What is lim(x→0) of (ln(1+x) - x + x²/2)/x³?",
+        "options": ["-1/3", "1/3", "-1/6", "1/6"],
+        "correct_answer": "-1/3"
+      },
+      {
+        "question": "What is lim(x→0⁺) of (sin x)^(tan x)?",
+        "options": ["0", "1", "e", "∞"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "What is lim(x→∞) of (x!)^(1/x)/x (Stirling approximation based)?",
+        "options": ["1", "e", "1/e", "0"],
+        "correct_answer": "1/e"
+      }
+    ],
+    "interview": [
+      {
+        "question": "Using L'Hôpital's Rule, what is lim(x→0) of (e^x - 1 - x)/x²?",
+        "options": ["0", "1/2", "1", "2"],
+        "correct_answer": "1/2"
+      },
+      {
+        "question": "What condition must hold for L'Hôpital's Rule to be applicable?",
+        "options": [
+          "The limit must be of the form 0/0 or ∞/∞",
+          "The function must be continuous",
+          "The denominator must be non-zero",
+          "The function must be differentiable at all points"
+        ],
+        "correct_answer": "The limit must be of the form 0/0 or ∞/∞"
+      },
+      {
+        "question": "What is the Squeeze Theorem used for?",
+        "options": [
+          "Finding derivatives of composite functions",
+          "Evaluating limits by bounding a function between two others",
+          "Solving differential equations",
+          "Computing definite integrals"
+        ],
+        "correct_answer": "Evaluating limits by bounding a function between two others"
+      },
+      {
+        "question": "What is lim(x→0) of (sin(x²))/x² using standard limits?",
+        "options": ["0", "2", "1", "∞"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "Which of the following correctly defines the epsilon-delta definition of a limit?",
+        "options": [
+          "For every ε > 0, there exists δ > 0 such that |x - a| < δ implies |f(x) - L| < ε",
+          "For every δ > 0, there exists ε > 0 such that |f(x) - L| < δ implies |x - a| < ε",
+          "For every ε > 0, f(x) = L when x = a",
+          "The function value equals the limit at every point"
+        ],
+        "correct_answer": "For every ε > 0, there exists δ > 0 such that |x - a| < δ implies |f(x) - L| < ε"
+      },
+      {
+        "question": "What is lim(x→0) of (x² sin(1/x))?",
+        "options": ["Does not exist", "1", "0", "∞"],
+        "correct_answer": "0"
+      },
+      {
+        "question": "What is the difference between a limit and a value of a function at a point?",
+        "options": [
+          "They are always equal",
+          "The limit describes approach behavior; the function value is the actual output at that point",
+          "The limit is always greater than the function value",
+          "The function value is always undefined when the limit exists"
+        ],
+        "correct_answer": "The limit describes approach behavior; the function value is the actual output at that point"
+      },
+      {
+        "question": "What is lim(x→∞) of (2x³ - x + 1)/(x³ + 5x²)?",
+        "options": ["0", "1", "2", "∞"],
+        "correct_answer": "2"
+      },
+      {
+        "question": "For f(x) = sin(1/x), what is lim(x→0)?",
+        "options": ["0", "1", "-1", "Does not exist"],
+        "correct_answer": "Does not exist"
+      },
+      {
+        "question": "What is lim(x→0) of (ln(1 + x))/x?",
+        "options": ["0", "e", "1", "∞"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "What does it mean for a limit to be infinite?",
+        "options": [
+          "The function is undefined",
+          "The function grows without bound as x approaches the point",
+          "The limit does not exist",
+          "The function oscillates"
+        ],
+        "correct_answer": "The function grows without bound as x approaches the point"
+      },
+      {
+        "question": "What is lim(x→0) of (e^(3x) - e^(2x))/x?",
+        "options": ["0", "1", "5", "e"],
+        "correct_answer": "1"
+      },
+      {
+        "question": "Which theorem guarantees that a continuous function on [a,b] attains its maximum and minimum?",
+        "options": [
+          "Mean Value Theorem",
+          "Extreme Value Theorem",
+          "Intermediate Value Theorem",
+          "Rolle's Theorem"
+        ],
+        "correct_answer": "Extreme Value Theorem"
+      },
+      {
+        "question": "What is lim(h→0) of [f(x+h) - f(x)]/h called?",
+        "options": [
+          "The integral of f",
+          "The derivative of f at x",
+          "The limit of f at x",
+          "The continuity condition"
+        ],
+        "correct_answer": "The derivative of f at x"
+      },
+      {
+        "question": "If lim(x→a⁺) f(x) ≠ lim(x→a⁻) f(x), what can we conclude?",
+        "options": [
+          "f is continuous at a",
+          "f is differentiable at a",
+          "The two-sided limit at a does not exist",
+          "f(a) is undefined"
+        ],
+        "correct_answer": "The two-sided limit at a does not exist"
+      }
+    ]
+  }
+}

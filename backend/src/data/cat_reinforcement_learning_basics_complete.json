@@ -1,0 +1,507 @@
+{
+  "category": "Reinforcement Learning Basics",
+  "aliases": [
+    "RL Fundamentals",
+    "RL Concepts",
+    "Decision Making",
+    "Learning from Rewards",
+    "RL Overview"
+  ],
+  "topics": {
+    "Agent": {
+      "aliases": [
+        "RL Agent",
+        "Decision Maker",
+        "Actor",
+        "Learning Entity",
+        "Agent Components"
+      ],
+      "easy": [
+        {
+          "question": "What is agent in RL?",
+          "options": [
+            "Entity making decisions based on rewards",
+            "Environment only",
+            "State only",
+            "Action only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is environment?",
+          "options": [
+            "System where agent takes actions",
+            "Agent itself",
+            "Decision maker",
+            "Action selector"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is state?",
+          "options": [
+            "Current situation of environment",
+            "Future state",
+            "Agent only",
+            "Action result"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is action?",
+          "options": [
+            "Choice made by agent",
+            "Environmental change",
+            "Reward signal",
+            "State change only"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is reward?",
+          "options": [
+            "Signal indicating action quality",
+            "Punishment only",
+            "State indicator",
+            "Action type"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is observation?",
+          "options": [
+            "What agent perceives from environment",
+            "What agent does",
+            "What agent thinks",
+            "Reward signal"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is policy?",
+          "options": [
+            "Mapping from states to actions",
+            "Reward function",
+            "Environment rules",
+            "Agent type"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is value function?",
+          "options": [
+            "Expected future reward from state",
+            "Current reward",
+            "Immediate reward",
+            "Average reward"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is action-value function?",
+          "options": [
+            "Expected reward from action in state",
+            "State value",
+            "Policy value",
+            "Environment value"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is trajectory?",
+          "options": [
+            "Sequence of states and actions",
+            "Single state",
+            "Single action",
+            "Single reward"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain Markov property",
+          "options": [
+            "Future depends only on current state",
+            "Depends on history",
+            "Random future",
+            "No dependency"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is MDP (Markov Decision Process)?",
+          "options": [
+            "Framework for sequential decision making",
+            "Single decision",
+            "No decisions",
+            "Random process"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is return (cumulative reward)?",
+          "options": [
+            "Sum of rewards from current to end",
+            "Single reward",
+            "Average reward",
+            "Maximum reward"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is discount factor?",
+          "options": [
+            "Weighting immediate vs future rewards",
+            "Reward magnitude",
+            "Learning rate",
+            "Exploration rate"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain credit assignment problem",
+          "options": [
+            "Determining which actions caused reward",
+            "Reward distribution",
+            "Action selection",
+            "State transition"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Reward": {
+      "aliases": [
+        "Reward Signals",
+        "Feedback",
+        "Incentive",
+        "Score",
+        "Reward Design"
+      ],
+      "easy": [
+        {
+          "question": "What is reward in RL?",
+          "options": [
+            "Numerical signal indicating action quality",
+            "Penalty only",
+            "State change",
+            "Action change"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is sparse reward?",
+          "options": [
+            "Reward given rarely",
+            "Reward always given",
+            "No reward",
+            "Immediate reward"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is dense reward?",
+          "options": [
+            "Reward given frequently",
+            "Sparse reward",
+            "No reward",
+            "Final reward"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Can rewards be negative?",
+          "options": [
+            "Yes, for penalties",
+            "No, always positive",
+            "Only zero",
+            "Not applicable"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is reward shaping?",
+          "options": [
+            "Designing reward signal for learning",
+            "Punishment design",
+            "State design",
+            "Action design"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is intrinsic reward?",
+          "options": [
+            "Reward from curiosity/exploration",
+            "External reward",
+            "Task reward",
+            "Goal reward"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is extrinsic reward?",
+          "options": [
+            "External reward from environment",
+            "Internal reward",
+            "Curiosity reward",
+            "Exploration reward"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is reward signal delay?",
+          "options": [
+            "Time between action and reward",
+            "Immediate reward",
+            "No delay",
+            "Random delay"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is hindsight experience replay?",
+          "options": [
+            "Reusing trajectories with different goals",
+            "Single trajectory",
+            "Goal-only learning",
+            "No replay"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is reward normalization?",
+          "options": [
+            "Scaling rewards for stable learning",
+            "Raw rewards",
+            "No scaling",
+            "Random scaling"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain potential-based reward shaping",
+          "options": [
+            "Adding potential function without changing optimal policy",
+            "Simple reward",
+            "Complex reward",
+            "No shaping"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is reward hacking?",
+          "options": [
+            "Agent optimizing reward instead of intended goal",
+            "Agent learning correctly",
+            "Good optimization",
+            "No issue"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is inverse reinforcement learning?",
+          "options": [
+            "Learning reward from expert demonstrations",
+            "Learning policy",
+            "Learning value",
+            "Learning actions"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is multi-objective RL?",
+          "options": [
+            "Optimizing multiple reward objectives",
+            "Single objective",
+            "No objectives",
+            "Random objectives"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain reward robustness",
+          "options": [
+            "Policy robust to reward perturbations",
+            "Sensitive to changes",
+            "No robustness",
+            "Random robustness"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    },
+    "Policy": {
+      "aliases": [
+        "Decision Policy",
+        "Strategy",
+        "Behavior",
+        "Action Selection",
+        "Policy Learning"
+      ],
+      "easy": [
+        {
+          "question": "What is policy?",
+          "options": [
+            "Mapping from states to actions",
+            "Reward function",
+            "Value function",
+            "Environment"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is deterministic policy?",
+          "options": [
+            "Policy always selecting same action in state",
+            "Random action",
+            "Multiple actions",
+            "No action"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is stochastic policy?",
+          "options": [
+            "Policy selecting action with probability",
+            "Deterministic",
+            "Fixed action",
+            "No action"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is optimal policy?",
+          "options": [
+            "Policy maximizing cumulative reward",
+            "Any policy",
+            "Random policy",
+            "No policy"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is policy improvement?",
+          "options": [
+            "Making policy better",
+            "Making worse",
+            "No change",
+            "Random change"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is policy gradient?",
+          "options": [
+            "Gradient of policy performance",
+            "Value gradient",
+            "State gradient",
+            "Reward gradient"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is exploration?",
+          "options": [
+            "Trying different actions to learn",
+            "Exploitation only",
+            "Fixed action",
+            "No exploration"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is exploitation?",
+          "options": [
+            "Using best known action",
+            "Trying new actions",
+            "Random action",
+            "No action"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is epsilon-greedy?",
+          "options": [
+            "Exploration-exploitation tradeoff with epsilon",
+            "Pure exploitation",
+            "Pure exploration",
+            "No tradeoff"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is policy evaluation?",
+          "options": [
+            "Computing value function for policy",
+            "Improving policy",
+            "Selecting action",
+            "Getting reward"
+          ],
+          "correct_answer": 0
+        }
+      ],
+      "hard": [
+        {
+          "question": "Explain policy iteration",
+          "options": [
+            "Alternating evaluation and improvement until convergence",
+            "Single iteration",
+            "Random iteration",
+            "No iteration"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is value iteration?",
+          "options": [
+            "Computing optimal value without explicit policy",
+            "Policy-based",
+            "Gradient-based",
+            "Random-based"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is actor-critic architecture?",
+          "options": [
+            "Combining policy (actor) and value (critic)",
+            "Actor only",
+            "Critic only",
+            "Neither"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "Explain policy gradient theorem",
+          "options": [
+            "Mathematical basis for policy gradient algorithms",
+            "Value theorem",
+            "Random theorem",
+            "No theorem"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "question": "What is advantage function?",
+          "options": [
+            "Value above baseline, A(s,a)=Q(s,a)-V(s)",
+            "Value function",
+            "Policy function",
+            "Reward function"
+          ],
+          "correct_answer": 0
+        }
+      ]
+    }
+  }
+}

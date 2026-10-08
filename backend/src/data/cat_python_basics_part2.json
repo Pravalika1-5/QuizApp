@@ -1,0 +1,683 @@
+{
+  "category_name": "PYTHON BASICS",
+  "category_aliases": [
+    "python", "python basics", "core python", "python programming", "python fundamentals"
+  ],
+  "topics": [
+    {
+      "topic_name": "Functions",
+      "aliases": [
+        "python functions", "def python", "function definition python", "lambda python", "python methods"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which keyword is used to define a function in Python?",
+            "options": ["func", "function", "def", "define"],
+            "correct_answer": "def"
+          },
+          {
+            "question": "What is the output of a function that has no return statement?",
+            "options": ["0", "False", "None", "Error"],
+            "correct_answer": "None"
+          },
+          {
+            "question": "What is a default parameter in Python?",
+            "options": [
+              "A parameter that must always be provided",
+              "A parameter with a pre-assigned value used when no argument is passed",
+              "A parameter that accepts any data type",
+              "A parameter declared with the default keyword"
+            ],
+            "correct_answer": "A parameter with a pre-assigned value used when no argument is passed"
+          },
+          {
+            "question": "What is a lambda function in Python?",
+            "options": [
+              "A function defined inside a class",
+              "A small anonymous function defined with the lambda keyword",
+              "A function that returns multiple values",
+              "A recursive function"
+            ],
+            "correct_answer": "A small anonymous function defined with the lambda keyword"
+          },
+          {
+            "question": "How do you call a function named greet in Python?",
+            "options": ["call greet()", "greet()", "run greet()", "invoke greet()"],
+            "correct_answer": "greet()"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between *args and **kwargs in Python?",
+            "options": [
+              "*args accepts keyword arguments; **kwargs accepts positional arguments",
+              "*args accepts variable positional arguments as a tuple; **kwargs accepts variable keyword arguments as a dict",
+              "They are identical",
+              "*args is for integers only; **kwargs is for strings only"
+            ],
+            "correct_answer": "*args accepts variable positional arguments as a tuple; **kwargs accepts variable keyword arguments as a dict"
+          },
+          {
+            "question": "What is a closure in Python?",
+            "options": [
+              "A function that closes the program",
+              "A nested function that remembers variables from its enclosing scope even after the outer function has returned",
+              "A function with no parameters",
+              "A function that returns None"
+            ],
+            "correct_answer": "A nested function that remembers variables from its enclosing scope even after the outer function has returned"
+          },
+          {
+            "question": "What is the output of: f = lambda x, y: x + y; print(f(3, 4))?",
+            "options": ["34", "7", "None", "Error"],
+            "correct_answer": "7"
+          },
+          {
+            "question": "What does the map() function do in Python?",
+            "options": [
+              "Creates a dictionary from a list",
+              "Applies a function to every item in an iterable and returns a map object",
+              "Filters elements from a list",
+              "Sorts a list using a key function"
+            ],
+            "correct_answer": "Applies a function to every item in an iterable and returns a map object"
+          },
+          {
+            "question": "What is a higher-order function in Python?",
+            "options": [
+              "A function defined at the top of a file",
+              "A function that takes another function as an argument or returns a function",
+              "A function with more than 5 parameters",
+              "A function that runs faster than normal"
+            ],
+            "correct_answer": "A function that takes another function as an argument or returns a function"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is a decorator in Python?",
+            "options": [
+              "A function that formats output",
+              "A function that wraps another function to extend its behavior without modifying it",
+              "A class method that initializes objects",
+              "A built-in function for styling code"
+            ],
+            "correct_answer": "A function that wraps another function to extend its behavior without modifying it"
+          },
+          {
+            "question": "What is the output of: def f(x, lst=[]): lst.append(x); return lst; print(f(1)); print(f(2))?",
+            "options": [
+              "[1] [2]",
+              "[1] [1, 2]",
+              "[1] [2, 1]",
+              "Error"
+            ],
+            "correct_answer": "[1] [1, 2]"
+          },
+          {
+            "question": "What is memoization in the context of Python functions?",
+            "options": [
+              "Storing function source code",
+              "Caching the results of expensive function calls to avoid recomputation",
+              "Documenting a function with docstrings",
+              "Compiling a function to bytecode"
+            ],
+            "correct_answer": "Caching the results of expensive function calls to avoid recomputation"
+          },
+          {
+            "question": "What does functools.partial() do in Python?",
+            "options": [
+              "Returns a partial string from a function",
+              "Creates a new function with some arguments of the original function pre-filled",
+              "Partially executes a function and pauses",
+              "Returns only part of the function output"
+            ],
+            "correct_answer": "Creates a new function with some arguments of the original function pre-filled"
+          },
+          {
+            "question": "What is the difference between a generator function and a regular function in Python?",
+            "options": [
+              "Generator functions use return; regular functions use yield",
+              "Generator functions use yield and return values lazily one at a time; regular functions return all at once",
+              "They are identical",
+              "Generator functions cannot accept parameters"
+            ],
+            "correct_answer": "Generator functions use yield and return values lazily one at a time; regular functions return all at once"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Lists",
+      "aliases": [
+        "python lists", "list methods python", "list operations python", "array python", "python list comprehension"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "How do you create an empty list in Python?",
+            "options": ["list{}", "list()", "[]", "Both list() and []"],
+            "correct_answer": "Both list() and []"
+          },
+          {
+            "question": "Which method adds an element to the end of a list in Python?",
+            "options": ["add()", "insert()", "append()", "push()"],
+            "correct_answer": "append()"
+          },
+          {
+            "question": "How do you access the last element of a list in Python?",
+            "options": ["lst[last]", "lst[-1]", "lst[len-1]", "lst.last()"],
+            "correct_answer": "lst[-1]"
+          },
+          {
+            "question": "Which method removes and returns the last element of a list?",
+            "options": ["remove()", "delete()", "pop()", "discard()"],
+            "correct_answer": "pop()"
+          },
+          {
+            "question": "What is the output of: lst = [1, 2, 3]; print(len(lst))?",
+            "options": ["2", "3", "4", "1"],
+            "correct_answer": "3"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is list slicing in Python?",
+            "options": [
+              "Splitting a list into two equal halves",
+              "Extracting a portion of a list using lst[start:stop:step]",
+              "Removing elements from a list",
+              "Sorting a portion of a list"
+            ],
+            "correct_answer": "Extracting a portion of a list using lst[start:stop:step]"
+          },
+          {
+            "question": "What is the output of: lst = [1,2,3,4,5]; print(lst[1:4])?",
+            "options": ["[1, 2, 3]", "[2, 3, 4]", "[2, 3, 4, 5]", "[1, 2, 3, 4]"],
+            "correct_answer": "[2, 3, 4]"
+          },
+          {
+            "question": "What is the difference between list.remove() and list.pop()?",
+            "options": [
+              "remove() removes by index; pop() removes by value",
+              "remove() removes the first occurrence of a value; pop() removes by index and returns the element",
+              "They are identical",
+              "pop() removes by value; remove() removes by index"
+            ],
+            "correct_answer": "remove() removes the first occurrence of a value; pop() removes by index and returns the element"
+          },
+          {
+            "question": "What does list.sort() do compared to sorted(list)?",
+            "options": [
+              "They are identical",
+              "list.sort() sorts in-place and returns None; sorted() returns a new sorted list",
+              "sorted() sorts in-place; list.sort() returns a new list",
+              "list.sort() only works on integers"
+            ],
+            "correct_answer": "list.sort() sorts in-place and returns None; sorted() returns a new sorted list"
+          },
+          {
+            "question": "What is the output of: lst = [3,1,2]; lst.sort(); print(lst)?",
+            "options": ["[3, 1, 2]", "[1, 2, 3]", "None", "[2, 1, 3]"],
+            "correct_answer": "[1, 2, 3]"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the difference between a shallow copy and a deep copy of a list?",
+            "options": [
+              "Shallow copy copies all nested objects; deep copy only copies the top level",
+              "Shallow copy copies only the top-level list; nested objects are still shared. Deep copy copies everything recursively",
+              "They are identical",
+              "Deep copy is faster than shallow copy"
+            ],
+            "correct_answer": "Shallow copy copies only the top-level list; nested objects are still shared. Deep copy copies everything recursively"
+          },
+          {
+            "question": "What is the time complexity of inserting an element at the beginning of a Python list?",
+            "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+            "correct_answer": "O(n)"
+          },
+          {
+            "question": "What is the output of: a = [1,2,3]; b = a[:]; b.append(4); print(a)?",
+            "options": ["[1, 2, 3, 4]", "[1, 2, 3]", "Error", "[4]"],
+            "correct_answer": "[1, 2, 3]"
+          },
+          {
+            "question": "What does list.extend() do differently from list.append()?",
+            "options": [
+              "extend() adds a single element; append() adds multiple",
+              "extend() adds all elements of an iterable individually; append() adds the entire object as a single element",
+              "They are identical",
+              "append() is faster than extend()"
+            ],
+            "correct_answer": "extend() adds all elements of an iterable individually; append() adds the entire object as a single element"
+          },
+          {
+            "question": "What is the output of: lst = [[1,2],[3,4]]; import copy; b = copy.copy(lst); b[0].append(9); print(lst)?",
+            "options": [
+              "[[1, 2], [3, 4]]",
+              "[[1, 2, 9], [3, 4]]",
+              "[[9], [3, 4]]",
+              "Error"
+            ],
+            "correct_answer": "[[1, 2, 9], [3, 4]]"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Dictionaries",
+      "aliases": [
+        "python dict", "python dictionaries", "key value python", "hashmap python", "dict methods python"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "How do you create an empty dictionary in Python?",
+            "options": ["dict[]", "{}", "dict()", "Both {} and dict()"],
+            "correct_answer": "Both {} and dict()"
+          },
+          {
+            "question": "How do you access the value for key 'name' in a dictionary d?",
+            "options": ["d.name", "d['name']", "d->name", "d.get_key('name')"],
+            "correct_answer": "d['name']"
+          },
+          {
+            "question": "Which method returns all keys of a dictionary?",
+            "options": ["d.values()", "d.items()", "d.keys()", "d.all()"],
+            "correct_answer": "d.keys()"
+          },
+          {
+            "question": "What happens when you access a key that does not exist in a dictionary using d[key]?",
+            "options": ["Returns None", "Returns 0", "Raises KeyError", "Returns False"],
+            "correct_answer": "Raises KeyError"
+          },
+          {
+            "question": "Which method safely returns a default value if a key is not found?",
+            "options": ["d.fetch()", "d.find()", "d.get()", "d.search()"],
+            "correct_answer": "d.get()"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What does d.items() return in Python?",
+            "options": [
+              "Only the keys",
+              "Only the values",
+              "A view of key-value pairs as tuples",
+              "A list of all values"
+            ],
+            "correct_answer": "A view of key-value pairs as tuples"
+          },
+          {
+            "question": "What is the difference between d.get('key') and d['key']?",
+            "options": [
+              "They are identical",
+              "d.get() returns None or a default if key is missing; d['key'] raises KeyError if missing",
+              "d['key'] returns None if missing; d.get() raises KeyError",
+              "d.get() is slower than d['key']"
+            ],
+            "correct_answer": "d.get() returns None or a default if key is missing; d['key'] raises KeyError if missing"
+          },
+          {
+            "question": "What does dict.update() do in Python?",
+            "options": [
+              "Sorts the dictionary",
+              "Merges another dictionary or key-value pairs into the existing dictionary",
+              "Removes all keys",
+              "Creates a copy of the dictionary"
+            ],
+            "correct_answer": "Merges another dictionary or key-value pairs into the existing dictionary"
+          },
+          {
+            "question": "Are dictionaries ordered in Python 3.7+?",
+            "options": [
+              "No, dictionaries are always unordered",
+              "Yes, dictionaries maintain insertion order since Python 3.7",
+              "Only if you use OrderedDict",
+              "Only for string keys"
+            ],
+            "correct_answer": "Yes, dictionaries maintain insertion order since Python 3.7"
+          },
+          {
+            "question": "What is a dictionary comprehension in Python?",
+            "options": [
+              "A way to sort a dictionary",
+              "A concise way to create a dictionary using {key: value for item in iterable}",
+              "A method to merge two dictionaries",
+              "A way to filter dictionary values"
+            ],
+            "correct_answer": "A concise way to create a dictionary using {key: value for item in iterable}"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the time complexity of lookup, insert, and delete in a Python dictionary?",
+            "options": ["O(n) for all", "O(log n) for all", "O(1) average case for all", "O(n²) for all"],
+            "correct_answer": "O(1) average case for all"
+          },
+          {
+            "question": "What does collections.defaultdict do differently from a regular dict?",
+            "options": [
+              "It sorts keys automatically",
+              "It provides a default value for missing keys using a factory function instead of raising KeyError",
+              "It only stores integer values",
+              "It is thread-safe"
+            ],
+            "correct_answer": "It provides a default value for missing keys using a factory function instead of raising KeyError"
+          },
+          {
+            "question": "What is the output of: d = {'a':1,'b':2}; d2 = {'b':3,'c':4}; d.update(d2); print(d)?",
+            "options": [
+              "{'a': 1, 'b': 2, 'c': 4}",
+              "{'a': 1, 'b': 3, 'c': 4}",
+              "{'b': 3, 'c': 4}",
+              "Error"
+            ],
+            "correct_answer": "{'a': 1, 'b': 3, 'c': 4}"
+          },
+          {
+            "question": "What types can be used as dictionary keys in Python?",
+            "options": [
+              "Any type",
+              "Only strings and integers",
+              "Only hashable immutable types such as strings, integers, and tuples",
+              "Only strings"
+            ],
+            "correct_answer": "Only hashable immutable types such as strings, integers, and tuples"
+          },
+          {
+            "question": "What does the | operator do for dictionaries in Python 3.9+?",
+            "options": [
+              "Performs bitwise OR on values",
+              "Merges two dictionaries into a new dictionary",
+              "Checks if a key exists",
+              "Removes duplicate keys"
+            ],
+            "correct_answer": "Merges two dictionaries into a new dictionary"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Strings",
+      "aliases": [
+        "python strings", "string methods python", "str python", "string manipulation python", "f-string python"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "How do you create a multi-line string in Python?",
+            "options": [
+              "Using single quotes",
+              "Using triple quotes ''' or \"\"\"",
+              "Using the newline() function",
+              "Using double quotes only"
+            ],
+            "correct_answer": "Using triple quotes ''' or \"\"\""
+          },
+          {
+            "question": "Which method removes leading and trailing whitespace from a string?",
+            "options": ["str.clean()", "str.trim()", "str.strip()", "str.remove()"],
+            "correct_answer": "str.strip()"
+          },
+          {
+            "question": "What does str.split(',') do?",
+            "options": [
+              "Joins strings with a comma",
+              "Splits the string into a list using comma as delimiter",
+              "Removes all commas",
+              "Counts commas in the string"
+            ],
+            "correct_answer": "Splits the string into a list using comma as delimiter"
+          },
+          {
+            "question": "What is an f-string in Python?",
+            "options": [
+              "A string that only stores floats",
+              "A formatted string literal that allows embedding expressions using f'...'",
+              "A function that formats numbers",
+              "A string stored in a file"
+            ],
+            "correct_answer": "A formatted string literal that allows embedding expressions using f'...'"
+          },
+          {
+            "question": "What is the output of: 'hello'.upper()?",
+            "options": ["hello", "HELLO", "Hello", "hELLO"],
+            "correct_answer": "HELLO"
+          }
+        ],
+        "medium": [
+          {
+            "question": "Are strings mutable in Python?",
+            "options": [
+              "Yes, you can change individual characters",
+              "No, strings are immutable; any modification creates a new string",
+              "Only string literals are immutable",
+              "Strings are mutable only in Python 3"
+            ],
+            "correct_answer": "No, strings are immutable; any modification creates a new string"
+          },
+          {
+            "question": "What is the output of: s = 'hello world'; print(s[6:])?",
+            "options": ["hello", "world", "hello world", "ello world"],
+            "correct_answer": "world"
+          },
+          {
+            "question": "What does str.join() do in Python?",
+            "options": [
+              "Splits a string into a list",
+              "Concatenates elements of an iterable with the string as separator",
+              "Joins two strings with a space",
+              "Merges two lists into a string"
+            ],
+            "correct_answer": "Concatenates elements of an iterable with the string as separator"
+          },
+          {
+            "question": "What is the output of: ','.join(['a','b','c'])?",
+            "options": ["['a','b','c']", "a,b,c", "a b c", "abc"],
+            "correct_answer": "a,b,c"
+          },
+          {
+            "question": "What does str.replace('a','b') do?",
+            "options": [
+              "Replaces only the first occurrence of 'a' with 'b'",
+              "Replaces all occurrences of 'a' with 'b' and returns a new string",
+              "Modifies the original string in place",
+              "Removes all 'a' characters"
+            ],
+            "correct_answer": "Replaces all occurrences of 'a' with 'b' and returns a new string"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the time complexity of string concatenation using + in a loop of n iterations in Python?",
+            "options": ["O(n)", "O(n log n)", "O(n²)", "O(1)"],
+            "correct_answer": "O(n²)"
+          },
+          {
+            "question": "What is the output of: s = 'abcde'; print(s[::-1])?",
+            "options": ["abcde", "edcba", "abced", "Error"],
+            "correct_answer": "edcba"
+          },
+          {
+            "question": "What is string interning in Python?",
+            "options": [
+              "Converting a string to an integer",
+              "Python reusing the same memory object for identical string literals to save memory",
+              "Storing strings in a database",
+              "Encrypting string values"
+            ],
+            "correct_answer": "Python reusing the same memory object for identical string literals to save memory"
+          },
+          {
+            "question": "What is the output of: print('%s has %d items' % ('cart', 5))?",
+            "options": ["cart has 5 items", "%s has %d items", "Error", "cart has items"],
+            "correct_answer": "cart has 5 items"
+          },
+          {
+            "question": "What is the difference between str.find() and str.index() in Python?",
+            "options": [
+              "They are identical",
+              "find() returns -1 if substring not found; index() raises ValueError",
+              "index() returns -1 if not found; find() raises ValueError",
+              "find() is case-insensitive; index() is case-sensitive"
+            ],
+            "correct_answer": "find() returns -1 if substring not found; index() raises ValueError"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Modules Basics",
+      "aliases": [
+        "python modules", "import python", "python packages", "module system python", "python libraries"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which keyword is used to import a module in Python?",
+            "options": ["include", "require", "import", "use"],
+            "correct_answer": "import"
+          },
+          {
+            "question": "How do you import only the sqrt function from the math module?",
+            "options": [
+              "import math.sqrt",
+              "from math import sqrt",
+              "include math.sqrt",
+              "use math.sqrt"
+            ],
+            "correct_answer": "from math import sqrt"
+          },
+          {
+            "question": "What is a Python module?",
+            "options": [
+              "A compiled binary file",
+              "A Python file containing functions, classes, and variables that can be imported",
+              "A built-in Python function",
+              "A Python class"
+            ],
+            "correct_answer": "A Python file containing functions, classes, and variables that can be imported"
+          },
+          {
+            "question": "How do you give an alias to an imported module?",
+            "options": [
+              "import numpy rename np",
+              "import numpy as np",
+              "import numpy = np",
+              "alias numpy as np"
+            ],
+            "correct_answer": "import numpy as np"
+          },
+          {
+            "question": "Which built-in module provides mathematical functions in Python?",
+            "options": ["calc", "mathematics", "math", "numbers"],
+            "correct_answer": "math"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between a module and a package in Python?",
+            "options": [
+              "They are identical",
+              "A module is a single .py file; a package is a directory containing multiple modules with an __init__.py",
+              "A package is a single file; a module is a directory",
+              "Modules are built-in only; packages are user-defined"
+            ],
+            "correct_answer": "A module is a single .py file; a package is a directory containing multiple modules with an __init__.py"
+          },
+          {
+            "question": "What does if __name__ == '__main__': do in Python?",
+            "options": [
+              "Defines the main function",
+              "Ensures the code block runs only when the file is executed directly, not when imported",
+              "Imports the main module",
+              "Declares the entry point for all Python programs"
+            ],
+            "correct_answer": "Ensures the code block runs only when the file is executed directly, not when imported"
+          },
+          {
+            "question": "What is the purpose of __init__.py in a Python package?",
+            "options": [
+              "It initializes all variables",
+              "It marks a directory as a Python package and can contain initialization code",
+              "It is required for all Python files",
+              "It defines the main function of the package"
+            ],
+            "correct_answer": "It marks a directory as a Python package and can contain initialization code"
+          },
+          {
+            "question": "Which module is used for regular expressions in Python?",
+            "options": ["regex", "re", "regexp", "pattern"],
+            "correct_answer": "re"
+          },
+          {
+            "question": "What does the dir() function do when called on a module?",
+            "options": [
+              "Returns the directory path of the module",
+              "Lists all attributes and functions defined in the module",
+              "Deletes the module",
+              "Returns the module version"
+            ],
+            "correct_answer": "Lists all attributes and functions defined in the module"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the difference between import module and from module import *?",
+            "options": [
+              "They are identical",
+              "import module keeps namespace separate; from module import * imports all names into current namespace which can cause conflicts",
+              "from module import * is safer",
+              "import module imports everything; from module import * imports nothing"
+            ],
+            "correct_answer": "import module keeps namespace separate; from module import * imports all names into current namespace which can cause conflicts"
+          },
+          {
+            "question": "What is sys.path in Python?",
+            "options": [
+              "The path to the Python executable",
+              "A list of directories Python searches when importing modules",
+              "The current working directory",
+              "The path to installed packages only"
+            ],
+            "correct_answer": "A list of directories Python searches when importing modules"
+          },
+          {
+            "question": "What does importlib.reload() do in Python?",
+            "options": [
+              "Imports a module for the first time",
+              "Reloads a previously imported module to reflect any changes made to it",
+              "Deletes and reinstalls a module",
+              "Checks for module updates"
+            ],
+            "correct_answer": "Reloads a previously imported module to reflect any changes made to it"
+          },
+          {
+            "question": "What is a circular import in Python and why is it a problem?",
+            "options": [
+              "Importing the same module twice; causes duplication",
+              "Two modules importing each other causing an ImportError or incomplete module state",
+              "Importing a module inside a loop",
+              "Importing a module that does not exist"
+            ],
+            "correct_answer": "Two modules importing each other causing an ImportError or incomplete module state"
+          },
+          {
+            "question": "What is the __all__ variable in a Python module?",
+            "options": [
+              "A list of all installed packages",
+              "A list that defines which names are exported when from module import * is used",
+              "A variable that stores all global variables",
+              "A built-in that lists all Python keywords"
+            ],
+            "correct_answer": "A list that defines which names are exported when from module import * is used"
+          }
+        ]
+      }
+    }
+  ]
+}

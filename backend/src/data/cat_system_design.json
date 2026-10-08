@@ -1,0 +1,352 @@
+{
+  "category_name": "System Design",
+  "category_aliases": [
+    "system design",
+    "scalability",
+    "distributed systems",
+    "high level design",
+    "lld",
+    "hld",
+    "architecture"
+  ],
+  "topics": {
+    "Scalability and Load Balancing": {
+      "easy": [
+        {
+          "question": "What does horizontal scaling mean?",
+          "options": [
+            "Adding more servers",
+            "Upgrading CPU/RAM",
+            "Database sharding",
+            "Caching"
+          ],
+          "correct_answer": 0,
+          "explanation": "Horizontal scaling adds more machines to distribute load."
+        },
+        {
+          "question": "Which layer typically handles load balancing?",
+          "options": [
+            "Application layer",
+            "Transport layer",
+            "Between client and server",
+            "Database layer"
+          ],
+          "correct_answer": 2,
+          "explanation": "Load balancers sit between clients and backend servers."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What algorithm does a load balancer commonly use?",
+          "options": ["Round Robin", "Bubble Sort", "Dijkstra", "A*"],
+          "correct_answer": 0,
+          "explanation": "Round Robin distributes requests sequentially across servers."
+        },
+        {
+          "question": "What is sticky session?",
+          "options": [
+            "Same server for user session",
+            "Encrypted session",
+            "Cached session",
+            "Short session"
+          ],
+          "correct_answer": 0,
+          "explanation": "Sticky sessions route a user's requests to the same server."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is the CAP theorem?",
+          "options": [
+            "Consistency, Availability, Partition tolerance",
+            "Cache, API, Partition",
+            "Compute, Availability, Persistence",
+            "None"
+          ],
+          "correct_answer": 0,
+          "explanation": "CAP theorem states you can only guarantee two of three: Consistency, Availability, Partition tolerance."
+        },
+        {
+          "question": "When would you choose strong consistency over eventual consistency?",
+          "options": [
+            "Financial transactions",
+            "Social media feeds",
+            "Analytics",
+            "Logging"
+          ],
+          "correct_answer": 0,
+          "explanation": "Financial systems require strong consistency to avoid incorrect balances."
+        }
+      ],
+      "interview": [
+        {
+          "question": "Design a URL shortener like bit.ly",
+          "options": [
+            "Hash + database",
+            "Random strings only",
+            "UUID",
+            "Sequential IDs"
+          ],
+          "correct_answer": 0,
+          "explanation": "Base62 encoding of auto-increment ID or hash with collision handling."
+        }
+      ]
+    },
+    "Database Design": {
+      "easy": [
+        {
+          "question": "What is database normalization?",
+          "options": [
+            "Reducing redundancy",
+            "Adding indexes",
+            "Sharding",
+            "Replication"
+          ],
+          "correct_answer": 0,
+          "explanation": "Normalization organizes data to reduce duplication and anomalies."
+        },
+        {
+          "question": "What is a primary key?",
+          "options": [
+            "Unique identifier",
+            "Foreign reference",
+            "Index column",
+            "Auto-increment only"
+          ],
+          "correct_answer": 0,
+          "explanation": "Primary key uniquely identifies each row in a table."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is database sharding?",
+          "options": [
+            "Splitting data across servers",
+            "Replication",
+            "Indexing",
+            "Backup"
+          ],
+          "correct_answer": 0,
+          "explanation": "Sharding partitions data horizontally across multiple databases."
+        },
+        {
+          "question": "When would you use a NoSQL database?",
+          "options": [
+            "Unstructured data",
+            "Complex joins",
+            "ACID transactions",
+            "Small dataset"
+          ],
+          "correct_answer": 0,
+          "explanation": "NoSQL handles unstructured/schemaless data and scales horizontally."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is a write-ahead log (WAL)?",
+          "options": [
+            "Log before applying changes",
+            "Log after changes",
+            "Read log",
+            "Error log"
+          ],
+          "correct_answer": 0,
+          "explanation": "WAL writes changes to log before applying to data for durability."
+        },
+        {
+          "question": "How does two-phase commit work?",
+          "options": [
+            "Prepare then commit",
+            "Commit then prepare",
+            "Single phase",
+            "Async commit"
+          ],
+          "correct_answer": 0,
+          "explanation": "2PC: coordinator asks participants to prepare, then commits if all agree."
+        }
+      ],
+      "interview": [
+        {
+          "question": "How would you design Twitter's timeline?",
+          "options": [
+            "Fan-out on read/write",
+            "Single database",
+            "No caching",
+            "Cron jobs only"
+          ],
+          "correct_answer": 0,
+          "explanation": "Hybrid approach: fan-out on write for celebrities, on read for normal users."
+        }
+      ]
+    },
+    "Caching and CDNs": {
+      "easy": [
+        {
+          "question": "What is caching used for?",
+          "options": [
+            "Faster data retrieval",
+            "Data encryption",
+            "Database backup",
+            "Load balancing"
+          ],
+          "correct_answer": 0,
+          "explanation": "Caching stores frequently accessed data in fast memory."
+        },
+        {
+          "question": "Which is a popular in-memory cache?",
+          "options": ["Redis", "MySQL", "MongoDB", "Kafka"],
+          "correct_answer": 0,
+          "explanation": "Redis is a widely used in-memory key-value store."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is cache eviction policy?",
+          "options": [
+            "Rules for removing items",
+            "Adding items",
+            "Updating items",
+            "Securing cache"
+          ],
+          "correct_answer": 0,
+          "explanation": "Eviction policies (LRU, LFU) decide which items to remove when full."
+        },
+        {
+          "question": "What does CDN stand for?",
+          "options": [
+            "Content Delivery Network",
+            "Central Data Node",
+            "Cached Database Network",
+            "Content Database Node"
+          ],
+          "correct_answer": 0,
+          "explanation": "CDN distributes static content from edge servers near users."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is cache stampede?",
+          "options": [
+            "Multiple requests hit DB when cache expires",
+            "Too many cache hits",
+            "Cache corruption",
+            "Network overload"
+          ],
+          "correct_answer": 0,
+          "explanation": "Stampede occurs when many requests simultaneously miss cache and hit DB."
+        },
+        {
+          "question": "How do you prevent cache stampede?",
+          "options": [
+            "Locking / probabilistic early expiration",
+            "Bigger cache",
+            "No expiry",
+            "More servers"
+          ],
+          "correct_answer": 0,
+          "explanation": "Use locks or staggered expiry to prevent simultaneous DB hits."
+        }
+      ],
+      "interview": [
+        {
+          "question": "Design a cache with O(1) get and put",
+          "options": [
+            "Hash map + doubly linked list",
+            "Array + binary search",
+            "BST",
+            "Heap"
+          ],
+          "correct_answer": 0,
+          "explanation": "LRU cache uses hash map for O(1) access and DLL for O(1) ordering."
+        }
+      ]
+    },
+    "Microservices": {
+      "easy": [
+        {
+          "question": "What is a microservice?",
+          "options": [
+            "Independent deployable service",
+            "Small function",
+            "Database shard",
+            "UI component"
+          ],
+          "correct_answer": 0,
+          "explanation": "Microservices are independently deployable, loosely coupled services."
+        },
+        {
+          "question": "What is an API Gateway?",
+          "options": [
+            "Single entry point for clients",
+            "Database proxy",
+            "Load balancer",
+            "Cache server"
+          ],
+          "correct_answer": 0,
+          "explanation": "API Gateway routes, authenticates, and throttles requests to services."
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is service discovery?",
+          "options": [
+            "Finding service instances dynamically",
+            "Manual configuration",
+            "DNS only",
+            "Hardcoded IPs"
+          ],
+          "correct_answer": 0,
+          "explanation": "Service discovery tracks available instances as they scale up/down."
+        },
+        {
+          "question": "What is circuit breaker pattern?",
+          "options": [
+            "Fail fast when service down",
+            "Retry forever",
+            "Ignore errors",
+            "Queue requests"
+          ],
+          "correct_answer": 0,
+          "explanation": "Circuit breaker stops calls to failing services to prevent cascading failures."
+        }
+      ],
+      "hard": [
+        {
+          "question": "What is Saga pattern used for?",
+          "options": [
+            "Distributed transactions",
+            "Caching",
+            "Authentication",
+            "Load balancing"
+          ],
+          "correct_answer": 0,
+          "explanation": "Saga manages long-running transactions across microservices with compensations."
+        },
+        {
+          "question": "What is eventual consistency in microservices?",
+          "options": [
+            "Data will sync eventually",
+            "Always consistent",
+            "Strongly consistent",
+            "No consistency"
+          ],
+          "correct_answer": 0,
+          "explanation": "Eventual consistency means data becomes consistent over time, not immediately."
+        }
+      ],
+      "interview": [
+        {
+          "question": "How do services communicate reliably?",
+          "options": [
+            "Message queues",
+            "Direct HTTP only",
+            "Shared database",
+            "File system"
+          ],
+          "correct_answer": 0,
+          "explanation": "Message queues (Kafka, RabbitMQ) provide async, reliable communication."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "category_name": "PYTHON BASICS",
+  "category_aliases": [
+    "python", "python basics", "core python", "python programming", "python fundamentals"
+  ],
+  "topics": [
+    {
+      "topic_name": "Variables",
+      "aliases": [
+        "python variables", "variable assignment python", "var python", "identifiers python", "variable naming python"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which of the following is a valid variable name in Python?",
+            "options": ["2name", "_myVar", "my-var", "class"],
+            "correct_answer": "_myVar"
+          },
+          {
+            "question": "How do you assign a value to a variable in Python?",
+            "options": ["int x = 5", "x := 5", "x = 5", "var x = 5"],
+            "correct_answer": "x = 5"
+          },
+          {
+            "question": "Which keyword is used to declare a constant in Python by convention?",
+            "options": ["const", "final", "UPPER_CASE naming convention", "fixed"],
+            "correct_answer": "UPPER_CASE naming convention"
+          },
+          {
+            "question": "What is the output of: x = 10; print(type(x))?",
+            "options": ["int", "<class 'int'>", "10", "number"],
+            "correct_answer": "<class 'int'>"
+          },
+          {
+            "question": "Can you assign multiple variables in a single line in Python?",
+            "options": [
+              "No, each variable needs its own line",
+              "Yes, using: a, b, c = 1, 2, 3",
+              "Yes, but only for integers",
+              "No, Python does not support this"
+            ],
+            "correct_answer": "Yes, using: a, b, c = 1, 2, 3"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between global and local variables in Python?",
+            "options": [
+              "Global variables are declared inside functions; local variables are outside",
+              "Local variables exist only within the function they are defined in; global variables are accessible throughout the module",
+              "There is no difference",
+              "Global variables cannot be modified"
+            ],
+            "correct_answer": "Local variables exist only within the function they are defined in; global variables are accessible throughout the module"
+          },
+          {
+            "question": "What does the global keyword do inside a function in Python?",
+            "options": [
+              "Creates a new global variable",
+              "Allows the function to modify a variable defined in the global scope",
+              "Makes a variable constant",
+              "Deletes a global variable"
+            ],
+            "correct_answer": "Allows the function to modify a variable defined in the global scope"
+          },
+          {
+            "question": "What is variable unpacking in Python?",
+            "options": [
+              "Deleting a variable",
+              "Assigning values from an iterable to multiple variables in one statement",
+              "Converting a variable to a string",
+              "Copying a variable"
+            ],
+            "correct_answer": "Assigning values from an iterable to multiple variables in one statement"
+          },
+          {
+            "question": "What is the output of: a = b = c = 5; b = 10; print(a, b, c)?",
+            "options": ["10 10 10", "5 10 5", "5 5 5", "5 10 10"],
+            "correct_answer": "5 10 5"
+          },
+          {
+            "question": "What does the nonlocal keyword do in Python?",
+            "options": [
+              "Declares a variable as global",
+              "Allows a nested function to modify a variable in the enclosing function scope",
+              "Deletes a variable from local scope",
+              "Makes a variable immutable"
+            ],
+            "correct_answer": "Allows a nested function to modify a variable in the enclosing function scope"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the LEGB rule in Python?",
+            "options": [
+              "A rule for naming variables",
+              "The order Python resolves variable names: Local, Enclosing, Global, Built-in",
+              "A rule for declaring constants",
+              "A memory management rule"
+            ],
+            "correct_answer": "The order Python resolves variable names: Local, Enclosing, Global, Built-in"
+          },
+          {
+            "question": "What is the output of: x = 5; def f(): x = 10; f(); print(x)?",
+            "options": ["10", "5", "None", "Error"],
+            "correct_answer": "5"
+          },
+          {
+            "question": "What happens when you use del on a variable in Python?",
+            "options": [
+              "Sets it to None",
+              "Sets it to 0",
+              "Removes the variable name binding from the namespace",
+              "Frees memory immediately"
+            ],
+            "correct_answer": "Removes the variable name binding from the namespace"
+          },
+          {
+            "question": "What is the walrus operator := used for in Python 3.8+?",
+            "options": [
+              "Strict equality check",
+              "Assigns a value to a variable as part of an expression",
+              "Declares a constant",
+              "Compares two variables"
+            ],
+            "correct_answer": "Assigns a value to a variable as part of an expression"
+          },
+          {
+            "question": "What is the output of: x = [1,2,3]; y = x; y.append(4); print(x)?",
+            "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "Error", "[4]"],
+            "correct_answer": "[1, 2, 3, 4]"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Data Types",
+      "aliases": [
+        "python data types", "primitive types python", "int float python", "type system python", "python types"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which of the following is NOT a built-in data type in Python?",
+            "options": ["int", "float", "char", "bool"],
+            "correct_answer": "char"
+          },
+          {
+            "question": "What is the data type of: x = 3.14 in Python?",
+            "options": ["int", "double", "float", "decimal"],
+            "correct_answer": "float"
+          },
+          {
+            "question": "What is the data type of: x = True in Python?",
+            "options": ["int", "string", "bool", "bit"],
+            "correct_answer": "bool"
+          },
+          {
+            "question": "Which function is used to check the data type of a variable in Python?",
+            "options": ["datatype()", "typeof()", "type()", "gettype()"],
+            "correct_answer": "type()"
+          },
+          {
+            "question": "What is the result of: type(\"hello\") in Python?",
+            "options": ["string", "<class 'str'>", "str", "text"],
+            "correct_answer": "<class 'str'>"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between a list and a tuple in Python?",
+            "options": [
+              "Lists are immutable; tuples are mutable",
+              "Lists are mutable; tuples are immutable",
+              "They are identical",
+              "Tuples can only store integers"
+            ],
+            "correct_answer": "Lists are mutable; tuples are immutable"
+          },
+          {
+            "question": "What is type casting in Python?",
+            "options": [
+              "Checking the type of a variable",
+              "Converting a variable from one data type to another",
+              "Declaring a variable with a specific type",
+              "Deleting a variable's type"
+            ],
+            "correct_answer": "Converting a variable from one data type to another"
+          },
+          {
+            "question": "What is the output of: int(3.9) in Python?",
+            "options": ["4", "3", "3.9", "Error"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "What is a dictionary in Python?",
+            "options": [
+              "An ordered collection of unique elements",
+              "A collection of key-value pairs",
+              "An immutable sequence of elements",
+              "A collection of only strings"
+            ],
+            "correct_answer": "A collection of key-value pairs"
+          },
+          {
+            "question": "What is the difference between a set and a list in Python?",
+            "options": [
+              "Sets are ordered and allow duplicates; lists do not",
+              "Sets are unordered and do not allow duplicates; lists are ordered and allow duplicates",
+              "They are identical",
+              "Lists are unordered; sets are ordered"
+            ],
+            "correct_answer": "Sets are unordered and do not allow duplicates; lists are ordered and allow duplicates"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the output of: bool(0), bool(''), bool([]) in Python?",
+            "options": [
+              "True, True, True",
+              "False, False, False",
+              "False, True, False",
+              "True, False, True"
+            ],
+            "correct_answer": "False, False, False"
+          },
+          {
+            "question": "What is dynamic typing in Python?",
+            "options": [
+              "Variables must be declared with a type before use",
+              "The type of a variable is determined at runtime and can change",
+              "Python uses static type checking",
+              "Types are fixed after first assignment"
+            ],
+            "correct_answer": "The type of a variable is determined at runtime and can change"
+          },
+          {
+            "question": "What is the output of: x = 5; x = 'hello'; print(type(x))?",
+            "options": ["<class 'int'>", "<class 'str'>", "Error", "None"],
+            "correct_answer": "<class 'str'>"
+          },
+          {
+            "question": "What is the difference between is and == in Python?",
+            "options": [
+              "is checks value equality; == checks identity",
+              "is checks object identity; == checks value equality",
+              "They are identical",
+              "is only works with integers"
+            ],
+            "correct_answer": "is checks object identity; == checks value equality"
+          },
+          {
+            "question": "What is the output of: x = 256; y = 256; print(x is y)?",
+            "options": ["False", "True", "Error", "None"],
+            "correct_answer": "True"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Operators",
+      "aliases": [
+        "python operators", "operators in python", "arithmetic python", "bitwise python", "operator precedence python"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "What does the ** operator do in Python?",
+            "options": ["Multiplication", "Modulus", "Exponentiation", "Floor division"],
+            "correct_answer": "Exponentiation"
+          },
+          {
+            "question": "What is the result of 10 // 3 in Python?",
+            "options": ["3.33", "3", "4", "1"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "What does the % operator return in Python?",
+            "options": ["Quotient", "Percentage", "Remainder", "Exponent"],
+            "correct_answer": "Remainder"
+          },
+          {
+            "question": "What is the result of: not True in Python?",
+            "options": ["True", "False", "None", "0"],
+            "correct_answer": "False"
+          },
+          {
+            "question": "Which operator checks if two values are not equal in Python?",
+            "options": ["<>", "!=", "=/=", "not=="],
+            "correct_answer": "!="
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the difference between / and // in Python?",
+            "options": [
+              "/ performs integer division; // performs float division",
+              "/ performs true division returning float; // performs floor division returning integer",
+              "They are identical",
+              "// is used for comments"
+            ],
+            "correct_answer": "/ performs true division returning float; // performs floor division returning integer"
+          },
+          {
+            "question": "What is the result of: 5 & 3 in Python (bitwise AND)?",
+            "options": ["8", "1", "7", "2"],
+            "correct_answer": "1"
+          },
+          {
+            "question": "What does the in operator do in Python?",
+            "options": [
+              "Performs integer division",
+              "Checks if a value exists in a sequence or collection",
+              "Imports a module",
+              "Declares a variable inside a loop"
+            ],
+            "correct_answer": "Checks if a value exists in a sequence or collection"
+          },
+          {
+            "question": "What is the result of: 2 ** 3 ** 2 in Python?",
+            "options": ["64", "512", "8", "36"],
+            "correct_answer": "512"
+          },
+          {
+            "question": "What does the ^ operator do in Python?",
+            "options": ["Exponentiation", "Bitwise XOR", "Logical OR", "Bitwise AND"],
+            "correct_answer": "Bitwise XOR"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is the output of: print(~5) in Python?",
+            "options": ["4", "-6", "-5", "6"],
+            "correct_answer": "-6"
+          },
+          {
+            "question": "What is the result of: True + True + False in Python?",
+            "options": ["True", "2", "1", "Error"],
+            "correct_answer": "2"
+          },
+          {
+            "question": "What is operator precedence order for: 2 + 3 * 4 ** 2 in Python?",
+            "options": ["100", "50", "54", "200"],
+            "correct_answer": "50"
+          },
+          {
+            "question": "What is the output of: x = 10; x //= 3; print(x)?",
+            "options": ["3.33", "3", "4", "1"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "What does the @ operator represent in Python 3.5+?",
+            "options": [
+              "Decorator syntax only",
+              "Matrix multiplication operator",
+              "Bitwise AND",
+              "String formatting"
+            ],
+            "correct_answer": "Matrix multiplication operator"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Conditional Statements",
+      "aliases": [
+        "if else python", "conditional python", "control flow python", "branching python", "switch python"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "What keyword is used for conditional statements in Python?",
+            "options": ["when", "if", "check", "condition"],
+            "correct_answer": "if"
+          },
+          {
+            "question": "What is the correct syntax for an if-else statement in Python?",
+            "options": [
+              "if (x > 0) { } else { }",
+              "if x > 0: ... else: ...",
+              "if x > 0 then ... else ...",
+              "if [x > 0]: ... else: ..."
+            ],
+            "correct_answer": "if x > 0: ... else: ..."
+          },
+          {
+            "question": "What keyword replaces else-if in Python?",
+            "options": ["elseif", "elif", "else if", "otherwise"],
+            "correct_answer": "elif"
+          },
+          {
+            "question": "What is the output of: x = 10; print('positive') if x > 0 else print('negative')?",
+            "options": ["negative", "positive", "None", "Error"],
+            "correct_answer": "positive"
+          },
+          {
+            "question": "Does Python have a switch statement?",
+            "options": [
+              "Yes, using the switch keyword",
+              "No, but Python 3.10+ introduced match-case",
+              "Yes, using the case keyword",
+              "No, and there is no alternative"
+            ],
+            "correct_answer": "No, but Python 3.10+ introduced match-case"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is a ternary expression in Python?",
+            "options": [
+              "An expression with three operands using ?:",
+              "value_if_true if condition else value_if_false",
+              "An if statement with three conditions",
+              "A loop that runs three times"
+            ],
+            "correct_answer": "value_if_true if condition else value_if_false"
+          },
+          {
+            "question": "What is the output of: x = 0; print('yes') if x else print('no')?",
+            "options": ["yes", "no", "None", "Error"],
+            "correct_answer": "no"
+          },
+          {
+            "question": "Which values are considered falsy in Python?",
+            "options": [
+              "Only False and None",
+              "False, None, 0, 0.0, '', [], {}, ()",
+              "Only 0 and False",
+              "Only empty strings and lists"
+            ],
+            "correct_answer": "False, None, 0, 0.0, '', [], {}, ()"
+          },
+          {
+            "question": "What is the match-case statement introduced in Python 3.10?",
+            "options": [
+              "A loop construct",
+              "A structural pattern matching feature similar to switch-case",
+              "A string matching function",
+              "A regex matching tool"
+            ],
+            "correct_answer": "A structural pattern matching feature similar to switch-case"
+          },
+          {
+            "question": "What is the output of: x = 5; result = 'big' if x > 10 else 'medium' if x > 3 else 'small'; print(result)?",
+            "options": ["big", "medium", "small", "Error"],
+            "correct_answer": "medium"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is short-circuit evaluation in Python conditionals?",
+            "options": [
+              "All conditions are always evaluated",
+              "In and/or expressions, Python stops evaluating as soon as the result is determined",
+              "Only the first condition is evaluated",
+              "Short-circuit only applies to bitwise operators"
+            ],
+            "correct_answer": "In and/or expressions, Python stops evaluating as soon as the result is determined"
+          },
+          {
+            "question": "What is the output of: print(1 and 2)?",
+            "options": ["True", "1", "2", "False"],
+            "correct_answer": "2"
+          },
+          {
+            "question": "What is the output of: print(0 or 'hello')?",
+            "options": ["0", "False", "hello", "True"],
+            "correct_answer": "hello"
+          },
+          {
+            "question": "What is the output of: x = None; print('yes' if x is not None else 'no')?",
+            "options": ["yes", "no", "None", "Error"],
+            "correct_answer": "no"
+          },
+          {
+            "question": "What does the all() function do in Python conditionals?",
+            "options": [
+              "Returns True if any element in the iterable is true",
+              "Returns True only if all elements in the iterable are true",
+              "Returns the count of true elements",
+              "Applies a condition to all elements"
+            ],
+            "correct_answer": "Returns True only if all elements in the iterable are true"
+          }
+        ]
+      }
+    },
+    {
+      "topic_name": "Loops",
+      "aliases": [
+        "python loops", "for loop python", "while loop python", "iteration python", "looping python"
+      ],
+      "questions": {
+        "easy": [
+          {
+            "question": "Which loop iterates over a sequence in Python?",
+            "options": ["while", "do-while", "for", "repeat"],
+            "correct_answer": "for"
+          },
+          {
+            "question": "What does the range(5) function produce in Python?",
+            "options": ["1 to 5", "0 to 5", "0 to 4", "1 to 4"],
+            "correct_answer": "0 to 4"
+          },
+          {
+            "question": "What does the break statement do in a Python loop?",
+            "options": [
+              "Skips the current iteration",
+              "Exits the loop immediately",
+              "Restarts the loop",
+              "Pauses execution"
+            ],
+            "correct_answer": "Exits the loop immediately"
+          },
+          {
+            "question": "What does the continue statement do in a Python loop?",
+            "options": [
+              "Exits the loop",
+              "Skips the rest of the current iteration and moves to the next",
+              "Restarts the loop from the beginning",
+              "Ends the program"
+            ],
+            "correct_answer": "Skips the rest of the current iteration and moves to the next"
+          },
+          {
+            "question": "What is the output of: for i in range(3): print(i)?",
+            "options": ["1 2 3", "0 1 2", "0 1 2 3", "1 2"],
+            "correct_answer": "0 1 2"
+          }
+        ],
+        "medium": [
+          {
+            "question": "What is the purpose of the else clause in a Python for loop?",
+            "options": [
+              "Executes if the loop encounters an error",
+              "Executes after the loop completes normally without hitting a break",
+              "Executes only if the loop runs zero times",
+              "Executes on every iteration"
+            ],
+            "correct_answer": "Executes after the loop completes normally without hitting a break"
+          },
+          {
+            "question": "What does enumerate() do in a Python for loop?",
+            "options": [
+              "Returns only the index of each element",
+              "Returns both the index and value of each element as a tuple",
+              "Counts the number of iterations",
+              "Converts a list to a dictionary"
+            ],
+            "correct_answer": "Returns both the index and value of each element as a tuple"
+          },
+          {
+            "question": "What is a list comprehension in Python?",
+            "options": [
+              "A way to sort a list",
+              "A concise way to create a list using a for loop and optional condition in one line",
+              "A method to copy a list",
+              "A way to merge two lists"
+            ],
+            "correct_answer": "A concise way to create a list using a for loop and optional condition in one line"
+          },
+          {
+            "question": "What is the output of: [x**2 for x in range(4)]?",
+            "options": ["[1, 4, 9, 16]", "[0, 1, 4, 9]", "[0, 1, 2, 3]", "[1, 2, 3, 4]"],
+            "correct_answer": "[0, 1, 4, 9]"
+          },
+          {
+            "question": "What does zip() do when used in a for loop?",
+            "options": [
+              "Compresses files",
+              "Iterates over multiple iterables simultaneously pairing elements",
+              "Sorts two lists together",
+              "Merges two lists into one"
+            ],
+            "correct_answer": "Iterates over multiple iterables simultaneously pairing elements"
+          }
+        ],
+        "hard": [
+          {
+            "question": "What is a generator expression in Python and how does it differ from a list comprehension?",
+            "options": [
+              "They are identical",
+              "Generator expressions use () and are lazy evaluated saving memory; list comprehensions use [] and evaluate eagerly",
+              "Generator expressions use [] and list comprehensions use ()",
+              "Generator expressions are faster but use more memory"
+            ],
+            "correct_answer": "Generator expressions use () and are lazy evaluated saving memory; list comprehensions use [] and evaluate eagerly"
+          },
+          {
+            "question": "What is the output of: result = [x for x in range(10) if x % 2 == 0]; print(result)?",
+            "options": [
+              "[1, 3, 5, 7, 9]",
+              "[0, 2, 4, 6, 8]",
+              "[0, 1, 2, 3, 4]",
+              "[2, 4, 6, 8, 10]"
+            ],
+            "correct_answer": "[0, 2, 4, 6, 8]"
+          },
+          {
+            "question": "What is the time complexity of iterating over a list of n elements in Python?",
+            "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+            "correct_answer": "O(n)"
+          },
+          {
+            "question": "What does itertools.product() do in Python?",
+            "options": [
+              "Multiplies all elements in a list",
+              "Computes the Cartesian product of input iterables",
+              "Finds the maximum product of elements",
+              "Zips two iterables together"
+            ],
+            "correct_answer": "Computes the Cartesian product of input iterables"
+          },
+          {
+            "question": "What is the output of: for i in range(5):\n  if i == 3: break\nelse:\n  print('done')?",
+            "options": ["done", "Nothing is printed", "3", "Error"],
+            "correct_answer": "Nothing is printed"
+          }
+        ]
+      }
+    }
+  ]
+}
